@@ -1,0 +1,9 @@
+Mixing tank models
+First order models
+Control education
+MATLAB
+System behaviour
+Step responses
+Time constant
+System gain
+Steady-state
