@@ -1,0 +1,135 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="C:\Users\Anthony Rossiter\Documents\2022-23\matlabcode1\control101ver1\Control 101 Version 1.prj" location="C:\Users\Anthony Rossiter\Documents\2022-23\matlabcode1\control101ver1" name="Control 101 Version 1" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Control 101 Version 1</param.appname>
+    <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.summary>A MATLAB community toolbox to support control 101 courses</param.summary>
+    <param.description>The community toolbox project is led by Anthony Rossiter with sponsorship from MathWorks  (under project "A MATLAB community toolbox to support learning of control 101") and input from numerous international colleagues. The intention is that the resources/toolbox developed here will be available from within MATLAB using the "add-ons" button. The resources are shared under a BSD license so users can edit, adopt and use freely.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\control education and virtual laboratories\aeroplane landing\matlabCode\UoSlogo.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\Control 101 Version 1.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>3b51416b-71d9-4a84-aee2-626818f07d94</param.guid>
+    <param.exclude.filters />
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples />
+    <param.demosxml />
+    <param.apps>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\PI tuning\matlabCode\PI tuning.mlappinstall</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\aeroplane landing\matlabCode\Aeroplane Landing Behaviour.mlappinstall</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\car speed behaviour\matlabCode\Car model and behaviour.mlappinstall</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\cruise control\matlabCode\Cruise control with PI.mlappinstall</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\dc servo and position control\matlabCode\DC servo and position control.mlappinstall</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\first order behaviour characterisation\matlabCode\First order model response characterisation.mlappinstall</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\first order model behaviour\matlabCode\First order modelling from data.mlappinstall</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\house temperature behaviour\matlabCode\House temperature and behaviour.mlappinstall</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\inverted pendulum\matlabCode\Inverted pendulum and control.mlappinstall</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\mixing tank behaviour\matlabCode\Mixing tank and behaviour.mlappinstall</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\tank level behaviour\matlabCode\Tank level behaviour.mlappinstall</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\tank level control with PI\matlabCode\Tank level and PI control.mlappinstall</file>
+    </param.apps>
+    <param.registered.apps />
+    <param.docs />
+    <param.getting.started.guide />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>false</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start>R2018a</param.release.start>
+    <param.release.end>latest</param.release.end>
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.version />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.exclude.pcodedmfiles />
+      <param.examples />
+      <param.demosxml />
+      <param.registered.apps />
+      <param.docs />
+      <param.getting.started.guide />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.exported.on.package />
+      <param.required.addons />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\aeroplane landing</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\car speed behaviour</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\cruise control</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\dc servo and position control</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\doc</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\first order behaviour characterisation</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\first order model behaviour</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\house temperature behaviour</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\inverted pendulum</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\livescripts for firstcourse in control</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\mixing tank behaviour</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\PI tuning</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\tank level behaviour</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\tank level control with PI</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="Control 101 Version 1.mltbx" optional="false">C:\Users\Anthony Rossiter\Documents\2022-23\matlabcode1\control101ver1\Control 101 Version 1.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
