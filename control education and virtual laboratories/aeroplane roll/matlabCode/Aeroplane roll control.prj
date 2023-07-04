@@ -1,0 +1,72 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3562365732" file="C:\Users\Anthony Rossiter\Documents\matlab project\control education and virtual laboratories\aeroplane roll\matlabCode\Aeroplane roll control.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control education and virtual laboratories\aeroplane roll\matlabCode" name="Aeroplane roll control" target="target.mlapps" target-name="Package App">
+    <param.appname>Aeroplane roll control</param.appname>
+    <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon>${PROJECT_ROOT}\Aeroplane roll control_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Aeroplane roll control_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Aeroplane roll control_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Aeroplane roll control_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Illustrating lead compensator design using the roll control of an aeroplane.</param.summary>
+    <param.description>This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how aeroplane closed-loop roll behaviour is linked to the design of a lead compensator.  Users can select the pole/zero ratio, geometric mean and lead compensator gain and compare and contrast the impact of changes on both closed-loop behaviour and frequency response characteristics such as phase margin and cross-over frequency. Users can also change core parameters of the simplified aeroplane roll model. The manual and app also give guidance on a mechanistic design to achieve a specified phase margin and cross over frequency.</param.description>
+    <param.screenshot>C:\Users\Anthony Rossiter\AppData\Local\Temp\tpe0edf713_9f56_44ea_ace8_7e9bc144dd9e.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Control System Toolbox</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>3</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.14</item>
+      <item>10.13</item>
+      <item>9.3</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>e138da7b-2f1b-462e-8f3e-65c8232d3767</param.guid>
+    <unset>
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\aeroplane_roll_control.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control education and virtual laboratories\aeroplane roll" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control education and virtual laboratories\aeroplane roll\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

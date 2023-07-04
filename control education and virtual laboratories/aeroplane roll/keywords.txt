@@ -1,0 +1,17 @@
+Aeroplane roll
+Linear models
+System behaviour
+Behaviour characterisation
+Feedback design
+Lead compensation
+Gain margins
+Phase margins
+Cross over frequency
+Poles
+Zeros
+Transfer functions
+Control education
+MATLAB
+
+
+
