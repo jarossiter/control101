@@ -1,4 +1,4 @@
-# control101ver1
+# control101
 MATLAB toolbox for control 101 course
 
 The community toolbox project is led by Anthony Rossiter with sponsorship from MathWorks  (under project "A MATLAB community toolbox to support learning of control 101") and input from numerous international colleagues. The intention is that the resources/toolbox developed here will be available from within MATLAB using the "add-ons" button. The resources are shared under a BSD license so users can edit, adopt and use freely.
