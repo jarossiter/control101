@@ -47,7 +47,7 @@
       <file>${PROJECT_ROOT}\control education and virtual laboratories\tank level control with PI\matlabCode\Tank level and PI control.mlappinstall</file>
     </param.apps>
     <param.registered.apps />
-    <param.docs />
+    <param.docs>${PROJECT_ROOT}\control education and virtual laboratories\info.xml</param.docs>
     <param.getting.started.guide>${PROJECT_ROOT}\control education and virtual laboratories\doc\GettingStarted.mlx</param.getting.started.guide>
     <param.matlabpath.excludes />
     <param.javaclasspath.excludes />
@@ -78,7 +78,6 @@
       <param.examples />
       <param.demosxml />
       <param.registered.apps />
-      <param.docs />
       <param.matlabpath.excludes />
       <param.javaclasspath.excludes />
       <param.exported.on.package />
@@ -112,6 +111,7 @@
       <file>${PROJECT_ROOT}\control education and virtual laboratories\first order model behaviour</file>
       <file>${PROJECT_ROOT}\control education and virtual laboratories\house temperature behaviour</file>
       <file>${PROJECT_ROOT}\control education and virtual laboratories\imagesforwebpage</file>
+      <file>${PROJECT_ROOT}\control education and virtual laboratories\info.xml</file>
       <file>${PROJECT_ROOT}\control education and virtual laboratories\inverted pendulum</file>
       <file>${PROJECT_ROOT}\control education and virtual laboratories\LICENSE</file>
       <file>${PROJECT_ROOT}\control education and virtual laboratories\livescripts for firstcourse in control</file>
