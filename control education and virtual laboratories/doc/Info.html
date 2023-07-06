@@ -92,7 +92,12 @@ Resources are divided into:
 <br>
 	A quick list of the available resources is given below, with links to more complete summary information. For a more detailed overview and recent updates, see the website:
 	<a href="website">https://controleducation.sites.sheffield.ac.uk/matlabresources/community-control-toolbox</a>
-	<br>
+	<br><br>
+	<span style="font-size:14pt">
+        Within the MATLAB command window:        <strong>doc Control101 Toolbox</strong>,    will open this file and provide 
+        softlinks/shortcuts to run to all the files.
+        <br><br>These softlinks are in sections 2 and 3  below.</span>
+        <br>
   <br>
 	<h2>Index</h2>
 	
@@ -100,8 +105,8 @@ Resources are divided into:
 	<ol>
 	<li> <a href="#getting">Getting started</a></li>
 	<li><a href="#content">Contents list</a></li>
-	<li><a href="#labs">Summary of virtual laboratories</a></li>
-	<li><a href="#live">Summary of livescript files</a></li>
+	<li><a href="#labs">Summary of virtual laboratories and softlinks to run files</a></li>
+<!--...	  <li><a href="#live">Summary of livescript files and softlinks to run files</a></li>     -->
 	</ol>
 	<br>
 	
@@ -138,65 +143,281 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	<br>
 	
 <h2 id=content> 2. Contents List </h2>
-	More detailed summary information lower on the page.
-	<br><br>
-<strong>List of Virtual Laboratories</strong>
+	
+	<br>
+<strong>2.1 List of Virtual Laboratories</strong> <br>
+        More detailed summary information and <a href="#content">soft links</a>  to the files in section 3.
+        <br>
+<table border=1 style="margin-left:20px; cellpadding:15px;">
+<tr>
+  <th>File name</th>
+  <th>Learning goals</th>
+  
+</tr>
+  <tr>
+  <td>  aeroplanelanding_behaviour </td> <td>
+ Explore mass-spring damper system behaviour. </td>
+</tr>
+	  <tr>
+  <td>  aeroplanelanding_roll_control</td> <td>
+ Lead compensator design for an unstable system. </td>
+</tr>
+	<tr>
+  <td>behaviours</td> <td>
+  Effect of pole positions on open-loop behaviour.</td>
+</tr>
+ <tr>
+  <td> carmodel_and_behaviour     </td> <td>
+  Explore the behaviour of mass-damper systems and the impact of disturbances.</td>
+</tr>
+  <tr>
+  <td>cruisecontrol                   </td> <td>
+  Undertake PI design on a mass-damper system with disturbances.</td>
+</tr>                 
+  <tr>
+  <td>dcservo_and_position_control        </td> <td>
+Undertake PI design of position and velocity control.  </td>
+ <tr>
+  <td>firstordermodel_behaviour                 </td> <td>
+  Understand and explore the core characteristics of 1st order model behaviours.</td>
+</tr>       
+<tr>
+  <td>firstordermodels_response_characterisation </td> <td>
+  Identify model parameters from a step response.</td>
+</tr>
+ <tr>
+  <td>housetemperature_and_behaviour                </td> <td>
+ Explore and understand the natural behaviours of simple thermal systems. </td>
+</tr>   
+  <tr>
+  <td>invertedpendulum       </td> <td>
+  Understand and observe the impact of sensor delay and lag on a challenging control problem.</td>
+</tr>
+  <tr>
+  <td>mixingtank_and_behaviour     </td> <td>
+   Explore and understand the natural behaviours of a simple mixing tank.</td>
+</tr>                     
+  <tr>
+  <td>tanklevel_and_PIcontrol           </td> <td>
+  Undertake PI design of simple tank level systems.</td>
+</tr>              
+ <tr>
+  <td>tanklevelbehaviour</td> <td>
+ Explore and understand the natural behaviours of a tank level system.  </td>
+</tr>
+	</table>                                 
 
-   <ol>
-	 <li>  aeroplanelanding_behaviour</li>
-	   <li>  aeroplanelanding_roll_control</li>
-	   <li>behaviours</li>
- <li>  carmodel_and_behaviour     </li>
-   <li>cruisecontrol                   </li>                   
-   <li>dcservo_and_position_control         </li>              
-   <li>firstordermodel_behaviour                 </li>       
-   <li>firstordermodels_response_characterisation </li>
-   <li>housetemperature_and_behaviour                  </li>   
-   <li>invertedpendulum         </li>
-   <li>mixingtank_and_behaviour     </li>                     
-   <li>tanklevel_and_PIcontrol           </li>                
-   <li>tanklevelbehaviour</li>
-	</ol>                                 
+<br> <br>
 
+ <strong>2.2 Livescript files for learning control basics alongside simple MATLAB code
+ for analysis and evaluation.</strong> <br>
+    <br>
+        The livescript files are written like manuals, so much more information is available once you open them. 
+        If you opened this documentation file from within MATLAB and select the name on the left, it should 
+        run the releavant livescript file within MATLAB.
+	
+	<br>
+	<br>
+	<table border=1 style="margin-left:20px; cellpadding:15px;">
+<tr>
+  <th>File name</th>
+  <th>Learning goals</th>
+  
+</tr>
+<tr>
+  <td>
+      <a href="matlab: plotting_with_matlab"><code>plotting_with_matlab.m</code></a>
+	</td>
+	<td>Gives a rapid overview of the vector notation used to support line plots and the plot command. </td>
+		</tr>
+		
+	
 
- <strong>Livescript files for learning control basics alongside simple MATLAB code
- for analysis and evaluation.</strong> 
+        <td><a href="matlab: ODEs_with_matlab"><code>ODEs_with_matlab.m</code></a>
+            </td>
+	<td>  Shows how MATLAB can be used to give both analytic and numerical solutions of ODEs. Includes examples of how to plot the solutions. 
+	</td></tr>
+	<tr>
 
-   <ol>
-	<li>ODEs_with_matlab                                          </li>
-   <li>bode_asymptotes_toolbox</li>                                                         
-   <li>closed_loop_compare_multiple_compensators_toolbox</li>         
-  <li>closed_vs_openloop_overlay</li>                                
-   <li>closedloop_offset_and_poles</li>                               
-   <li>closedloop_transferfunctions_with_feedback </li>               
-   <li>delays_and_bode </li>                                                                         
-   <li>discrete_models_and_usage                                 </li>
-   <li>discretisation_and_bode                                   </li>
-   <li>firstordermodels_in_matlab                                </li>
-   <li>firstordermodels_responses_analysis_and_feedback          </li>
-   <li>freq_responses_with_matlab                                </li>
-   <li>lag_design_with_bode                                      </li>
-   <li>laplace_transforms_with_matlab                            </li>
-   <li>lead_design_with_bode                                     </li>
-   <li>lead_lag_design_with_bode                                 </li>
-   <li>partial_fractions_with_matlab                             </li>
-   <li>pi_tuning_manual                                          </li>
-   <li>plotting_with_matlab                                      </li>
-   <li>proportional_design_with_bode                             </li>
-   <li>secondordermodels_and_underdamping                        </li>
-   <li>secondordermodels_in_matlab                               </li>
-   <li>step_responses_with_matlab                                </li>
-   <li>time_series_models                                        </li>
-   <li>time_series_models_and_recursion                          </li>
-   <li>transferfunctions_and_behaviours                          </li>
-   <li>transferfunctions_and_poles</li>                               
-</ol>
+<td>
+    <a href="matlab: firstordermodels_in_matlab"><code>firstordermodels_in_matlab.m</code></a>
+     </td>
+	<td> Shows how to create models in MATLAB to represent systems.
+		</td></tr>
+	<tr>
+<td>
+    <a href="matlab: firstordermodels_responses_analysis_and_feedback"><code>firstordermodels_responses_analysis_and_feedback.m</code></a>
+     </td>
+	<td> A holistic storyline script which begins from modelling 1st order models in time constant form, identifying parameters from data and then moves on to analysis and design of proportional and PI feedback compensators.
+		</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: secondordermodels_in_matlab"><code>secondordermodels_in_matlab.m</code></a>
+     </td>
+	<td> Shows how to create models in MATLAB to represent systems
+		</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: secondordermodels_and_underdamping"><code>secondordermodels_and_underdamping.m</code></a>
+     </td>
+	<td>Illustrates under-damped 2nd order behaviours and the impact of the damping ratio and natural frequency. Uses Laplace based models.
+		</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: laplace_transforms_with_matlab"><code>laplace_transforms_with_matlab.m</code></a>
+     </td>
+	<td>   Shows how to find the Laplace transform of a time domain signal and the inverse Laplace of a transform. Focuses on analytic solutions. Files below this largely focus on numerical solutions.
+		</td>
+	</tr>
+	<tr>
+        <td><a href="matlab: partial_fractions_with_matlab"><code>partial_fractions_with_matlab.m</code></a>
+              </td>
+	<td> Partial fractions are a core part of inverse Laplace and understanding behaviours. This file shows how MATLAB can support such computations where required.
+		</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: transferfunctions_and_poles"><code>transferfunctions_and_poles.m</code></a>
+     </td>
+	<td> Shows how to create a transfer function in MATLAB and also to find its poles and zeros which in turn characterise the expected behaviours. 
+		</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: transferfunctions_and_behaviours"><code>transferfunctions_and_behaviours.m</code></a>
+     </td>
+	<td> Shows how to create a transfer function in MATLAB and also to characterise and plot the expected behaviours. 
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: step_responses_with_matlab"><code>step_responses_with_matlab.m</code></a>
+      </td>
+	<td> Step responses are a cornerstone of system behaviours and supported by the MATLAB step.m command. This file illustrates several different ways step.m can be used. 
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: closedloop_transferfunctions_with_feedback"><code>closedloop_transferfunctions_with_feedback.m</code></a>
+      </td>
+	<td> Introduces the feedback.m file for computing closed-loop transfer functions.  
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: closed_vs_openloop_overlay"><code>closed_vs_openloop_overlay.m</code></a>
+     </td>
+	<td>  Demonstrates code for overlaying the closed-loop responses with different choices of compensator so you can compare and contrast different designs.  Allows 3 different compensators but uses transparent (inefficient) coding for simplicity so users can follow the core steps. 
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: closed_loop_compare_multiple_compensators"><code>closed_loop_compare_multiple_compensators.m</code></a>
+     </td>
+	<td> This file provides more efficient coding for comparing numerous compensators on the same system. Allows any number of compensators with minimal changes in the code required (just enter the required system definitions).
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: closedloop_offset_and_poles"><code>closedloop_offset_and_poles.m</code></a>
+     </td>
+	<td>  Focuses specifically on how to compute the closed-loop poles and offset (percentage). 
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: freq_responses_with_matlab"><code>freq_responses_with_matlab.m</code></a>
+     </td>
+	<td> Introduces users to the concept of frequency response and how the gain and phase might be computed from both time domain responses and with complex algebra (i.e. bode.m). [Needs the file ds2nfu.m to support some internal illustrations.]
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: bode_asymptotes"><code>bode_asymptotes.m</code></a>
+     </td>
+	<td> While modern computing means there is less need to sketch Bode diagrams by hand, some basic insight and understanding into the basic shapes is useful in analysis and design. This file produces asymptote plots to aid such insight.
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: proportional_design_with_bode"><code>proportional_design_with_bode.m</code></a>
+     </td>
+	<td>A simple proportional design is often based on a phase margin criteria. This livescript explains and illustrates the key steps.
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: lag_design_with_bode"><code>lag_design_with_bode.m</code></a>
+     </td>
+	<td> This file explains the core steps behind a mechanistic lag design (PM and low freq. gain criteria) and illustrates with examples.
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: lead_design_with_bode"><code>lead_design_with_bode.m</code></a>
+     </td>
+	<td>This file explains the core steps behind a mechanistic lead design (PM and bandwidth criteria) and illustrates with examples.
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: lead_lag_design_with_bode"><code>lead_lag_design_with_bode.m</code></a>
+     </td>
+	<td>This file explains the core steps behind a mechanistic lead-lag design (PM, low freq. gain and bandwidth criteria) and illustrates with examples. Also compares with a lag design and a lead design.
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: delays_and_bode"><code>delays_and_bode.m</code></a>
+     </td>
+	<td> Real systems are often subject to small delays, perhaps due to actuator placement or measurement issues. This file allows users to explore the impact of delays on expected closed-loop performance and indeed to consider how a system re-design of the compensator may be considered.
+</td>
+	</tr>
+	<tr>
+		<td> WARNINGS</td>
+<td>THE FILES BELOW LINK TO DISCRETE SYSTEMS BUT ONLY DO SO AT A RELATIVELY SUPERFICIAL LEVEL AS THIS IS MORE LINKED TO AWARENESS RAISING THAN MEETING THE FORMAL TEACHING REQUIREMENTS NEEDED IN HIGHER LEVEL COURSES</td></tr>
+	<tr>
+<td>
+    <a href="matlab: time_series_models"><code>time_series_models.m</code></a>
+     </td>
+	<td>This file gives a simple introduction to the concept of a time series/discrete systems and how MATLAB can be used to support modelling and analysis with such tools.
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: time_series_models_and_recursion"><code>time_series_models_and_recursion.m</code></a>
+      </td>
+	<td>Often simulation of a time series model is best handled with a recursion (or loop in code). A simple example of suitable coding is given here.
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: discrete_models_and_usage"><code>discrete_models_and_usage.m</code></a>
+     </td>
+	<td> More generally control engineers deploy z-transform models to handle discrete systems. This file gives a rapid introduction to the MATLAB tools which facilitate this and thus explains how users might undertake the corresponding analysis.
+</td>
+	</tr>
+	<tr>
+<td>
+    <a href="matlab: discretisation_and_bode"><code>discretisation_and_bode.m</code></a>
+     </td>
+	<td> Real systems are often implemented in a discrete fashion, albeit the design was done using a continuous design method. This file allows users to explore the impact of discretisation and the choice of sample rate on the efficacy of the original design.
+</td>
+	</tr>
 
+		</table>
+
+   
 	
 <br>
 <br>
-<h2 id=labs> 3. Summaries of Virtual Labs </h2>
-	Detailed background and notes are in the livescript manuals which open when you run the apps.
+<h2 id=labs> 3. Summaries of Virtual Labs and soft links</h2>
+	Detailed background and notes are in the livescript manuals which open when you run the apps.  If 
+    you opened this documentation file from within MATLAB and select the name or icon on the left, it should 
+        run the relevant livescript manual file and virtual laboratory within MATLAB (be patient, it may take 20 sec to open both files).
 	<br>
 	<br>
 <table border=1 style="margin-left:20px; cellpadding:15px;">
@@ -209,7 +430,7 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	<tr>
   <td>
       <b>First order behaviour characterisation</b><br>
-    <a href="matlab: firstordermodel_response_characterisation"><code>firstordermodel_response_characterisation</code></a>
+    <a href="matlab: firstordermodel_response_characterisation"><code>firstordermodel_response_characterisation.mlapp</code></a>
       <br><img src = "imagesforwebpage\firstorder.jpg" width=450 style="margin-top:5px; margin-bottom:0px">
   </td>
   <td>
@@ -443,155 +664,7 @@ The bottom figure will store previous designs to allow a compare and contrast in
 </table>
 	<br>
 <br>
-<h2 id=live> 4. Summaries of livescript files </h2>
-The livescript files are written like manuals, so much more information is available once you open them.
-	
-	<br>
-	<br>
-	<table border=1 style="margin-left:20px; cellpadding:15px;">
-<tr>
-  <th>File name</th>
-  <th>Learning goals</th>
-  
-</tr>
-<tr>
-  <td>
-	plotting_with_matlab.mlx 
-	</td>
-	<td>Gives a rapid overview of the vector notation used to support line plots and the plot command. </td>
-		</tr>
-		
-	
 
-<td>ODEs_with_matlab.mlx </td>
-	<td>  Shows how MATLAB can be used to give both analytic and numerical solutions of ODEs. Includes examples of how to plot the solutions. 
-	</td></tr>
-	<tr>
-
-<td>firstordermodels_in_matlab.mlx </td>
-	<td> Shows how to create models in MATLAB to represent systems.
-		</td></tr>
-	<tr>
-<td>firstordermodels_responses_analysis_and_feedback.mlx </td>
-	<td> A holistic storyline script which begins from modelling 1st order models in time constant form, identifying parameters from data and then moves on to analysis and design of proportional and PI feedback compensators.
-		</td>
-	</tr>
-	<tr>
-<td>secondordermodels_in_matlab.mlx </td>
-	<td> Shows how to create models in MATLAB to represent systems
-		</td>
-	</tr>
-	<tr>
-<td>secondordermodels_and_under-damping.mlx </td>
-	<td>Illustrates under-damped 2nd order behaviours and the impact of the damping ratio and natural frequency. Uses Laplace based models.
-		</td>
-	</tr>
-	<tr>
-<td>laplace_transforms_with_matlab.mlx </td>
-	<td>   Shows how to find the Laplace transform of a time domain signal and the inverse Laplace of a transform. Focuses on analytic solutions. Files below this largely focus on numerical solutions.
-		</td>
-	</tr>
-	<tr>
-<td>partial_fractions_with_matlab.mlx  </td>
-	<td> Partial fractions are a core part of inverse Laplace and understanding behaviours. This file shows how MATLAB can support such computations where required.
-		</td>
-	</tr>
-	<tr>
-<td>transferfunctions_and_poles.mlx </td>
-	<td> Shows how to create a transfer function in MATLAB and also to find its poles and zeros which in turn characterise the expected behaviours. 
-		</td>
-	</tr>
-	<tr>
-<td>transferfunctions_and_behaviours.mlx </td>
-	<td> Shows how to create a transfer function in MATLAB and also to characterise and plot the expected behaviours. 
-</td>
-	</tr>
-	<tr>
-<td>step_responses_with_matlab.mlx  </td>
-	<td> Step responses are a cornerstone of system behaviours and supported by the MATLAB step.m command. This file illustrates several different ways step.m can be used. 
-</td>
-	</tr>
-	<tr>
-<td>closedloop_transferfunctions_with_feedback.mlx  </td>
-	<td> Introduces the feedback.m file for computing closed-loop transfer functions.  
-</td>
-	</tr>
-	<tr>
-<td>closed_vs_openloop_overlay.mlx </td>
-	<td>  Demonstrates code for overlaying the closed-loop responses with different choices of compensator so you can compare and contrast different designs.  Allows 3 different compensators but uses transparent (inefficient) coding for simplicity so users can follow the core steps. 
-</td>
-	</tr>
-	<tr>
-<td>closed_loop_compare_multiple_compensators.mlx </td>
-	<td> This file provides more efficient coding for comparing numerous compensators on the same system. Allows any number of compensators with minimal changes in the code required (just enter the required system definitions).
-</td>
-	</tr>
-	<tr>
-<td>closedloop_offset_and_poles.mlx </td>
-	<td>  Focuses specifically on how to compute the closed-loop poles and offset (percentage). 
-</td>
-	</tr>
-	<tr>
-<td>freq_response_with_matlab.mlx </td>
-	<td> Introduces users to the concept of frequency response and how the gain and phase might be computed from both time domain responses and with complex algebra (i.e. bode.m). [Needs the file ds2nfu.m to support some internal illustrations.]
-</td>
-	</tr>
-	<tr>
-<td>bode_asymptotes.mlx </td>
-	<td> While modern computing means there is less need to sketch Bode diagrams by hand, some basic insight and understanding into the basic shapes is useful in analysis and design. This file produces asymptote plots to aid such insight.
-</td>
-	</tr>
-	<tr>
-<td>proportional_design_with_bode.mlx </td>
-	<td>A simple proportional design is often based on a phase margin criteria. This livescript explains and illustrates the key steps.
-</td>
-	</tr>
-	<tr>
-<td>lag_design_with_bode.mlx </td>
-	<td> This file explains the core steps behind a mechanistic lag design (PM and low freq. gain criteria) and illustrates with examples.
-</td>
-	</tr>
-	<tr>
-<td>lead_design_with_bode.mlx </td>
-	<td>This file explains the core steps behind a mechanistic lead design (PM and bandwidth criteria) and illustrates with examples.
-</td>
-	</tr>
-	<tr>
-<td>lead_lag_design_with_bode.mlx </td>
-	<td>This file explains the core steps behind a mechanistic lead-lag design (PM, low freq. gain and bandwidth criteria) and illustrates with examples. Also compares with a lag design and a lead design.
-</td>
-	</tr>
-	<tr>
-<td>delays_and_bode.mlx </td>
-	<td> Real systems are often subject to small delays, perhaps due to actuator placement or measurement issues. This file allows users to explore the impact of delays on expected closed-loop performance and indeed to consider how a system re-design of the compensator may be considered.
-</td>
-	</tr>
-	<tr>
-		<td> WARNINGS</td>
-<td>THE FILES BELOW LINK TO DISCRETE SYSTEMS BUT ONLY DO SO AT A RELATIVELY SUPERFICIAL LEVEL AS THIS IS MORE LINKED TO AWARENESS RAISING THAN MEETING THE FORMAL TEACHING REQUIREMENTS NEEDED IN HIGHER LEVEL COURSES</td></tr>
-	<tr>
-<td>time_series_models.mlx </td>
-	<td>This file gives a simple introduction to the concept of a time series/discrete systems and how MATLAB can be used to support modelling and analysis with such tools.
-</td>
-	</tr>
-	<tr>
-<td>time_series_models_and_recursion.mlx  </td>
-	<td>Often simulation of a time series model is best handled with a recursion (or loop in code). A simple example of suitable coding is given here.
-</td>
-	</tr>
-	<tr>
-<td>discrete_models_and_usage.mlx </td>
-	<td> More generally control engineers deploy z-transform models to handle discrete systems. This file gives a rapid introduction to the MATLAB tools which facilitate this and thus explains how users might undertake the corresponding analysis.
-</td>
-	</tr>
-	<tr>
-<td>discretisation_and_bode.mlx </td>
-	<td> Real systems are often implemented in a discrete fashion, albeit the design was done using a continuous design method. This file allows users to explore the impact of discretisation and the choice of sample rate on the efficacy of the original design.
-</td>
-	</tr>
-
-		</table>
-	
 	<br>
 <br>
 </span>
