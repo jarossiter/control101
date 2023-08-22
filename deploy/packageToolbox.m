@@ -1,7 +1,7 @@
 function packageToolbox()
 % Specify the toolbox name and version
 toolboxFolder = fileparts(fileparts(mfilename("fullpath"))); 
-toolboxRoot = fullfile(toolboxFolder,'src');
+toolboxRoot = fullfile(toolboxFolder,'control101');
 
 uuid = "Control101Uuid";
 opts = matlab.addons.toolbox.ToolboxOptions(toolboxRoot, uuid);

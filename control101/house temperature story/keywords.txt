@@ -1,0 +1,25 @@
+House temperature models
+Thermal models
+First order models
+Control education
+MATLAB
+System behaviour
+Step responses
+Time constant
+System gain
+Disturbances
+Feedback analysis
+Feedback design
+Closed-loop behaviour
+Manual control
+PI tuning
+Control education
+MATLAB
+System behaviour
+Step responses
+Disturbance rejection
+Uncertainty rejection
+Measurement noise
+Measurement delay
+Offset
+
