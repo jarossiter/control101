@@ -1,16 +1,20 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3286737440" file="C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\house temperature story\matlabCode\House temperature story.prj" location="C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\house temperature story\matlabCode" name="House temperature story" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="949518251" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\house temperature story\matlabCode\House temperature story.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\house temperature story\matlabCode" name="House temperature story" target="target.mlapps" target-name="Package App">
     <param.appname>House temperature story</param.appname>
     <param.authnamewatermark>John Anthony Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
     <param.company>University of Sheffield</param.company>
-    <param.icon />
-    <param.icons />
+    <param.icon>${PROJECT_ROOT}\House temperature story_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\House temperature story_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\House temperature story_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\House temperature story_resources\icon_16.png</file>
+    </param.icons>
     <param.summary>This resource provides an interactive app file which demonstrates the temperature behaviour and control of a simplified house model.</param.summary>
     <param.description>Several people have developed MATLAB based materials to support the teaching of “Control Systems 101” type courses; the particular focus here is on interactive and animated resources which are largely self-explanatory, that is easy to use,  and support student understanding and learning. They demonstrate authentic scenarios across a broad range of topics which motivate the importance of control to modern society, alongside some technical learning outcomes to support university curricula.
 
 This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates the temperature behaviour of a simplified housemodel or thermal system, as appropriate to a first course in control, and subject to normal disturbances such as changes in external temperature and wind chill. The app then moves onto to exploring feedback control, both a manual and automated (PI and on-off). More detailed descriptions and help are in the partner livescript file housetemperature_story_manual.mlx.</param.description>
-    <param.screenshot>C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\house temperature story\houseandwind_icon.png</param.screenshot>
+    <param.screenshot>${PROJECT_ROOT}\House temperature and behaviour_resources\icon_48.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -31,8 +35,6 @@ This resource provides an interactive app file (MATLAB virtual laboratory) which
     <param.output>${PROJECT_ROOT}</param.output>
     <param.guid>b9fe3de6-d8b4-4a18-a4f3-af33d57be590</param.guid>
     <unset>
-      <param.icon />
-      <param.icons />
       <param.version />
       <param.platforms />
       <param.output />
@@ -46,7 +48,7 @@ This resource provides an interactive app file (MATLAB virtual laboratory) which
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\house temperature story" name="matlabCode" optional="false">C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\house temperature story\matlabCode</file>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\house temperature story" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\house temperature story\matlabCode</file>
     </build-deliverables>
     <workflow />
     <matlab>

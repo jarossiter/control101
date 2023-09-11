@@ -1,16 +1,20 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="780694790" file="C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\tank level story\matlabCode\Tank level story.prj" location="C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\tank level story\matlabCode" name="Tank level story" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1192470508" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\tank level story\matlabCode\Tank level story.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\tank level story\matlabCode" name="Tank level story" target="target.mlapps" target-name="Package App">
     <param.appname>Tank level story</param.appname>
     <param.authnamewatermark>John Anthony Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
     <param.company>University of Sheffield</param.company>
-    <param.icon />
-    <param.icons />
+    <param.icon>${PROJECT_ROOT}\Tank level story_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Tank level story_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Tank level story_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Tank level story_resources\icon_16.png</file>
+    </param.icons>
     <param.summary>Modelling, analysis, control design and performance evaluation for a tank level system</param.summary>
     <param.description>Several people have developed MATLAB based materials to support the teaching of “Control Systems 101” type courses; the particular focus here is on interactive and animated resources which are largely self-explanatory, that is easy to use,  and support student understanding and learning. They demonstrate authentic scenarios across a broad range of topics which motivate the importance of control to modern society, alongside some technical learning outcomes to support university curricula.
 
 This is a simple interface to understand the entire design process of behaviour analysis, modelling  and PI control of simple tank level models, subject to changes in the core parameters such as tank volume, flow rate and external disturbances such as changes to the inlet flow, blockages in the outlet pipe, measurement noise and measurement delays. The user an explore and analyse both manual control (human in the loop) and automatic control using a PI compensator. More detailed descriptions and help are in the partner livescript file tanklevel_story_manual.mlx which give a concise engineering and analytical background alongside some simple MATLAB code snippets than can be used for equivalent analysis.</param.description>
-    <param.screenshot>C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\tank level story\tanklevelstory_icon.png</param.screenshot>
+    <param.screenshot>${PROJECT_ROOT}\tank level and PI control_resources\icon_48.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -31,8 +35,6 @@ This is a simple interface to understand the entire design process of behaviour 
     <param.output>${PROJECT_ROOT}</param.output>
     <param.guid>e9591b87-4984-4918-97ff-b11a48906ee7</param.guid>
     <unset>
-      <param.icon />
-      <param.icons />
       <param.version />
       <param.platforms />
       <param.output />
@@ -46,7 +48,7 @@ This is a simple interface to understand the entire design process of behaviour 
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\tank level story" name="matlabCode" optional="false">C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\tank level story\matlabCode</file>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\tank level story" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\tank level story\matlabCode</file>
     </build-deliverables>
     <workflow />
     <matlab>
