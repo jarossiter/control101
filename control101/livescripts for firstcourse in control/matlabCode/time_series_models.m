@@ -9,8 +9,8 @@ if exist('time_series_models_mycopy.mlx','file')
     open time_series_models_mycopy.mlx
 else
 p1 = which('time_series_models_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "time_series_models_toolbox.mlx" + " " + "time_series_models_mycopy.mlx");
+p2 = strcat(pwd,'/time_series_models_mycopy.mlx');
+copyfile(p1,p2)
 open time_series_models_mycopy.mlx
-clear p1
+clear p1 p2
 end

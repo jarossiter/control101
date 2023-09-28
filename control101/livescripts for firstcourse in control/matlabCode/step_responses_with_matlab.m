@@ -9,8 +9,8 @@ if exist('step_responses_with_matlab_mycopy.mlx','file')
     open step_responses_with_matlab_mycopy.mlx
 else
 p1 = which('step_responses_with_matlab_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "step_responses_with_matlab_toolbox.mlx" + " " + "step_responses_with_matlab_mycopy.mlx");
+p2 = strcat(pwd,'/step_responses_with_matlab_mycopy.mlx');
+copyfile(p1,p2)
 open step_responses_with_matlab_mycopy.mlx
-clear p1
+clear p1 p2
 end

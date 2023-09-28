@@ -9,8 +9,8 @@ if exist('secondordermodels_and_underdamping_mycopy.mlx','file')
     open secondordermodels_and_underdamping_mycopy.mlx
 else
 p1 = which('secondordermodels_and_underdamping_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "secondordermodels_and_underdamping_toolbox.mlx" + " " + "secondordermodels_and_underdamping_mycopy.mlx");
+p2 = strcat(pwd,'/secondordermodels_and_underdamping_mycopy.mlx');
+copyfile(p1,p2)
 open secondordermodels_and_underdamping_mycopy.mlx
-clear p1
+clear p1 p2
 end

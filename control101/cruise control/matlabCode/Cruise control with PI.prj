@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="85885650" file="C:\Users\Anthony Rossiter\Documents\matlab project\control education and virtual laboratories\cruise control\matlabCode\Cruise control with PI.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control education and virtual laboratories\cruise control\matlabCode" name="Cruise control with PI" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1394220817" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\cruise control\matlabCode\Cruise control with PI.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\cruise control\matlabCode" name="Cruise control with PI" target="target.mlapps" target-name="Package App">
     <param.appname>Cruise control with PI</param.appname>
     <param.authnamewatermark>John Anthony Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
@@ -48,7 +48,7 @@ This resource provides an interactive app file (MATLAB virtual laboratory) which
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control education and virtual laboratories\cruise control" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control education and virtual laboratories\cruise control\matlabCode</file>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\cruise control" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\cruise control\matlabCode</file>
     </build-deliverables>
     <workflow />
     <matlab>

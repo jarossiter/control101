@@ -97,9 +97,9 @@ Several people have developed MATLAB based materials to support the teaching of 
   <a href="website">https://controleducation.sites.sheffield.ac.uk/matlabresources/community-control-toolbox</a>
   <br><br>
   <span style="font-size:14pt">
-    Within the MATLAB command window:   <ul><br>  <li>   <strong>doc Control101 Toolbox</strong>,    will open this file and provide 
+    Within the MATLAB command window:   <ul><br>  <li>   <strong>doc Control101 Toolbox</strong>,    will open a separate window which provides
     softlinks/shortcuts to run to all the files.</li>
-	  <li><strong>help control101 </strong> also works, if the toolbox is installed</li>
+	  <li><strong>help control101 </strong> also works, if the toolbox is installed but opens in the command window so is less convenient.</li>
 	  </ul>
 	</span>
     </span></span></p>
@@ -197,6 +197,10 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     <td>firstordermodels_response_characterisation </td> <td>
       Identify model parameters from a step response.</td>
   </tr>
+	<tr>
+    <td>frequency_response_time_behaviour                </td> <td>
+      Explore and understand the concepts of frequency response in the time domain. </td>
+  </tr>  
 	<tr>
     <td>HeatExchanger                </td> <td>
       Explore and understand the natural behaviours of simple heat exchanger systems. </td>
@@ -710,6 +714,21 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     
   </tr>
   
+	<tr>
+    <td>
+      <b> Frequency response in the time domain</b><br>
+      <a href="matlab: frequency_response_time_behaviour"><code>frequency_response_time_behaviour.mlapp</code>
+        <br><img src = "imagesforwebpage\frequencyresponsetime.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
+      </td>
+    <td>
+      <p style="word-wrap: break-word; max-width: 50ch">
+       This is a simple interface to understand the concept of frequency response in a time domain scenario.  Users can excite a variety of linear systems with a sinuosidal input and view the system responses. The figures are presented in such a way that users can infer the implied gain and phase shifts of the output relative to the input. Numerical calculations are also provided. More detailed technical and analytical background is provided  in the partner livescript file. This file also includes some simple MATLAB code snippets than can be used for equivalent analysis.
+
+        
+      </td>
+    
+  </tr>
+	
   <tr>
     <td>
       <b> Aeroplane roll control</b><br>

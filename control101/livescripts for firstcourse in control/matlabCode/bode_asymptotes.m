@@ -9,8 +9,8 @@ if exist('bode_asymptotes_mycopy.mlx','file')
     open bode_asymptotes_mycopy.mlx
 else
 p1 = which('bode_asymptotes_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "bode_asymptotes_toolbox.mlx" + " " + "bode_asymptotes_mycopy.mlx");
+p2 = strcat(pwd,'/bode_asymptotes_mycopy.mlx');
+copyfile(p1,p2)
 open bode_asymptotes_mycopy.mlx
-clear p1
+clear p1 p2
 end

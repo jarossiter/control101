@@ -21,6 +21,7 @@
 %   <a href="matlab: dcservo_and_position_control">dcservo_and_position_control</a>                       
 %   <a href="matlab: firstordermodel_behaviour">firstordermodel_behaviour</a>                       
 %   <a href="matlab: firstordermodels_response_characterisation">firstordermodels_response_characterisation</a> 
+%   <a href="matlab: frequency_response_time_behaviour">frequency_response_time_behaviour</a> 
 %   <a href="matlab: HeatExchanger">HeatExchanger</a>                     
 %   <a href="matlab: housetemperature_and_behaviour">housetemperature_and_behaviour</a>                     
 %   <a href="matlab: housetemperature_story">housetemperature_story</a>                     
@@ -39,8 +40,8 @@
 % open by typing the name or selecting the links below.
 %
 %   <a href="matlab: ODEs_with_matlab">ODEs_with_matlab</a>                                          
-%   <a href="matlab: bode_asymptotes_toolbox">bode_asymptotes_toolbox</a>                                                         
-%   <a href="matlab: closed_loop_compare_multiple_compensators_toolbox">closed_loop_compare_multiple_compensators_toolbox</a>         
+%   <a href="matlab: bode_asymptotes">bode_asymptotes</a>                                                         
+%   <a href="matlab: closed_loop_compare_multiple_compensators">closed_loop_compare_multiple_compensators</a>         
 %   <a href="matlab: closed_vs_openloop_overlay">closed_vs_openloop_overlay</a>                                
 %   <a href="matlab: closedloop_offset_and_poles">closedloop_offset_and_poles</a>                               
 %   <a href="matlab: closedloop_transferfunctions_with_feedback">closedloop_transferfunctions_with_feedback</a>                

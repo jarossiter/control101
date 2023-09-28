@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3786426404" file="C:\Users\Anthony Rossiter\Documents\matlab project\control education and virtual laboratories\dc servo and position control\matlabCode\DC servo and position control.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control education and virtual laboratories\dc servo and position control\matlabCode" name="DC servo and position control" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1890314020" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\dc servo and position control\matlabCode\DC servo and position control.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\dc servo and position control\matlabCode" name="DC servo and position control" target="target.mlapps" target-name="Package App">
     <param.appname>DC servo and position control</param.appname>
     <param.authnamewatermark>John Anthony Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
@@ -49,7 +49,7 @@ This resource provides an interactive app file (MATLAB virtual laboratory) which
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control education and virtual laboratories\dc servo and position control" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control education and virtual laboratories\dc servo and position control\matlabCode</file>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\dc servo and position control" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\dc servo and position control\matlabCode</file>
     </build-deliverables>
     <workflow />
     <matlab>

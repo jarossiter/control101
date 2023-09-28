@@ -9,8 +9,8 @@ if exist('discretisation_and_bode_mycopy.mlx','file')
     open discretisation_and_bode_mycopy.mlx
 else
 p1 = which('discretisation_and_bode_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "discretisation_and_bode_toolbox.mlx" + " " + "discretisation_and_bode_mycopy.mlx");
+p2 = strcat(pwd,'/discretisation_and_bode_mycopy.mlx');
+copyfile(p1,p2)
 open discretisation_and_bode_mycopy.mlx
-clear p1
+clear p1 p2
 end

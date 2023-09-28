@@ -9,8 +9,8 @@ if exist('closed_vs_openloop_overlay_mycopy.mlx','file')
     open closed_vs_openloop_overlay_mycopy.mlx
 else
 p1 = which('closed_vs_openloop_overlay_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "closed_vs_openloop_overlay_toolbox.mlx" + " " + "closed_vs_openloop_overlay_mycopy.mlx");
+p2 = strcat(pwd,'/closed_vs_openloop_overlay_mycopy.mlx');
+copyfile(p1,p2)
 open closed_vs_openloop_overlay_mycopy.mlx
-clear p1
+clear p1 p2
 end

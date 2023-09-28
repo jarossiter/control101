@@ -9,8 +9,8 @@ if exist('closedloop_offset_and_poles_mycopy.mlx','file')
     open closedloop_offset_and_poles_mycopy.mlx
 else
 p1 = which('closedloop_offset_and_poles_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "closedloop_offset_and_poles_toolbox.mlx" + " " + "closedloop_offset_and_poles_mycopy.mlx");
+p2 = strcat(pwd,'/closedloop_offset_and_poles_mycopy.mlx');
+copyfile(p1,p2)
 open closedloop_offset_and_poles_mycopy.mlx
-clear p1
+clear p1 p2
 end

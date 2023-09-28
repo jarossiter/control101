@@ -9,8 +9,8 @@ if exist('transferfunctions_and_poles_mycopy.mlx','file')
     open transferfunctions_and_poles_mycopy.mlx
 else
 p1 = which('transferfunctions_and_poles_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "transferfunctions_and_poles_toolbox.mlx" + " " + "transferfunctions_and_poles_mycopy.mlx");
+p2 = strcat(pwd,'/transferfunctions_and_poles_mycopy.mlx');
+copyfile(p1,p2)
 open transferfunctions_and_poles_mycopy.mlx
-clear p1
+clear p1 p2
 end

@@ -9,8 +9,8 @@ if exist('closedloop_transferfunctions_with_feedback_mycopy.mlx','file')
     open closedloop_transferfunctions_with_feedback_mycopy.mlx
 else
 p1 = which('closedloop_transferfunctions_with_feedback_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "closedloop_transferfunctions_with_feedback_toolbox.mlx" + " " + "closedloop_transferfunctions_with_feedback_mycopy.mlx");
+p2 = strcat(pwd,'/closedloop_transferfunctions_with_feedback_mycopy.mlx');
+copyfile(p1,p2)
 open closedloop_transferfunctions_with_feedback_mycopy.mlx
-clear p1
+clear p1 p2
 end

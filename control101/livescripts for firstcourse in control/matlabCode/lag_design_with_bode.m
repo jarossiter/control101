@@ -9,8 +9,8 @@ if exist('lag_design_with_bode_mycopy.mlx','file')
     open lag_design_with_bode_mycopy.mlx
 else
 p1 = which('lag_design_with_bode_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "lag_design_with_bode_toolbox.mlx" + " " + "lag_design_with_bode_mycopy.mlx");
+p2 = strcat(pwd,'/lag_design_with_bode_mycopy.mlx');
+copyfile(p1,p2)
 open lag_design_with_bode_mycopy.mlx
 clear p1
 end

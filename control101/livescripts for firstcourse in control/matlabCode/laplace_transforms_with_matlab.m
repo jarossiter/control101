@@ -9,8 +9,8 @@ if exist('laplace_transforms_with_matlab_mycopy.mlx','file')
     open laplace_transforms_with_matlab_mycopy.mlx
 else
 p1 = which('laplace_transforms_with_matlab_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "laplace_transforms_with_matlab_toolbox.mlx" + " " + "laplace_transforms_with_matlab_mycopy.mlx");
+p2 = strcat(pwd,'/laplace_transforms_with_matlab_mycopy.mlx');
+copyfile(p1,p2)
 open laplace_transforms_with_matlab_mycopy.mlx
 clear p1
 end

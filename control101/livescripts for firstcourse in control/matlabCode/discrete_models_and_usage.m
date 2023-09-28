@@ -9,8 +9,8 @@ if exist('discrete_models_and_usage_mycopy.mlx','file')
     open discrete_models_and_usage_mycopy.mlx
 else
 p1 = which('discrete_models_and_usage_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "discrete_models_and_usage_toolbox.mlx" + " " + "discrete_models_and_usage_mycopy.mlx");
+p2 = strcat(pwd,'/discrete_models_and_usage_mycopy.mlx');
+copyfile(p1,p2)
 open discrete_models_and_usage_mycopy.mlx
-clear p1
+clear p1 p2
 end

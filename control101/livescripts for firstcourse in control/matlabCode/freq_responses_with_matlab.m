@@ -9,8 +9,8 @@ if exist('freq_responses_with_matlab_mycopy.mlx','file')
     open freq_responses_with_matlab_mycopy.mlx
 else
 p1 = which('freq_responses_with_matlab_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "freq_responses_with_matlab_toolbox.mlx" + " " + "freq_responses_with_matlab_mycopy.mlx");
+p2 = strcat(pwd,'/freq_responses_with_matlab_mycopy.mlx');
+copyfile(p1,p2)
 open freq_responses_with_matlab_mycopy.mlx
-clear p1
+clear p1 p2
 end

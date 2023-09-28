@@ -9,8 +9,8 @@ if exist('partial_fractions_with_matlab_mycopy.mlx','file')
     open partial_fractions_with_matlab_mycopy.mlx
 else
 p1 = which('partial_fractions_with_matlab_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "partial_fractions_with_matlab_toolbox.mlx" + " " + "partial_fractions_with_matlab_mycopy.mlx");
+p2 = strcat(pwd,'/partial_fractions_with_matlab_mycopy.mlx');
+copyfile(p1,p2)
 open partial_fractions_with_matlab_mycopy.mlx
-clear p1
+clear p1 p2
 end

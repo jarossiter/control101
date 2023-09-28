@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1811969597" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\heat exchanger\matlabCode\HeatExchanger.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\heat exchanger\matlabCode" name="HeatExchanger" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="4201920224" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\heat exchanger\matlabCode\HeatExchanger.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\heat exchanger\matlabCode" name="HeatExchanger" target="target.mlapps" target-name="Package App">
     <param.appname>HeatExchanger</param.appname>
     <param.authnamewatermark>J A Rossiter and P Soulatiantork</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>An interactive app file (MATLAB virtual laboratory) for the  temperature behaviour of a simplified heat exchanger.</param.summary>
     <param.description>This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates the temperature behaviour of a simplified heat exchanger model or thermal system, as appropriate to a first course in control, and subject to normal disturbances such as changes in flow rate and inlet flow temperature.  More detailed descriptions and help are in the partner livescript file HeatExhanger_manual.mlx.</param.description>
-    <param.screenshot />
+    <param.screenshot>C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\doc\imagesforwebpage\heatexchanger.jpg</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -30,7 +30,6 @@
     <param.output>${PROJECT_ROOT}</param.output>
     <param.guid>46734ba8-f743-4f16-b21c-89207ab08fb3</param.guid>
     <unset>
-      <param.screenshot />
       <param.version />
       <param.platforms />
       <param.output />

@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="949518251" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\house temperature story\matlabCode\House temperature story.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\house temperature story\matlabCode" name="House temperature story" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="627505898" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\house temperature story\matlabCode\House temperature story.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\house temperature story\matlabCode" name="House temperature story" target="target.mlapps" target-name="Package App">
     <param.appname>House temperature story</param.appname>
     <param.authnamewatermark>John Anthony Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>

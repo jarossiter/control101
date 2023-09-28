@@ -9,8 +9,8 @@ if exist('firstordermodels_in_matlab_mycopy.mlx','file')
     open firstordermodels_in_matlab_mycopy.mlx
 else
 p1 = which('firstordermodels_in_matlab_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "firstordermodels_in_matlab_toolbox.mlx" + " " + "firstordermodels_in_matlab_mycopy.mlx");
+p2 = strcat(pwd,'/firstordermodels_in_matlab_mycopy.mlx');
+copyfile(p1,p2)
 open firstordermodels_in_matlab_mycopy.mlx
-clear p1
+clear p1 p2
 end

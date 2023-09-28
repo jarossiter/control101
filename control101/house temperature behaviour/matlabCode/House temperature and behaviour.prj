@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2879180889" file="C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\house temperature behaviour\matlabCode\House temperature and behaviour.prj" location="C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\house temperature behaviour\matlabCode" name="House temperature and behaviour" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="4057119025" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\house temperature behaviour\matlabCode\House temperature and behaviour.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\house temperature behaviour\matlabCode" name="House temperature and behaviour" target="target.mlapps" target-name="Package App">
     <param.appname>House temperature and behaviour</param.appname>
     <param.authnamewatermark>John Anthony Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
@@ -14,7 +14,7 @@
     <param.description>Several people have developed MATLAB based materials to support the teaching of “Control Systems 101” type courses; the particular focus here is on interactive and animated resources which are largely self-explanatory, that is easy to use,  and support student understanding and learning. They demonstrate authentic scenarios across a broad range of topics which motivate the importance of control to modern society, alongside some technical learning outcomes to support university curricula.
 
 This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates the temperature behaviour of a simplified house model or thermal system, as appropriate to a first course in control, and subject to normal disturbances such as changes in external temperature. More detailed descriptions and help are in the partner livescript file housetemperature_and_behaviour_manual.mlx.</param.description>
-    <param.screenshot>C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\house temperature behaviour\house_temp_icon.png</param.screenshot>
+    <param.screenshot>C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\doc\imagesforwebpage\housetemperature.jpg</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -48,7 +48,7 @@ This resource provides an interactive app file (MATLAB virtual laboratory) which
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\house temperature behaviour" name="matlabCode" optional="false">C:\Users\Anthony\Documents\23-24\control101 edits in august 2023\control101\control education and virtual laboratories\house temperature behaviour\matlabCode</file>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\house temperature behaviour" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\house temperature behaviour\matlabCode</file>
     </build-deliverables>
     <workflow />
     <matlab>

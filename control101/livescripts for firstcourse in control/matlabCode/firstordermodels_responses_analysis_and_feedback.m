@@ -9,8 +9,8 @@ if exist('firstordermodels_responses_analysis_and_feedback_mycopy.mlx','file')
     open firstordermodels_responses_analysis_and_feedback_mycopy.mlx
 else
 p1 = which('firstordermodels_responses_analysis_and_feedback_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "firstordermodels_responses_analysis_and_feedback_toolbox.mlx" + " " + "firstordermodels_responses_analysis_and_feedback_mycopy.mlx");
+p2 = strcat(pwd,'/firstordermodels_responses_analysis_and_feedback_mycopy.mlx');
+copyfile(p1,p2)
 open firstordermodels_responses_analysis_and_feedback_mycopy.mlx
 clear p1
 end

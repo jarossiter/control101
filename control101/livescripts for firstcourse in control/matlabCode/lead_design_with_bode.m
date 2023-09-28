@@ -9,8 +9,8 @@ if exist('lead_design_with_bode_mycopy.mlx','file')
     open lead_design_with_bode_mycopy.mlx
 else
 p1 = which('lead_design_with_bode_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "lead_design_with_bode_toolbox.mlx" + " " + "lead_design_with_bode_mycopy.mlx");
+p2 = strcat(pwd,'/lead_design_with_bode_mycopy.mlx');
+copyfile(p1,p2)
 open lead_design_with_bode_mycopy.mlx
-clear p1
+clear p1 p2
 end

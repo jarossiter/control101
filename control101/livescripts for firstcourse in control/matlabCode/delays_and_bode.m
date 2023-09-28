@@ -9,8 +9,8 @@ if exist('delays_and_bode_mycopy.mlx','file')
     open delays_and_bode_mycopy.mlx
 else
 p1 = which('delays_and_bode_toolbox.mlx');
-copyfile(p1,pwd);
-system("rename " + "delays_and_bode_toolbox.mlx" + " " + "delays_and_bode_mycopy.mlx");
+p2 = strcat(pwd,'/delays_and_bode_mycopy.mlx');
+copyfile(p1,p2)
 open delays_and_bode_mycopy.mlx
-clear p1
+clear p1 p2
 end
