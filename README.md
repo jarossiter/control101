@@ -13,5 +13,7 @@ i) the mlapp file which is the laboratory itself and ii) a partner livescript fi
 
 2) Livescript files which focus more on useful MATLAB code students can use to create their own files to support detailed analysis, evaluation and design, as required for university courses. These files are  summarised in section 6.9.
 
+If you spot any obvious typos or areas where apps can be made better, please contact Anthony so he can consider for future releases.
+
 Cite As
 John Anthony Rossiter (2023). Control 101 toolbox (https://github.com/jarossiter/control101ver1/releases/tag/v0.1), GitHub. Retrieved June 29, 2023.
