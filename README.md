@@ -1,4 +1,6 @@
 # control101
+[![View Control 101 toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/130439-control-101-toolbox)
+
 MATLAB toolbox for control 101 course
 
 The community toolbox project is led by Anthony Rossiter with sponsorship from MathWorks  (under project "A MATLAB community toolbox to support learning of Control 101") and input from numerous international colleagues. The intention is that the resources/toolbox developed here will be available from within MATLAB using the "add-ons" button. The resources are shared under a BSD license so users can edit, adopt and use freely.
