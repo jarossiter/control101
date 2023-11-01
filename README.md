@@ -1,8 +1,5 @@
 # control101
-<<<<<<< HEAD
 
-=======
->>>>>>> 44158351e27585f96355393e0bd7a20f20a821c3
 [![View Control 101 toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/130439-control-101-toolbox)
 
 MATLAB toolbox for control 101 course
@@ -11,11 +8,7 @@ The community toolbox project is led by Anthony Rossiter with sponsorship from M
 
 A summary is given below for completeness; more detailed information is within each individual resource. Some more overview information is on the authors website: https://controleducation.sites.sheffield.ac.uk/matlabresources/community-control-toolbox
 
-<<<<<<< HEAD
 There are also so some quick illustrations on a youtube playlist here: https://www.youtube.com/playlist?list=PLs7mcKy_nInHEjth9P3m_bxd6D24IVSzz
-=======
-There are also so some quick illustrations on a youtube playlist here: https://www.youtube.com/playlist?list=PLs7mcKy_nInHEjth9P3m_bxd6D24IVSzz 
->>>>>>> 44158351e27585f96355393e0bd7a20f20a821c3
 
 Several people have developed MATLAB based materials to support the teaching of “Control Systems 101” type courses; the particular focus here is on interactive and animated resources which are largely self-explanatory, that is easy to use,  and support student understanding and learning. They demonstrate authentic scenarios across a broad range of topics which motivate the importance of control to modern society, alongside some technical learning outcomes to support university curricula.
 
