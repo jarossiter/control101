@@ -1,0 +1,74 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1779020897" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lead lag design with phase margin bandwidth offset\matlabCode\Lead-lag compensation.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lead lag design with phase margin bandwidth offset\matlabCode" name="Lead-lag compensation" target="target.mlapps" target-name="Package App">
+    <param.appname>Lead-lag compensation</param.appname>
+    <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon>${PROJECT_ROOT}\Lead-lag compensation_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Lead-lag compensation_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Lead-lag compensation_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Lead-lag compensation_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Design of lead-lag compensations using simple criteria</param.summary>
+    <param.description>This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how to perform a simple lead-lag compensator feedback design using Bode diagrams with a phase margin, bandwidth and low frequency gain criteria. The app includes a number of pre-coded examples and allows the user to investigate both how to meet the requirements and the impact of this on closed-loop behaviour. The manual and app also give guidance on a mechanistic design to achieve the specified criteria. The low frequency gain criteria takes two alternative forms depending upon whether the system includes and integrator or not. For completeness the behaviour with the lead-lag compensator is compared with a simple gain design and a lead only design, so the differences can be evaluated.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\leadlagpic.jpg</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Control System Toolbox</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>3</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.14</item>
+      <item>10.13</item>
+      <item>9.3</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>b000381d-8bbe-4bcb-bdf5-ba9ae9370d48</param.guid>
+    <unset>
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\lead_lag_design_phase_margin.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\lead_lag_design_phase_margin_manual.mlx</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lead lag design with phase margin bandwidth offset" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lead lag design with phase margin bandwidth offset\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

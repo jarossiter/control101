@@ -1,0 +1,19 @@
+Linear models
+System behaviour
+Behaviour characterisation
+Feedback design
+Lead compensator design
+Gain margins
+Phase margins
+Cross over frequency
+Gain design
+Lag compensator design
+Lead-lag compensator design
+Poles
+Zeros
+Transfer functions
+Control education
+MATLAB
+
+
+

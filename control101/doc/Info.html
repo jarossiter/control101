@@ -96,6 +96,9 @@ Several people have developed MATLAB based materials to support the teaching of 
   A quick list of the available resources is given below, with links to more complete summary information. For a more detailed overview and recent updates, see the website:
   <a href="website">https://controleducation.sites.sheffield.ac.uk/matlabresources/community-control-toolbox</a>
   <br><br>
+	Some youtube videos <a href="videos">https://www.youtube.com/playlist?list=PLs7mcKy_nInHEjth9P3m_bxd6D24IVSzz</a> give quick illustrations of the toolbox and how to use the files.
+	
+	<br><br>
   <span style="font-size:14pt">
     Within the MATLAB command window:   <ul><br>  <li>   <strong>doc Control101 Toolbox</strong>,    will open a separate window which provides
     softlinks/shortcuts to run to all the files.</li>
@@ -139,7 +142,7 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	
 	<br>
 	<br>
-	2. To access the livescripts, type the name in the command window (as illustrated below); this will open the relevant .mlx file in an editor window as required. 
+	2. To access the livescripts, either use the soft links in this file (section 2.2) or type the name in the command window (as illustrated below); this will open the relevant .mlx file in an editor window as required. 
 	<br><br>
 	
 	<strong>NOTE:</strong> When using the installed toolbox, MATLAB will open a copy of the livescript in the present working directory so that the user can make and save edits without changing the toolbox original.
@@ -158,7 +161,7 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	
 	<br>
 <strong>2.1 List of Virtual Laboratories</strong> <br>
-        More detailed summary information and <a href="#content">soft links</a>  to the files in section 3.
+        More detailed summary information and <a href="#content">soft links</a>  to the files are in section 3 lower down the page.
         <br>
 <table border=1 style="margin-left:20px; cellpadding:15px;">
   <tr>
@@ -166,6 +169,10 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     <th>Learning goals</th>
     
   </tr>
+	<tr> <td> 
+		TIME DOMAIN METHODS
+		</td>
+	</tr>
   <tr>
     <td>  aeroplanelanding_behaviour </td> <td>
       Explore mass-spring damper system behaviour. </td>
@@ -197,10 +204,7 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     <td>firstordermodels_response_characterisation </td> <td>
       Identify model parameters from a step response.</td>
   </tr>
-	<tr>
-    <td>frequency_response_time_behaviour                </td> <td>
-      Explore and understand the concepts of frequency response in the time domain. </td>
-  </tr>  
+
 	<tr>
     <td>HeatExchanger                </td> <td>
       Explore and understand the natural behaviours of simple heat exchanger systems. </td>
@@ -211,7 +215,7 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
   </tr>  
 	<tr>
     <td>housetemperature_story                </td> <td>
-      This file takes a user through the entire process of modelling, analysing, controller design and final evaluation, for a thermak system, in the presence of multiple forms of uncertainty. </td>
+      This file takes a user through the entire process of modelling, analysing, controller design and final evaluation, for a thermal system, in the presence of multiple forms of uncertainty. </td>
   </tr>  
   <tr>
     <td>invertedpendulum       </td> <td>
@@ -231,8 +235,36 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
   </tr>
 	<tr>
     <td>tanklevel_story                </td> <td>
-      This file takes a user through the entire process of modelling, analysing, controller design and final evaluation, for a thermak system, in the presence of multiple forms of uncertainty. </td>
+      This file takes a user through the entire process of modelling, analysing, controller design and final evaluation, for a fluid system, in the presence of multiple forms of uncertainty. </td>
   </tr>  
+	</tr>
+	<tr> <td> 
+		FREQUENCY RESPONSE METHODS
+		</td>
+	</tr>
+		<tr>
+    <td>frequency_response_time_behaviour                </td> <td>
+      Explore and understand the concepts of frequency response in the time domain. </td>
+  </tr>  
+	<tr>
+    <td>proportional_design_phase_margin                </td> <td>
+      This file allows a user to practise simple proportional design using frequency response methods and in particular to focus on achieving a target phase margin. </td>
+  </tr>  
+	</tr>
+	<tr>
+    <td>lag_design_phase_margin                </td> <td>
+      This file allows a user to practise simple lag compensator design using frequency response methods and in particular to focus on achieving a target phase margin and low frequency gain (either a ramp or constant offset criteria). </td>
+  </tr> 
+	<tr>
+    <td>lead_design_phase_margin                </td> <td>
+      This file allows a user to practise simple lead compensator design using frequency response methods and in particular to focus on achieving a target phase margin and bandwidth criteria. </td>
+  </tr>  
+	<tr>
+    <td>lead_lag_design_phase_margin                </td> <td>
+      This file allows a user to practise simple lead-lag compensator design using frequency response methods and in particular to focus on achieving, in order specified: bandwidth, phase margin and low frequency gain. </td>
+  </tr>  
+	</tr>
+	 
 </table>                                 
 
 <br> <br>
@@ -252,6 +284,10 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     <th>Learning goals</th>
     
   </tr>
+		<tr> <td> 
+		TIME DOMAIN METHODS
+		</td>
+	</tr>
   <tr>
     <td>
       <a href="matlab: plotting_with_matlab"><code>plotting_with_matlab.m</code></a>
@@ -355,6 +391,10 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	    <td>  Focuses specifically on how to compute the closed-loop poles and offset (percentage). 
   </td>
       </tr>
+<tr> <td> 
+		FREQUENCY RESPONSE METHODS
+		</td>
+	</tr>
 	  <tr>
   <td>
     <a href="matlab: freq_responses_with_matlab"><code>freq_responses_with_matlab.m</code></a>
@@ -405,7 +445,7 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
   </td>
       </tr>
 	  <tr>
-	    <td> WARNINGS</td>
+	    <td> DISCRETE MODEL METHODS</td>
   <td>THE FILES BELOW LINK TO DISCRETE SYSTEMS BUT ONLY DO SO AT A RELATIVELY SUPERFICIAL LEVEL AS THIS IS MORE LINKED TO AWARENESS RAISING THAN MEETING THE FORMAL TEACHING REQUIREMENTS NEEDED IN HIGHER LEVEL COURSES</td></tr>
 	  <tr>
   <td>
@@ -433,6 +473,13 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     <a href="matlab: discretisation_and_bode"><code>discretisation_and_bode.m</code></a>
     </td>
 	    <td> Real systems are often implemented in a discrete fashion, albeit the design was done using a continuous design method. This file allows users to explore the impact of discretisation and the choice of sample rate on the efficacy of the original design.
+  </td>
+      </tr>
+	<tr>
+  <td>
+    <a href="matlab: discrete_models_and_discrete_PID_controller_design"><code>discrete_models_and_discrete_PID_controller_design.m</code></a>
+    </td>
+	    <td> This file then focuses on how PID  design can be performed in the discrete case using a pole cancellation technique.
   </td>
       </tr>
 	  
@@ -729,6 +776,64 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     
   </tr>
 	
+<tr>
+    <td>
+      <b> Proportional design using frequency domain methods and a phase margin criteria</b><br>
+      <a href="matlab: proportional_design_phase_margin"><code>proportional_design_phase_margin.mlapp</code>
+        <br><img src = "imagesforwebpage/proportional design.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
+      </td>
+    <td>
+      <p style="word-wrap: break-word; max-width: 50ch">
+       This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how to perform a simple gain feedback design using Bode diagrams and a phase margin criteria. The app inlcudes a number of pre-coded examples and allows the user to investigate both how to meet the PM requirement, and the impact of this on closed-loop behaviour. The manual and app also give guidance on a mechanistic design to achieve a specified phase margin. The app also allows the user to investigage he impact of a small system delay on margins and behaviour.
+
+        
+      </td>
+    
+  </tr>
+
+<tr>
+    <td>
+      <b> Lag compensator design using frequency domain methods with phase margin and low frequency gain criteria</b><br>
+      <a href="matlab: lag_design_phase_margin"><code>lag_design_phase_margin.mlapp</code>
+        <br><img src = "imagesforwebpage/phase lag design.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
+      </td>
+    <td>
+      <p style="word-wrap: break-word; max-width: 50ch">
+       This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how to perform a simple lag compensator feedback design using Bode diagrams with a phase margin and low frequency gain criteria. The app includes a number of pre-coded examples and allows the user to investigate both how to meet the requirements and the impact of this on closed-loop behaviour. The manual and app also give guidance on a mechanistic design to achieve the specified criteria. The low frequency gain criteria takes two alternative forms depending upon whether the system includes and integrator or not. For completeness the behaviour with the lag compensator is compared with a simple gain design, so the differences can be evaluated.
+
+        
+      </td>
+    
+  </tr>
+
+<tr>
+    <td>
+      <b> Lead compensator design using frequency domain methods with phase margin and bandwidth criteria</b><br>
+      <a href="matlab: lead_design_phase_margin"><code>lag_design_phase_margin.mlapp</code>
+        <br><img src = "imagesforwebpage/lead_app.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
+      </td>
+    <td>
+      <p style="word-wrap: break-word; max-width: 50ch">
+       This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how to perform a simple lag compensator feedback design using Bode diagrams with a phase margin and bandwidth criteria. The app includes a number of pre-coded examples and allows the user to investigate both how to meet the requirements and the impact of this on closed-loop behaviour. The manual and app also give guidance on a mechanistic design to achieve the specified criteria. 
+
+        
+      </td>
+    
+  </tr>
+<tr>
+    <td>
+      <b> Lead-Lag compensator design using frequency domain methods with phase margin, bandwidth and low frequency gain criteria</b><br>
+      <a href="matlab: lag_design_phase_margin"><code>lag_design_phase_margin.mlapp</code>
+        <br><img src = "imagesforwebpage/leadlagpic.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
+      </td>
+    <td>
+      <p style="word-wrap: break-word; max-width: 50ch">
+       This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how to perform a simple lead-lag compensator feedback design using Bode diagrams with a phase margin, bandwidth and low frequency gain criteria. The app includes a number of pre-coded examples and allows the user to investigate both how to meet the requirements and the impact of this on closed-loop behaviour. The manual and app also give guidance on a mechanistic design to achieve the specified criteria. The low frequency gain criteria takes two alternative forms depending upon whether the system includes and integrator or not. For completeness the behaviour with the lead-lag compensator is compared with a simple gain design and a lead compensator only so the differences can be evaluated.
+
+        
+      </td>
+    
+  </tr>
   <tr>
     <td>
       <b> Aeroplane roll control</b><br>

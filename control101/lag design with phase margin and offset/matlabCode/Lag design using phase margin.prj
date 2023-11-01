@@ -1,0 +1,75 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3747315790" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lag design with phase margin and offset\matlabCode\Lag design using phase margin.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lag design with phase margin and offset\matlabCode" name="Lag design using phase margin" target="target.mlapps" target-name="Package App">
+    <param.appname>Lag design using phase margin</param.appname>
+    <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon>${PROJECT_ROOT}\Lag design using phase margin_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Lag design using phase margin_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Lag design using phase margin_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Lag design using phase margin_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>An app to practise mechanistic lag design using phase margin and a low frequency gain specifications.</param.summary>
+    <param.description>This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how to perform a simple lag compensator feedback design using Bode diagrams with a phase margin and low frequency gain criteria. The app includes a number of pre-coded examples and allows the user to investigate both how to meet the requirements and the impact of this on closed-loop behaviour. The manual and app also give guidance on a mechanistic design to achieve the specified criteria. The low frequency gain criteria takes two alternative forms depending upon whether the system includes and integrator or not. For completeness the behaviour with the lag compensator is compared with a simple gain design, so the differences can be evaluated.</param.description>
+    <param.screenshot>C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\doc\imagesforwebpage\phase lag design.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Control System Toolbox</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>3</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.14</item>
+      <item>10.13</item>
+      <item>9.3</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>8ae90c2a-e311-4298-91c6-c17b6f5cff93</param.guid>
+    <unset>
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\lag_design_phase_margin.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\lag_design_with_bode.m</file>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\lag_design_phase_margin_manual.mlx</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lag design with phase margin and offset" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lag design with phase margin and offset\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

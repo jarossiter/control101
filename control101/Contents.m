@@ -21,7 +21,6 @@
 %   <a href="matlab: dcservo_and_position_control">dcservo_and_position_control</a>                       
 %   <a href="matlab: firstordermodel_behaviour">firstordermodel_behaviour</a>                       
 %   <a href="matlab: firstordermodels_response_characterisation">firstordermodels_response_characterisation</a> 
-%   <a href="matlab: frequency_response_time_behaviour">frequency_response_time_behaviour</a> 
 %   <a href="matlab: HeatExchanger">HeatExchanger</a>                     
 %   <a href="matlab: housetemperature_and_behaviour">housetemperature_and_behaviour</a>                     
 %   <a href="matlab: housetemperature_story">housetemperature_story</a>                     
@@ -32,6 +31,13 @@
 %   <a href="matlab: tanklevel_story">tanklevel_story</a>
 %   <a href="matlab: behaviours">behaviours</a>
 %   <a href="matlab: pi_tuning">pi_tuning</a>
+%  
+%   FREQUENCY RESPONSE METHODS
+%   <a href="matlab: frequency_response_time_behaviour">frequency_response_time_behaviour</a> 
+%   <a href="matlab: proportional_design_phase_margin">proportional_design_phase_margin</a>
+%   <a href="matlab: lag_design_phase_margin">lag_design_phase_margin</a>
+%   <a href="matlab: lead_design_phase_margin">lead_design_phase_margin</a>
+%   <a href="matlab: lead_lag_design_phase_margin">lead_lag_design_phase_margin</a>
 %
 %
 % Livescript files for learning control basics alongside simple MATLAB code
@@ -45,25 +51,31 @@
 %   <a href="matlab: closed_vs_openloop_overlay">closed_vs_openloop_overlay</a>                                
 %   <a href="matlab: closedloop_offset_and_poles">closedloop_offset_and_poles</a>                               
 %   <a href="matlab: closedloop_transferfunctions_with_feedback">closedloop_transferfunctions_with_feedback</a>                
-%   <a href="matlab: delays_and_bode">delays_and_bode</a>                                                                          
-%   <a href="matlab: discrete_models_and_usage">discrete_models_and_usage</a>                                 
-%   <a href="matlab: discretisation_and_bode">discretisation_and_bode</a>                                   
 %   <a href="matlab: firstordermodels_in_matlab">firstordermodels_in_matlab</a>                                
 %   <a href="matlab: firstordermodels_responses_analysis_and_feedback">firstordermodels_responses_analysis_and_feedback</a>          
-%   <a href="matlab: freq_responses_with_matlab">freq_responses_with_matlab</a>                                
-%   <a href="matlab: lag_design_with_bode">lag_design_with_bode</a>                                      
 %   <a href="matlab: laplace_transforms_with_matlab">laplace_transforms_with_matlab</a>                            
-%   <a href="matlab: lead_design_with_bode">lead_design_with_bode</a>                                     
-%   <a href="matlab: lead_lag_design_with_bode">lead_lag_design_with_bode</a>                                 
 %   <a href="matlab: partial_fractions_with_matlab">partial_fractions_with_matlab</a>                                                                   
 %   <a href="matlab: plotting_with_matlab">plotting_with_matlab</a>                                      
-%   <a href="matlab: proportional_design_with_bode">proportional_design_with_bode</a>                             
 %   <a href="matlab: secondordermodels_and_underdamping">secondordermodels_and_underdamping</a>                        
 %   <a href="matlab: secondordermodels_in_matlab">secondordermodels_in_matlab</a>                               
 %   <a href="matlab: step_responses_with_matlab">step_responses_with_matlab</a>                                
-%   <a href="matlab: time_series_models">time_series_models</a>                                        
-%   <a href="matlab: time_series_models_and_recursion">time_series_models_and_recursion</a>                          
 %   <a href="matlab: transferfunctions_and_behaviours">transferfunctions_and_behaviours</a>                          
 %   <a href="matlab: transferfunctions_and_poles">transferfunctions_and_poles</a>                               
+% 
+%  FREQUENCY RESPONSE METHODS
+%   <a href="matlab: freq_responses_with_matlab">freq_responses_with_matlab</a>                                
+%   <a href="matlab: proportional_design_with_bode">proportional_design_with_bode</a>                             
+%   <a href="matlab: lag_design_with_bode">lag_design_with_bode</a>   
+%   <a href="matlab: lead_design_with_bode">lead_design_with_bode</a>                                     
+%   <a href="matlab: lead_lag_design_with_bode">lead_lag_design_with_bode</a>                                 
+%
+%  DISCRETE MODELS AND METHODS
+%   <a href="matlab: time_series_models">time_series_models</a>                                        
+%   <a href="matlab: time_series_models_and_recursion">time_series_models_and_recursion</a>  
+%   <a href="matlab: delays_and_bode">delays_and_bode</a>                                                                          
+%   <a href="matlab: discrete_models_and_usage">discrete_models_and_usage</a>                                 
+%   <a href="matlab: discretisation_and_bode">discretisation_and_bode</a>
+%   <a href="matlab: discrete_models_and_discrete_PID_controller_design">discrete_models_and_discrete_PID_controller_design</a>
+
 
 
