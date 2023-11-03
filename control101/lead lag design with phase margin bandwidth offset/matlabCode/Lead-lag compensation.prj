@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1779020897" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lead lag design with phase margin bandwidth offset\matlabCode\Lead-lag compensation.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lead lag design with phase margin bandwidth offset\matlabCode" name="Lead-lag compensation" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="512977101" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lead lag design with phase margin bandwidth offset\matlabCode\Lead-lag compensation.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lead lag design with phase margin bandwidth offset\matlabCode" name="Lead-lag compensation" target="target.mlapps" target-name="Package App">
     <param.appname>Lead-lag compensation</param.appname>
     <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
