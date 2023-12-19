@@ -75,7 +75,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 Several people have developed MATLAB based materials to support the teaching of “Control Systems 101” type courses; the particular focus here is on interactive and animated resources which are largely self-explanatory, that is easy and quick to use, and support student understanding and learning at an introductory level. They demonstrate authentic scenarios across a broad range of topics which motivate the importance of control to modern society, alongside some technical learning outcomes to support university curricula.
 	<br>
 	<br>
-  The community toolbox project is led by Anthony Rossiter (University of Sheffield) with sponsorship from MathWorks and input from numerous international colleagues. If you have suggestions or possible contributions, please contact Anthony (j.a.rossiter@sheffield.ac.uk).
+  The community toolbox project is led by Anthony Rossiter (University of Sheffield) with sponsorship from MathWorks and input from numerous international colleagues (e.g. Ruth Bars (Budapest University of Technology and Economics , Antonio Visioli (Universita di Brescia), Sebastian Dormido (UNED)). If you have suggestions or possible contributions, please contact Anthony (j.a.rossiter@sheffield.ac.uk).
 <br>
 	<span style="margin-left:10px;"><figure><a href="">
   <img src="imagesforwebpage\blockdiagram.jpg" style="width:500px;border:1px solid #ddd; padding:5px; border-radius:2px; margin-bottom:0px;">
@@ -94,7 +94,7 @@ Several people have developed MATLAB based materials to support the teaching of 
   <br>
   <br>
   A quick list of the available resources is given below, with links to more complete summary information. For a more detailed overview and recent updates, see the website:
-  <a href="website">https://controleducation.sites.sheffield.ac.uk/matlabresources/community-control-toolbox</a>
+  <a href="website">https://controleducation.sites.sheffield.ac.uk/matlabresources/section-6-11-community-control-toolbox</a>
   <br><br>
 	Some youtube videos <a href="videos">https://www.youtube.com/playlist?list=PLs7mcKy_nInHEjth9P3m_bxd6D24IVSzz</a> give quick illustrations of the toolbox and how to use the files.
 	
@@ -236,6 +236,14 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	<tr>
     <td>tanklevel_story                </td> <td>
       This file takes a user through the entire process of modelling, analysing, controller design and final evaluation, for a fluid system, in the presence of multiple forms of uncertainty. </td>
+  </tr>  
+	<tr>
+    <td>PI tuning              </td> <td>
+     An interactive resource to practice using PI design on a number of systems. Users can use the pre-entered systems or enter selections of their own.</td>
+  </tr>  
+	<tr>
+    <td>PID tuning rules              </td> <td>
+     This resource provides an interactive app file (MATLAB virtual laboratory) which allows users to explore and analyse the tuning of a PID compensators using a range of well known tuning methods. </td>
   </tr>  
 	</tr>
 	<tr> <td> 
@@ -391,6 +399,14 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	    <td>  Focuses specifically on how to compute the closed-loop poles and offset (percentage). 
   </td>
       </tr>
+ <tr>
+  <td>
+    <a href="matlab: PID_tuning_methods"><code>PID_tuning_methods.m</code></a>
+    </td>
+	    <td>  Introduces a number of popular rules for tuning PID compensators. 
+  </td>
+      </tr>
+
 <tr> <td> 
 		FREQUENCY RESPONSE METHODS
 		</td>
@@ -435,6 +451,13 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     <a href="matlab: lead_lag_design_with_bode"><code>lead_lag_design_with_bode.m</code></a>
     </td>
 	    <td>This file explains the core steps behind a mechanistic lead-lag design (PM, low freq. gain and bandwidth criteria) and illustrates with examples. Also compares with a lag design and a lead design.
+  </td>
+      </tr>
+<tr>
+  <td>
+    <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation"><code>PID_Cont_Controller_Design_with_Pole_Cancellation.m</code></a>
+    </td>
+	    <td>This file explains the core steps behind a mechanistic PID design using a pole cancellation technique and exploiting frequency response methods. 
   </td>
       </tr>
 	  <tr>
@@ -728,6 +751,20 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
       </td>
     
   </tr>
+
+<tr>
+    <td>
+      <b> PID tuning methods</b><br>
+      <a href="matlab: pidtuningrules"><code>pidtuningrules.mlapp</code>
+        <br><img src = "imagesforwebpage\pidtuningrules.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
+      </td>
+    <td>
+      <p style="word-wrap: break-word; max-width: 50ch">
+        Allows the user to practice using some standard PID tuning methods on a range of simple systems with fixed dynamics. Inlcudes Ziegler Nichols, Cohen Coon, Amigo, One third, Skogestad and Lambda tuning.
+        </p>
+      </td>
+    
+  </tr>
   
   <tr>
     <td>
@@ -809,7 +846,7 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 <tr>
     <td>
       <b> Lead compensator design using frequency domain methods with phase margin and bandwidth criteria</b><br>
-      <a href="matlab: lead_design_phase_margin"><code>lag_design_phase_margin.mlapp</code>
+      <a href="matlab: lead_design_phase_margin"><code>lead_design_phase_margin.mlapp</code>
         <br><img src = "imagesforwebpage/lead_app.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
       </td>
     <td>
@@ -823,7 +860,7 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 <tr>
     <td>
       <b> Lead-Lag compensator design using frequency domain methods with phase margin, bandwidth and low frequency gain criteria</b><br>
-      <a href="matlab: lag_design_phase_margin"><code>lag_design_phase_margin.mlapp</code>
+      <a href="matlab: lead_lag_design_phase_margin"><code>lead_lag_design_phase_margin.mlapp</code>
         <br><img src = "imagesforwebpage/leadlagpic.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
       </td>
     <td>

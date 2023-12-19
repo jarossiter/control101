@@ -1,0 +1,18 @@
+Feedback analysis
+Feedback design
+Closed-loop behaviour
+PI tuning
+PID tuning
+Ziegler Nichols
+Cohen Coon
+AMIGO
+Lambda tuning
+Skogestad
+Control education
+MATLAB
+System behaviour
+Step responses
+Disturbance rejection
+Offset
+Stability
+Closed-loop poles
