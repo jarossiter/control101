@@ -18,6 +18,8 @@ i) the mlapp file which is the laboratory itself and ii) a partner livescript fi
 
 2) Livescript files which focus more on useful MATLAB code students can use to create their own files to support detailed analysis, evaluation and design, as required for university courses. These files are  summarised in section 6.9.
 
+3) Simulink files supporting an introduction to modelling, simulation and control, with a focus on basic simulink elelemnts, non-linearity and passing data to and from the MATLAB command window workspace.
+
 If you spot any obvious typos or areas where apps can be made better, please contact Anthony so he can consider for future releases.
 
 Cite As

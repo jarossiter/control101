@@ -109,7 +109,7 @@ Several people have developed MATLAB based materials to support the teaching of 
 
 	
 <p style="font-family:Arial"><span style="font-size:12pt"><span style="font-size:14pt"><br>
-  <br>These softlinks are in sections 2 and 3  below.</span>
+  <br>These softlinks are in sections 2-4  below.</span>
   <br>
   <br>
 </span></p>
@@ -119,9 +119,10 @@ Several people have developed MATLAB based materials to support the teaching of 
 	This webpage has the following sections.
 	<ol>
 	<li> <a href="#getting">Getting started</a></li>
-	<li><a href="#content">Contents list</a></li>
+	<li><a href="#content">Contents list and soft links for the livescript files</a></li>
 	<li><a href="#labs">Summary of virtual laboratories and softlinks to run files</a></li>
-<!--...	  <li><a href="#live">Summary of livescript files and softlinks to run files</a></li>     -->
+	<li><a href="#simulink">Summary of files using simulink</a></li>
+	<!--...	  <li><a href="#live">Summary of livescript files and softlinks to run files</a></li>     -->
 	</ol>
 	<br>
 	
@@ -244,6 +245,10 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	<tr>
     <td>PID tuning rules              </td> <td>
      This resource provides an interactive app file (MATLAB virtual laboratory) which allows users to explore and analyse the tuning of a PID compensators using a range of well known tuning methods. </td>
+  </tr>  
+	<tr>
+    <td>Predator prey models and behaviours             </td> <td>
+     This resource provides an interactive app file which allows users to explore and analyse the behaviour of a common non-linear model representating populations of predators and prey. </td>
   </tr>  
 	</tr>
 	<tr> <td> 
@@ -468,7 +473,7 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
   </td>
       </tr>
 	  <tr>
-	    <td> DISCRETE MODEL METHODS</td>
+	    <td> DISCRETE MODEL AND ADVANCED METHODS</td>
   <td>THE FILES BELOW LINK TO DISCRETE SYSTEMS BUT ONLY DO SO AT A RELATIVELY SUPERFICIAL LEVEL AS THIS IS MORE LINKED TO AWARENESS RAISING THAN MEETING THE FORMAL TEACHING REQUIREMENTS NEEDED IN HIGHER LEVEL COURSES</td></tr>
 	  <tr>
   <td>
@@ -503,6 +508,13 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     <a href="matlab: discrete_models_and_discrete_PID_controller_design"><code>discrete_models_and_discrete_PID_controller_design.m</code></a>
     </td>
 	    <td> This file then focuses on how PID  design can be performed in the discrete case using a pole cancellation technique.
+  </td>
+      </tr>
+<tr>
+  <td>
+    <a href="matlab: Youla_continuous_controller_design"><code>Youla_continuous_controller_design.m</code></a>
+    </td>
+	    <td> Advanced approaches to compensator design to take more explicit account of sensitivity to uncertainty.
   </td>
       </tr>
 	  
@@ -700,6 +712,22 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     
   </tr>
   
+<tr>
+    <td>
+      <b>Behaviours of non-linear models: Predator-prey systems</b><br>
+      <a href="matlab: Predator_prey_model"><code>Predator_prey_model.mlapp</code>
+        <br><img src = "imagesforwebpage\predatorpreyimage.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
+      </td>
+    <td>
+      <p style="word-wrap: break-word; max-width: 50ch">
+        Predator prey models are an example of a non-linear ystem. Non-linear systems have far more complex and sometimes complicated behaviour compared to linear systems and at times appear to behave in a somewhat chaotic fashion.  This scenario also implicitly contains feedback between the different model states. The scenarios and choices in the app allow for relatively simple changes in the parameters, but these are enough for users to observe and understand the associated complexity of the behaviours. 
+      
+      
+      </p>
+      
+</td>
+    
+  </tr>
   
   <tr>
     <td>
@@ -896,12 +924,122 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 </table>
 	<br>
 <br>
+<h2 id = simulink> 4. Simulink files </h2>
+This section is intended to introduce users to simulink and its use for supporting modelling, simulation and control. As befits a control101 course, the emphasis is on simple or low complexity models and straightforward simulink components and usage. The files available and some soft links are summarised here.
+<br><br>
 
-	<br>
+The associated simulink files will not always open automatically, but their names are given within the associated livescript file and you can open them with the command: &gt;&gt; open filename.slx <br>
 <br>
+<br>
+	<span style="margin-left:10px;"><figure><a href="">
+  <img src="imagesforwebpage/myfirstsimulinkfilec_control101.jpg" style="width:500px;border:1px solid #ddd; padding:5px; border-radius:2px; margin-bottom:0px;">
+  <figcaption>Illustration of a simple Simulink Diagram</figcaption>
+		</a></figure></span>
+	</span></span>
+<br>
+
+<table border=1 style="margin-left:20px; cellpadding:15px;">
+  <tr>
+    <th>File name</th>
+    <th>Learning goals</th>
+    
+  </tr>
+		<tr> 
+		<td><br><br></td>
+			<td>FILES USING A VIRTUAL LABORATORY AND APP INTERFACE</td>
+		
+	</tr>
+  <tr>
+    <td>
+      <a href="matlab: myfirstsimulink_control101 "><code>myfirstsimulink_control101.mlapp</code></a>
+      </td>
+    <td> Two other files are opened automatically: i) the manual (myfirstsimulinkfile_control101_manual.mlx 
+) which gives detailed step-by-step instructions and ii) a simulink file containing the components required for the tasks. Introduces  students to the concept of constructing the block diagrams within the simulink window, while not exposing them too much to data entry and simulation. The tasks encourage the user to become familiar with a limited toolset and also how data is returned to the workspace.</td>
+    </tr>
+	  
+ 
+
+	<tr> <td></td><td> 
+		LIVESCRIPT AND M-FILES<br> The soft links below open the livescript which includes detailed instructions and code snippets to run the underlying simulink files.
+		</td>
+	</tr>
+	  <tr>
+  <td>
+    <a href="matlab: intro_to_simulink_for_system_behaviour"><code>intro_to_simulink_for_system_behaviour.m</code></a>
+    </td>
+	    <td> 
+       A brief introduction to the use of simulink to model systems with some simple components. Also shows how integration with MATLAB code can make running the simulink file very efficient to allow systematic investigations for a range of parameter values. 
+Makes use of the following paired files which are clearly called within the main livescript file:
+simulink_openloop_model_control101.slx, 
+simulink_openloop_model_control101_script.m, 
+simulink_openloop_modelb_control101.slx, simulink_openloop_modelb_control101_script.m, 
+simulink_openloop_modelc_control101.slx, simulink_openloop_modeld_control101_script.m,
+simulink_openloop_modeld_control101.slx, simulink_openloop_modeld_control101_script.m.
+	    </td></tr>
+	<tr>
+  <td>
+    <a href="matlab:hydraulic_system_simulink_control101 "><code>hydraulic_system_simulink_control101.m</code></a>
+    </td>
+	    <td> Simulink offers the opportunity to consider different arrangements of tanks and to manage the interconnections without having to manipulate into a single large state-space model for simulation in MATLAB, as well as the chance to add non-linear components ass required. This resource  compares parallel and series arrangements of tanks (Hydraulic_System_control101.slx,        Hydraulic_Systemb_control101.slx). The required parameter values definition, simulation and plotting are handled within the  livescript.
+
+  </td>
+    </tr>
+	  <tr>
+  <td>
+    <a href="matlab:car_suspension_simulink_control101"><code>car_suspension_simulink_control101.m</code></a>
+    </td>
+	    <td> Introduces a car suspension scenario where the car drives over a ramp in the road at different speeds. It also illustrates common sources and sinks that can be used for importing and exporting data.  It also shows how deviation variables can be defined  within the model and corrected to absolute values for plotting.  All the simulation variables, model data and simulation are handled within the livescript. The simulink file is: car_suspension_control101.mlx
+  </td>
+      </tr>
+	<tr>
+  <td>
+    <a href="matlab:submersible_system_simulink_control101"><code>submersible_system_simulink_control101 .m</code></a>
+    </td>
+	    <td> The file  is a brief introduction to the use of simulink to model and simulate a simple autonomous underwater vehicle; there are some non-linear elements. Simulink allows a simple and transparent implementation of the state dependencies with these nonlinear components, using transfer function blocks and lines as shown in the two simulink files:submersible_System_control101.slx,          submersible_System_nonlinear_control101.slx
+  </td>
+    </tr>
+	  <tr>
+  <td>
+    <a href="matlab: heating_system_simulink_control101"><code>heating_system_simulink_control101.m</code></a>
+    </td>
+	    <td> This illustration shows how using simulink allows the easy inclusion of non-linear, or other, components which are not so simple to enter into MATLAB code. The code here introduces two forms of non-linearity, that is delay and dead-zones when switching sign. The simulink model is in the file: 
+Heating_System_control101.slx 
+  </td>
+      </tr>
+	<tr>
+  <td>
+    <a href="matlab:position_system_simulink_control101"><code>position_system_simulink_control101.m</code></a>
+    </td>
+	    <td> A brief introduction to the use of simulink to model and simulate a simple position system which uses a DC motor to move a lever. Allows systematic investigations for a range of parameter values and  the inclusion of non-linear components. This livescript file defines the required parameters and runs the simulations within sections. It makes use of the following 3 simulink files:
+Position_system_control101.slx, 
+Position_system_saturation_control101.slx, 
+Position_system_backlash_control101.slx 
+  </td>
+    </tr>
+	
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </span>
 </span>
-</p><p>Copyright 2023 The MathWorks&#8482;, Inc.</p><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023a</a><br></p></div><!--
+</p><p>Copyright 2024 The MathWorks&#8482;, Inc.</p><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2024a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Virtual Controls Laboratory
 %

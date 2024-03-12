@@ -29,6 +29,7 @@
 %   <a href="matlab: tanklevelbehaviour">tanklevelbehaviour</a>
 %   <a href="matlab: tanklevel_story">tanklevel_story</a>
 %   <a href="matlab: behaviours">behaviours</a>
+%   <a href="matlab: Predator_prey_model">Predator_prey_model</a>
 %   <a href="matlab: pi_tuning">pi_tuning</a>
 %   <a href="matlab: pidtuningrules">pidtuningrules</a>
 %  
@@ -62,6 +63,8 @@
 %   <a href="matlab: transferfunctions_and_behaviours">transferfunctions_and_behaviours</a>                          
 %   <a href="matlab: transferfunctions_and_poles">transferfunctions_and_poles</a>   
 %   <a href="matlab: PID_tuning_methods">PID_tuning_methods</a>
+%   <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation">PID_Cont_Controller_Design_with_Pole_Cancellation</a>
+%
 % 
 %  FREQUENCY RESPONSE METHODS
 %   <a href="matlab: freq_responses_with_matlab">freq_responses_with_matlab</a>                                
@@ -72,13 +75,22 @@
 %   <a href="matlab: lead_lag_design_with_bode">lead_lag_design_with_bode</a>          
 %   <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation">PID_Cont_Controller_Design_with_Pole_Cancellation</a>
 %
-%  DISCRETE MODELS AND METHODS
+%  DISCRETE MODELS AND ADVANCED METHODS
 %   <a href="matlab: time_series_models">time_series_models</a>                                        
 %   <a href="matlab: time_series_models_and_recursion">time_series_models_and_recursion</a>  
 %   <a href="matlab: delays_and_bode">delays_and_bode</a>                                                                          
 %   <a href="matlab: discrete_models_and_usage">discrete_models_and_usage</a>                                 
 %   <a href="matlab: discretisation_and_bode">discretisation_and_bode</a>
 %   <a href="matlab: discrete_models_and_discrete_PID_controller_design">discrete_models_and_discrete_PID_controller_design</a>
-
-
-
+%   <a href="matlab: Youla_continuous_controller_design">Youla_continuous_controller_design</a>
+%
+%
+%  SIMULINK FILES AND THEIR USE FOR MODELLING, SIMULATION AND CONTROL
+%
+%   <a href="matlab: myfirstsimulink_control101 ">myfirstsimulink_control101</a>
+%   <a href="matlab: intro_to_simulink_for_system_behaviour">intro_to_simulink_for_system_behaviour</a>
+%   <a href="matlab: hydraulic_system_simulink_control101 ">hydraulic_system_simulink_control101</a>
+%   <a href="matlab: car_suspension_simulink_control101">car_suspension_simulink_control101</a>
+%   <a href="matlab: heating_system_simulink_control101">heating_system_simulink_control101</a>
+%   <a href="matlab: submersible_system_simulink_control101">submersible_system_simulink_control101</a>
+%   <a href="matlab: position_system_simulink_control101">position_system_simulink_control101</a>

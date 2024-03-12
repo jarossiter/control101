@@ -1,0 +1,72 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3560559101" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\predator prey\matlabCode\Predator prey.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\predator prey\matlabCode" name="Predator prey" target="target.mlapps" target-name="Package App">
+    <param.appname>Predator prey</param.appname>
+    <param.authnamewatermark>Zeyu Song</param.authnamewatermark>
+    <param.email>zsong24@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon>${PROJECT_ROOT}\Predator prey_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Predator prey_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Predator prey_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Predator prey_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Explore the behaviour of simple predator prey models</param.summary>
+    <param.description>Predator prey models are an example of a non-linear ystem. Non-linear systems have far more complex and sometimes complicated behaviour compared to linear systems and at times appear to behave in a somewhat chaotic fashion.  This scenario also implicitly contains feedback between the different model states. The scenarios and choices in the app allow for relatively simple changes in the parameters, but these are enough for users to observe and understand the associated complexity of the behaviours.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\predatorpreyimage.jpg</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Control System Toolbox</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>3</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.14</item>
+      <item>10.13</item>
+      <item>9.3</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>a1b46c93-d44d-47f5-854b-4888a3840db3</param.guid>
+    <unset>
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Predator_prey_model.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\predator prey" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\predator prey\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

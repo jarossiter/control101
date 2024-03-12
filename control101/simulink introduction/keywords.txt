@@ -1,0 +1,26 @@
+Control education
+MATLAB
+System behaviour
+Feedback
+Control analysis
+Control design
+Disturbance rejection
+PI tuning
+Step responses
+Time constant
+System gain
+Damping ratio
+Natural frequency
+Lead-lag design
+Bode diagrams
+Frequency response
+Transfer functions
+Poles and zeros
+Stability
+Discretisation
+Delays
+Simulink
+Non-linear models
+Simulation
+
+

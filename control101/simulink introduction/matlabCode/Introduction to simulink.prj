@@ -1,0 +1,73 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="905267003" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\simulink introduction\matlabCode\Introduction to simulink.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\simulink introduction\matlabCode" name="Introduction to simulink" target="target.mlapps" target-name="Package App">
+    <param.appname>Introduction to simulink</param.appname>
+    <param.authnamewatermark>J A rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon>${PROJECT_ROOT}\Introduction to simulink_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Introduction to simulink_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Introduction to simulink_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Introduction to simulink_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Introduces users to simulink using a small subset of common blocks.</param.summary>
+    <param.description>Simulink is a powerful tool within the MATLAB suite for modelling and simulating system behaviour, especially where the interconnections are complicated and/or there are non-linear components. Being a visual environment, it is straightforward to see how different components relate to each other and thus to construct models representing complex systems.
+
+It is  not the purpose of this section to give an introductory or detailed tutorial to simulink which are available on 'onramp'. Rather the purpose here is to give examples of focused case studies which illustrate some simple scenarios that are directly relevant to a modelling, dynamics and control undergraduate course. It is hoped that, for someone already competent in the use of MATLAB, these simple examples will be enough for students to make progress with any basic requirements. The livescript files all have more detailed explanation of the context, tasks and programming.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\simulinkapp.jpg</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>e671c859-72f4-45c4-88ca-25d7fe82cb33</param.guid>
+    <unset>
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\myfirstsimulink_control101.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\myfirstsimulinkfile_control101.jpg</file>
+      <file>${PROJECT_ROOT}\myfirstsimulinkfile_control101.slx</file>
+      <file>${PROJECT_ROOT}\myfirstsimulinkfileb_control101.jpg</file>
+      <file>${PROJECT_ROOT}\myfirstsimulinkfileb_control101.slx</file>
+      <file>${PROJECT_ROOT}\myfirstsimulinkfilec_control101.jpg</file>
+      <file>${PROJECT_ROOT}\myfirstsimulinkfilec_control101.slx</file>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\myfirstsimulinkfile_control101_task1.slx</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\simulink introduction" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\simulink introduction\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

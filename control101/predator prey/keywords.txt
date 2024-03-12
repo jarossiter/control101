@@ -1,0 +1,10 @@
+Predator-prey models
+Non-linear models
+Non-lienar dynamics
+Feedback
+Closed-loop behaviour
+Control education
+MATLAB
+System behaviour
+
+
