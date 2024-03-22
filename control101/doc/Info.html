@@ -276,6 +276,10 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     <td>lead_lag_design_phase_margin                </td> <td>
       This file allows a user to practise simple lead-lag compensator design using frequency response methods and in particular to focus on achieving, in order specified: bandwidth, phase margin and low frequency gain. </td>
   </tr>  
+	<tr>
+    <td>lead_lag_design_criteria                </td> <td>
+      This file builds the compensators automatically based solely on the performance criteria (bandwidth, PM and offset) and presents a comparison of the behaviours with the different compensator approaches (proportional, lag, lead, lead-lag). </td>
+  </tr>  
 	</tr>
 	 
 </table>                                 
@@ -456,6 +460,13 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     <a href="matlab: lead_lag_design_with_bode"><code>lead_lag_design_with_bode.m</code></a>
     </td>
 	    <td>This file explains the core steps behind a mechanistic lead-lag design (PM, low freq. gain and bandwidth criteria) and illustrates with examples. Also compares with a lag design and a lead design.
+  </td>
+      </tr>
+ <tr>
+  <td>
+    <a href="matlab: lead_lag_design_with_criteria"><code>lead_lag_design_with_criteria.m</code></a>
+    </td>
+	    <td>This file provides code to perform the mechanistic proportional, lag, lead and lead-lag designs based on criteria (PM, low freq. gain and bandwidth criteria) and illustrates with examples. 
   </td>
       </tr>
 <tr>
@@ -894,6 +905,20 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     <td>
       <p style="word-wrap: break-word; max-width: 50ch">
        This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how to perform a simple lead-lag compensator feedback design using Bode diagrams with a phase margin, bandwidth and low frequency gain criteria. The app includes a number of pre-coded examples and allows the user to investigate both how to meet the requirements and the impact of this on closed-loop behaviour. The manual and app also give guidance on a mechanistic design to achieve the specified criteria. The low frequency gain criteria takes two alternative forms depending upon whether the system includes and integrator or not. For completeness the behaviour with the lead-lag compensator is compared with a simple gain design and a lead compensator only so the differences can be evaluated.
+
+        
+      </td>
+    
+  </tr>
+<tr>
+    <td>
+      <b> Comparison of criteria based designs for proportional, lag, lead and lead-lag compensator design </b><br>
+      <a href="matlab: lead_lag_design_criteria"><code>lead_lag_design_criteria.mlapp</code>
+        <br><img src = "imagesforwebpage/criteriaapp.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
+      </td>
+    <td>
+      <p style="word-wrap: break-word; max-width: 50ch">
+       The apps above establish that proportional, lag, lead and lead-lag design can be tied explicitly to the design criteria of phase margin, bandwidth and offset. Consequently, fix the criteria and the design is also fixed. This app allows users to compare and contrast the behaviour and performance of different compensators arising from such a criteria based design approach and indeed, to observe that criteria are not always achievable.
 
         
       </td>

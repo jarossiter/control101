@@ -1,0 +1,75 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2792646063" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lead lag design from criteria\matlabCode\Frequency response design from criteria.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lead lag design from criteria\matlabCode" name="Frequency response design from criteria" target="target.mlapps" target-name="Package App">
+    <param.appname>Frequency response design from criteria</param.appname>
+    <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon>${PROJECT_ROOT}\Frequency response design from criteria_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Frequency response design from criteria_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Frequency response design from criteria_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Frequency response design from criteria_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary />
+    <param.description>The earlier apps  establish that proportional, lag, lead and lead-lag design can be tied explicitly to the design criteria of phase margin, bandwidth and offset. Consequently, fix the criteria and the design is also fixed. This app allows users to compare and contrast the behaviour and performance of different compensators arising from such a criteria based design approach and indeed, to observe that criteria are not always achievable.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\criteriaapp.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Control System Toolbox</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>3</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>23.2</item>
+      <item>23.2</item>
+      <item>23.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>77f804ac-9e51-46ac-b403-820f413330fa</param.guid>
+    <unset>
+      <param.summary />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\lead_lag_design_criteria.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\lead_lag_design_criteria_manual.mlx</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lead lag design from criteria" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\lead lag design from criteria\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

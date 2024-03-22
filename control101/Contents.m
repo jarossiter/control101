@@ -39,6 +39,7 @@
 %   <a href="matlab: lag_design_phase_margin">lag_design_phase_margin</a>
 %   <a href="matlab: lead_design_phase_margin">lead_design_phase_margin</a>
 %   <a href="matlab: lead_lag_design_phase_margin">lead_lag_design_phase_margin</a>
+%   <a href="matlab: lead_lag_design_criteria">lead_lag_design_criteria</a>
 %   <a href="matlab: aeroplane_roll_control">aeroplane_roll_control</a>
 %
 %
@@ -72,7 +73,8 @@
 %   <a href="matlab: proportional_design_with_bode">proportional_design_with_bode</a>                             
 %   <a href="matlab: lag_design_with_bode">lag_design_with_bode</a>   
 %   <a href="matlab: lead_design_with_bode">lead_design_with_bode</a>                                     
-%   <a href="matlab: lead_lag_design_with_bode">lead_lag_design_with_bode</a>          
+%   <a href="matlab: lead_lag_design_with_bode">lead_lag_design_with_bode</a>  
+%   <a href="matlab: lead_lag_design_with_criteria">lead_lag_design_with_criteria</a>
 %   <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation">PID_Cont_Controller_Design_with_Pole_Cancellation</a>
 %
 %  DISCRETE MODELS AND ADVANCED METHODS
