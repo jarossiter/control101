@@ -87,7 +87,8 @@
 %   <a href="matlab: Youla_continuous_controller_design">Youla_continuous_controller_design</a>
 %
 %
-%  SIMULINK FILES AND THEIR USE FOR MODELLING, SIMULATION AND CONTROL
+%  SIMULINK FILES AND THEIR USE FOR MODELLING, SIMULATION AND CONTROL AND
+%  NONLINEARITY
 %
 %   <a href="matlab: myfirstsimulink_control101 ">myfirstsimulink_control101</a>
 %   <a href="matlab: intro_to_simulink_for_system_behaviour">intro_to_simulink_for_system_behaviour</a>
@@ -96,3 +97,24 @@
 %   <a href="matlab: heating_system_simulink_control101">heating_system_simulink_control101</a>
 %   <a href="matlab: submersible_system_simulink_control101">submersible_system_simulink_control101</a>
 %   <a href="matlab: position_system_simulink_control101">position_system_simulink_control101</a>
+%   <a href="matlab: nonlinear_position_control">nonlinear_position_control</a>
+%   <a href="matlab: nonlinear_tank_control_control101">nonlinear_tank_control_control101</a>
+%
+% STATE SPACE SYSTEMS AND INTRODUCTURY ANALYSIS
+%
+%   <a href="matlab: statespace_models_control101">statespace_models_control101</a>
+%   <a href="matlab: statespace_models_from_tf_control101">statespace_models_from_tf_control101</a>
+%   <a href="matlab: tf_models_from_statespace_control101">tf_models_from_statespace_control101</a>
+%   <a href="matlab: discrete_time_state_space_models_control101">discrete_time_state_space_models_control101</a>   
+%   <a href="matlab: openloop_behaviour_statespace_control101">openloop_behaviour_statespace_control101</a>   
+%   <a href="matlab: phaseplane_behaviour_statespace_control101">phaseplane_behaviour_statespace_control101</a>  
+%   <a href="matlab: equivalent_state_space_formulations_control101">equivalent_state_space_formulations_control101</a>   
+%   <a href="matlab: controllability_and_observability_control101">controllability_and_observability_control101</a>   
+%   <a href="matlab: state_feedback_control101">state_feedback_control101</a>
+%   <a href="matlab: optimal_state_feedback_control101">optimal_state_feedback_control101</a>
+%   <a href="matlab: observer_design_control101">observer_design_control101</a>
+%   <a href="matlab: tracking_with_statespace_control101">tracking_with_statespace_control101</a>
+%          SIMULINK FILES SUPPORTING STATE SPACE SYSTEMS
+%   <a href="matlab: state_space_and_simulinkfile1_control101">state_space_and_simulinkfile1_control101</a>
+%   <a href="matlab: state_space_and_simulinkfile2_control101">state_space_and_simulinkfile2_control101</a>
+%   <a href="matlab: state_space_and_simulinkfile3_control101">state_space_and_simulinkfile3_control101</a>

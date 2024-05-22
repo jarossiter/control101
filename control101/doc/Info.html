@@ -67,51 +67,55 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><h1>Control 101 Toolbox</h1>
+  </style></head>
+	
+	
+	<body><div class="content"><h1>Control 101 Toolbox</h1>
     <p>
+<h2> Introductory information </h2>		
 <span style="font-family:Arial">
 <span style="font-size:12pt">
-<h2> Introductory information </h2>
+
 Several people have developed MATLAB based materials to support the teaching of “Control Systems 101” type courses; the particular focus here is on interactive and animated resources which are largely self-explanatory, that is easy and quick to use, and support student understanding and learning at an introductory level. They demonstrate authentic scenarios across a broad range of topics which motivate the importance of control to modern society, alongside some technical learning outcomes to support university curricula.
 	<br>
 	<br>
   The community toolbox project is led by Anthony Rossiter (University of Sheffield) with sponsorship from MathWorks and input from numerous international colleagues (e.g. Ruth Bars (Budapest University of Technology and Economics , Antonio Visioli (Universita di Brescia), Sebastian Dormido (UNED)). If you have suggestions or possible contributions, please contact Anthony (j.a.rossiter@sheffield.ac.uk).
+	</span></span>
 <br>
+		
 	<span style="margin-left:10px;"><figure><a href="">
   <img src="imagesforwebpage\blockdiagram.jpg" style="width:500px;border:1px solid #ddd; padding:5px; border-radius:2px; margin-bottom:0px;">
   <figcaption>Illustration of a simple feedback loop</figcaption>
 		</a></figure></span>
-	</span></span>
 	
-<p style="font-family:Arial"><span style="font-size:12pt">
-  <br>
-  Resources are divided into:
-  <br>
-  1. <strong>Virtual laboratories</strong> which have simple GUI interfaces so students can select buttons and sliders to observe the behaviour of some authentic scenarios and see how different parameter choices affect behaviour. Each virtual laboratory comprises two files which run independently: i) the mlapp file which is the laboratory itself and ii) a partner livescript file which acts like a concise manual giving context, illustrative MATLAB source code and some technical background.  Naming conventions are largely self-evident. For example, a typical naming convention for the paired app files is: mixingtank_and_behaviour.mlapp and mixingtank_and_behaviour_manual.mlx. If accessing the apps via the installed toolbox and thus installed apps toolbar, the manual (mlx file) will be opened simultaneously. This link relies on correct path selection, so users who did not install the toolbox, but rather just copied all the files, will need to ensure the relevant folder is on the path.
-  
-  <br>
-  2. <strong>Livescript files</strong> which focus more on useful MATLAB code students can use to create their own files to support detailed analysis, evaluation and design, as required for university courses and assignments.   If accessing the livescript files via the installed toolbox, typing the file name  will open a livescript with the filename ending "_mycopy" in the current working directory, so the user can easily make and save any changes.
-  <br>
-  <br>
-  A quick list of the available resources is given below, with links to more complete summary information. For a more detailed overview and recent updates, see the website:
-  <a href="website">https://controleducation.sites.sheffield.ac.uk/matlabresources/section-6-11-community-control-toolbox</a>
-  <br><br>
-	Some youtube videos <a href="videos">https://www.youtube.com/playlist?list=PLs7mcKy_nInHEjth9P3m_bxd6D24IVSzz</a> give quick illustrations of the toolbox and how to use the files.
 	
-	<br><br>
+<p style="font-family:Arial"><span style="font-size:12pt"> <br>
+  Resources are divided into: <br>
+  1. <strong>Virtual laboratories</strong> which have simple GUI interfaces so students can select buttons and sliders to observe the behaviour of some authentic scenarios and see how different parameter choices affect behaviour. Each virtual laboratory comprises two files which run independently: i) the mlapp file which is the laboratory itself and ii) a partner livescript file which acts like a concise manual giving context, illustrative MATLAB source code and some technical background.  Naming conventions are largely self-evident. For example, a typical naming convention for the paired app files is: mixingtank_and_behaviour.mlapp and mixingtank_and_behaviour_manual.mlx. If accessing the apps via the installed toolbox and thus installed apps toolbar, the manual (mlx file) will be opened simultaneously. This link relies on correct path selection, so users who did not install the toolbox, but rather just copied all the files, will need to ensure the relevant folder is on the path. <br>
+  2. <strong>Livescript files</strong> which focus more on useful MATLAB code students can use to create their own files to support detailed analysis, evaluation and design, as required for university courses and assignments.   If accessing the livescript files via the installed toolbox, typing the file name  will open a livescript with the filename ending "_mycopy" in the current working directory, so the user can easily make and save any changes.<br>
+	2. <strong>Simulink files</strong> which support the simulation and analysis of scenarios where there are non-linear components and/or it may be difficult to code a model using simple script files.
+	</span></p>
+<p style="font-family:Arial"><span style="font-size:12pt"><br>
+  <br>
+  A quick list of the available resources is given below, with links to more complete summary information. For a more detailed overview and recent updates, see the website: <a href="website">https://controleducation.sites.sheffield.ac.uk/matlabresources/section-6-11-community-control-toolbox</a> <br>
+  <br>
+  Some youtube videos <a href="videos">https://www.youtube.com/playlist?list=PLs7mcKy_nInHEjth9P3m_bxd6D24IVSzz</a> give quick illustrations of the toolbox and how to use the files. <br>
+  <br>
+</span></p>
+  	
+	<br>
   <span style="font-size:14pt">
     Within the MATLAB command window:   <ul><br>  <li>   <strong>doc Control101 Toolbox</strong>,    will open a separate window which provides
     softlinks/shortcuts to run to all the files.</li>
 	  <li><strong>help control101 </strong> also works, if the toolbox is installed but opens in the command window so is less convenient.</li>
 	  </ul>
-	</span>
-    </span></span></p>
+	</span></p>
 
 	
 <p style="font-family:Arial"><span style="font-size:12pt"><span style="font-size:14pt"><br>
-  <br>These softlinks are in sections 2-4  below.</span>
+  <br>The softlinks in sections 2-4  below will run the files if the toolbox has been installed and MATLAB is open.</span>
   <br>
-  <br>
+
 </span></p>
 <span style="font-family:Arial"><span style="font-size:12pt">
 	<h2>Index</h2>
@@ -125,9 +129,7 @@ Several people have developed MATLAB based materials to support the teaching of 
 	<!--...	  <li><a href="#live">Summary of livescript files and softlinks to run files</a></li>     -->
 	</ol>
 	<br>
-	
-	
-	
+		
 	
 <h2 id = getting> 1. Getting started </h2>
 We assume that the user has downloaded the toolbox from the add-ons button within MATLAB. The toolbox is searched for using the tag 'Control 101' or 'Control101' under the add-ons button.
@@ -281,7 +283,17 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
       This file builds the compensators automatically based solely on the performance criteria (bandwidth, PM and offset) and presents a comparison of the behaviours with the different compensator approaches (proportional, lag, lead, lead-lag). </td>
   </tr>  
 	</tr>
-	 
+	<tr><td>SIMULINK FILES</td></tr>
+	<tr>
+    <td>nonlinear_position_control                </td> <td>
+      This file allows a user to explore the non-linear components in a position control system and their impact on behaviour. </td>
+  </tr>  
+	<tr>
+    <td>nonlinear_tank_control_control101                </td> <td>
+       This file allows a user to explore the non-linear components in a tank level system and their impact on both open-loop and closed-loop behaviour. </td>
+  </tr>  
+	</tr>
+
 </table>                                 
 
 <br> <br>
@@ -528,7 +540,148 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	    <td> Advanced approaches to compensator design to take more explicit account of sensitivity to uncertainty.
   </td>
       </tr>
-	  
+	   <tr>
+	    <td> STATE SPACE METHODS</td>
+  <td>A series of files covering an introduction to state space models, their analysis and asociated use with feedback.</td></tr>
+
+
+<tr>
+  <td>
+    <a href="matlab: statespace_models_control101"><code>statespace_models_control101.m</code></a>
+    </td>
+	    <td> Advanced approaches to compensator design to take more explicit account of sensitivity to uncertainty.
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: statespace_models_from_tf_control101"><code>statespace_models_from_tf_control101.m</code></a>
+    </td>
+	    <td> This file focuses on how equivalent state space models can be determined from transfer function models, both continuous and discrete.
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: tf_models_from_statespace_control101"><code>tf_models_from_statespace_control101.m</code></a>
+    </td>
+	    <td> This file focuses on how equivalent transfer function models can be determined from state space models, both continuous and discrete.
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: discrete_time_state_space_models_control101"><code>discrete_time_state_space_models_control101.m</code></a>
+    </td>
+	    <td> This file focuses on how to determine a discrete time state space model, given one already has the continuous time model. Some brief theoretical background is given before focussing on the code.
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: statespace_models_from_tf_control101 "><code>statespace_models_from_tf_control101 .m</code></a>
+    </td>
+	    <td> This file focuses on how equivalent state space models can be determined from a transfer function model, both continuous and discrete.
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: openloop_behaviour_statespace_control101"><code>openloop_behaviour_statespace_control101.m</code></a>
+    </td>
+	    <td> This file focuses on how to infer and explore the expected open-loop behaviour of a state space models, both continuous and discrete.
+
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: phaseplane_behaviour_statespace_control101"><code>phaseplane_behaviour_statespace_control101.m</code></a>
+    </td>
+	    <td> This file focuses on how to infer the expected open-loop behaviour of a state space models, within the phase plane, that is the behaviour of the states rather than the inputs and the outputs. It is interesting to note how this behaviour can be linked to the eigenvalue/vector decomposition of the state matrix.
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: equivalent_state_space_formulations_control101"><code>equivalent_state_space_formulations_control101.m</code></a>
+    </td>
+	    <td> This file focuses on equivalent forms, that is, state space models which appear different but have the same input-output behaviour. The file gives a brief overview of the underlying relationships and then gives MATLAB code for showing the relationships between two equivalent forms. 
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: controllability_and_observability_control101"><code>controllability_and_observability_control101.m</code></a>
+    </td>
+	    <td> Controllability and observability are important properties of state space models which determine the extent to which effective state feedback compensators and observers can be implemented.  
+
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: state_feedback_control101"><code>state_feedback_control101.m</code></a>
+    </td>
+	    <td> When a system is expressed as a state space model, it is normal to design the closed-loop compensator as a state feedback. This file gives an introduction to the topic and  relevant MATLAB code to support the associated design and analysis.
+
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: optimal_state_feedback_control101 "><code>optimal_state_feedback_control101.m</code></a>
+    </td>
+	    <td> When a system is expressed as a state space model, it is normal to design the closed-loop compensator as a state feedback. This file gives an introduction to the popular method of 'optimal control'. 
+
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: observer_design_control101"><code>observer_design_control101.m</code></a>
+    </td>
+	    <td> In practice the states are not known and need to be inferred or estimated from available measurements; an observer is used for this process. This fie introduces the concept of the observer quickly and then focuses on how to use MATLAB to support his approach.
+
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: tracking_with_statespace_control101 "><code>tracking_with_statespace_control101.m</code></a>
+    </td>
+	    <td> This resource introduces simple methods for dealing with non-zero constant targets and then looks more systematically at how integral action can be incorporated into a state space framework, with an observer and model uncertainty.
+
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: state_space_and_simulinkfile1_control101"><code>state_space_and_simulinkfile1_control101.m</code></a>
+    </td>
+	    <td>  An introduction to using simulink with state space models and state feedback. Simple scenarios only. Uses Simulink files: state_space_simulinkfile_openloop_control101.slx, state_space_simulink_feedback_control101.slx, state_space_simulink_feedforward_control101.slx.
+
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: state_space_and_simulinkfile2_control101"><code>state_space_and_simulinkfile2_control101.m</code></a>
+    </td>
+	    <td>  Introduces the concepts of feedforward to improve tracking and observers to estimate states. Uses simulink file state_space_simulinkfile_observer_control101.slx
+
+  </td>
+      </tr>
+<tr>
+  <td>
+    <a href="matlab: state_space_and_simulinkfile3_control101"><code>state_space_and_simulinkfile3_control101.m</code></a>
+    </td>
+	    <td>  Introduces integral action into the feedback loop along with an observer. Demonstrates efficacy in presence of uncertainty. Uses Simulink file: state_space_simulink_integral_control101.slx
+
+  </td>
+      </tr>
+
+
 	  </table>
 
    
@@ -945,10 +1098,40 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     
   </tr>
   
+<tr>
+    <td>
+      <b> Non-linear position control</b><br>
+      <a href="matlab: nonlinear_position_control"><code>nonlinear_position_control.mlapp</code>
+        <br><img src = "imagesforwebpage\positioncontrolnonlienar.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
+      </td>
+    <td>
+      <p style="word-wrap: break-word; max-width: 50ch">
+        This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates core learning outcomes linked to nonlinear bahviour. First, investigate the dynamics of position control system based on a DC servo and then consilder the impact of different nonlinear components in the system such as:  measurement noise, input saturation, backlash and parameter uncertainty. Users can also change core parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly.
+        
+      </td>
+    
+  </tr>
+
+<tr>
+    <td>
+      <b> Non linear tank level system and control</b><br>
+      <a href="matlab: nonlinear_tank_control_control101"><code>nonlinear_tank_control_control101.mlapp</code>
+        <br><img src = "imagesforwebpage\tanklevelnonlienar.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
+      </td>
+    <td>
+      <p style="word-wrap: break-word; max-width: 50ch">
+        This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates two core learning outcomes. First, how the dynamics of tank exhibit non-linear behaviour in the open-loop; this is solely available within the livescript manual file. Secondly, it introduces feedback and a number of other external and non-linear impacts such as measurement noise, input saturation, anti-windup, disturbances and parameter uncertainty. Users can also change core parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly.
+        
+      </td>
+    
+  </tr>
+
   
 </table>
 	<br>
 <br>
+
+
 <h2 id = simulink> 4. Simulink files </h2>
 This section is intended to introduce users to simulink and its use for supporting modelling, simulation and control. As befits a control101 course, the emphasis is on simple or low complexity models and straightforward simulink components and usage. The files available and some soft links are summarised here.
 <br><br>
@@ -962,6 +1145,9 @@ The associated simulink files will not always open automatically, but their name
 		</a></figure></span>
 	</span></span>
 <br>
+
+<span style="font-family:Arial">
+<span style="font-size:12pt">
 
 <table border=1 style="margin-left:20px; cellpadding:15px;">
   <tr>
@@ -1042,9 +1228,26 @@ Position_system_backlash_control101.slx
   </td>
     </tr>
 	
+	<tr>
+  <td>
+	  <a href="matlab: nonlinear_position_control"><code>nonlinear_position_control.mlapp</code></a>
+    </td>
+	    <td> This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates core learning outcomes linked to nonlinear bahviour. First, investigate the dynamics of position control system based on a DC servo and then consilder the impact of different nonlinear components in the system such as:  measurement noise, input saturation, backlash and parameter uncertainty. Users can also change core parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly: nonlinear_position_control.mlapp nonlinear_position_system_control101_manual .mlx non_linear_Position_System_control101.slx
+        
+  </td>
+    </tr>
+	
+	<tr>
+  <td>
+    <a href="matlab: nonlinear_tank_control_control101"><code>nonlinear_tank_control_control101.mlapp</code></a>
+    </td>
+	    <td>  This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates two core learning outcomes. First, how the dynamics of tank exhibit non-linear behaviour in the open-loop; this is solely available within the livescript manual file. Secondly, it introduces feedback and a number of other external and non-linear impacts such as measurement noise, input saturation, anti-windup, disturbances and parameter uncertainty. Users can also change core parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly: nonlinear_tank_control_control101.mlapp nonlinear_tank_system_simulink_control101_manual.mlx non_linear_tank_system_control101.slx    non_linear_tank_system_fbk_control101.slx 
+  </td>
+    </tr>
+	
     </table>
 
-
+	</span></span>
 
 
 

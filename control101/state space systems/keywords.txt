@@ -1,0 +1,22 @@
+Control education
+MATLAB
+System behaviour
+Feedback
+Control analysis
+Control design
+Disturbance rejection
+Step responses
+Time constant
+System gain
+State space models
+Eigenmodes
+State transition
+Controllability
+Observability
+State feedback
+Transfer functions
+Poles and zeros
+Stability
+Discretisation
+Delays
+
