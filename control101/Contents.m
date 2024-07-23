@@ -7,6 +7,7 @@
 %  Alternatively for documentation click <a href="matlab: doc Control101 Toolbox">here</a>.
 %  
 %  or type directly in the command window:     doc Control101 Toolbox
+% There is a bug in 2024a: Try doc ("Control101 Toolbox")  or doc control101_toolbox. 
 %  
 %  NOTE: "help control101" should also work, but only if the toolbox is installed
 %
@@ -48,21 +49,21 @@
 % in the pwd directly so the user can make edits and save these. You can
 % open by typing the name or selecting the links below.
 %
+%   <a href="matlab: plotting_with_matlab">plotting_with_matlab</a>                                      
 %   <a href="matlab: ODEs_with_matlab">ODEs_with_matlab</a>                                                                                                 
-%   <a href="matlab: closed_loop_compare_multiple_compensators">closed_loop_compare_multiple_compensators</a>         
-%   <a href="matlab: closed_vs_openloop_overlay">closed_vs_openloop_overlay</a>                                
-%   <a href="matlab: closedloop_offset_and_poles">closedloop_offset_and_poles</a>                               
-%   <a href="matlab: closedloop_transferfunctions_with_feedback">closedloop_transferfunctions_with_feedback</a>                
 %   <a href="matlab: firstordermodels_in_matlab">firstordermodels_in_matlab</a>                                
 %   <a href="matlab: firstordermodels_responses_analysis_and_feedback">firstordermodels_responses_analysis_and_feedback</a>          
-%   <a href="matlab: laplace_transforms_with_matlab">laplace_transforms_with_matlab</a>                            
-%   <a href="matlab: partial_fractions_with_matlab">partial_fractions_with_matlab</a>                                                                   
-%   <a href="matlab: plotting_with_matlab">plotting_with_matlab</a>                                      
 %   <a href="matlab: secondordermodels_and_underdamping">secondordermodels_and_underdamping</a>                        
 %   <a href="matlab: secondordermodels_in_matlab">secondordermodels_in_matlab</a>                               
+%   <a href="matlab: laplace_transforms_with_matlab">laplace_transforms_with_matlab</a>                            
+%   <a href="matlab: partial_fractions_with_matlab">partial_fractions_with_matlab</a>                                                                   
 %   <a href="matlab: step_responses_with_matlab">step_responses_with_matlab</a>                                
-%   <a href="matlab: transferfunctions_and_behaviours">transferfunctions_and_behaviours</a>                          
+%   <a href="matlab: transferfunctions_and_behaviours">transferfunctions_and_behaviours</a>    
 %   <a href="matlab: transferfunctions_and_poles">transferfunctions_and_poles</a>   
+%   <a href="matlab: closedloop_transferfunctions_with_feedback">closedloop_transferfunctions_with_feedback</a>                
+%   <a href="matlab: closedloop_offset_and_poles">closedloop_offset_and_poles</a>                               
+%   <a href="matlab: closed_loop_compare_multiple_compensators">closed_loop_compare_multiple_compensators</a>         
+%   <a href="matlab: closed_vs_openloop_overlay">closed_vs_openloop_overlay</a>                                
 %   <a href="matlab: PID_tuning_methods">PID_tuning_methods</a>
 %   <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation">PID_Cont_Controller_Design_with_Pole_Cancellation</a>
 %
@@ -71,11 +72,11 @@
 %   <a href="matlab: freq_responses_with_matlab">freq_responses_with_matlab</a>                                
 %   <a href="matlab: bode_asymptotes">bode_asymptotes</a> 
 %   <a href="matlab: proportional_design_with_bode">proportional_design_with_bode</a>                             
+%   <a href="matlab: Stability_Continuous">Stability_Continuous</a>    
 %   <a href="matlab: lag_design_with_bode">lag_design_with_bode</a>   
 %   <a href="matlab: lead_design_with_bode">lead_design_with_bode</a>                                     
 %   <a href="matlab: lead_lag_design_with_bode">lead_lag_design_with_bode</a>  
 %   <a href="matlab: lead_lag_design_with_criteria">lead_lag_design_with_criteria</a>
-%   <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation">PID_Cont_Controller_Design_with_Pole_Cancellation</a>
 %
 %  DISCRETE MODELS AND ADVANCED METHODS
 %   <a href="matlab: time_series_models">time_series_models</a>                                        
@@ -83,8 +84,10 @@
 %   <a href="matlab: delays_and_bode">delays_and_bode</a>                                                                          
 %   <a href="matlab: discrete_models_and_usage">discrete_models_and_usage</a>                                 
 %   <a href="matlab: discretisation_and_bode">discretisation_and_bode</a>
+%   <a href="matlab: Stability_Discrete">Stability_Discrete</a>
 %   <a href="matlab: discrete_models_and_discrete_PID_controller_design">discrete_models_and_discrete_PID_controller_design</a>
 %   <a href="matlab: Youla_continuous_controller_design">Youla_continuous_controller_design</a>
+%   <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation">PID_Cont_Controller_Design_with_Pole_Cancellation</a>
 %
 %
 %  SIMULINK FILES AND THEIR USE FOR MODELLING, SIMULATION AND CONTROL AND
@@ -98,9 +101,10 @@
 %   <a href="matlab: submersible_system_simulink_control101">submersible_system_simulink_control101</a>
 %   <a href="matlab: position_system_simulink_control101">position_system_simulink_control101</a>
 %   <a href="matlab: nonlinear_position_control">nonlinear_position_control</a>
+%   <a href="matlab: nonlinear_tank_behaviour_control101">nonlinear_tank_behaviour_control101</a>
 %   <a href="matlab: nonlinear_tank_control_control101">nonlinear_tank_control_control101</a>
 %
-% STATE SPACE SYSTEMS AND INTRODUCTURY ANALYSIS
+% STATE SPACE SYSTEMS AND INTRODUCTORY ANALYSIS
 %
 %   <a href="matlab: statespace_models_control101">statespace_models_control101</a>
 %   <a href="matlab: statespace_models_from_tf_control101">statespace_models_from_tf_control101</a>
@@ -114,6 +118,8 @@
 %   <a href="matlab: optimal_state_feedback_control101">optimal_state_feedback_control101</a>
 %   <a href="matlab: observer_design_control101">observer_design_control101</a>
 %   <a href="matlab: tracking_with_statespace_control101">tracking_with_statespace_control101</a>
+%   <a href="matlab: state_feedback_and_estimation_cont_case_study">state_feedback_and_estimation_cont_case_study</a>
+%   <a href="matlab: state_feedback_and_state_estimation_discrete_case_study">state_feedback_and_state_estimation_discrete_case_study</a>
 %          SIMULINK FILES SUPPORTING STATE SPACE SYSTEMS
 %   <a href="matlab: state_space_and_simulinkfile1_control101">state_space_and_simulinkfile1_control101</a>
 %   <a href="matlab: state_space_and_simulinkfile2_control101">state_space_and_simulinkfile2_control101</a>

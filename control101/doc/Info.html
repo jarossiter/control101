@@ -79,7 +79,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 Several people have developed MATLAB based materials to support the teaching of “Control Systems 101” type courses; the particular focus here is on interactive and animated resources which are largely self-explanatory, that is easy and quick to use, and support student understanding and learning at an introductory level. They demonstrate authentic scenarios across a broad range of topics which motivate the importance of control to modern society, alongside some technical learning outcomes to support university curricula.
 	<br>
 	<br>
-  The community toolbox project is led by Anthony Rossiter (University of Sheffield) with sponsorship from MathWorks and input from numerous international colleagues (e.g. Ruth Bars (Budapest University of Technology and Economics , Antonio Visioli (Universita di Brescia), Sebastian Dormido (UNED)). If you have suggestions or possible contributions, please contact Anthony (j.a.rossiter@sheffield.ac.uk).
+  The community toolbox project is led by Anthony Rossiter (University of Sheffield) with sponsorship from MathWorks and input from numerous international colleagues (e.g. Ruth Bars (Budapest University of Technology and Economics , Antonio Visioli (Universita di Brescia), Sebastian Dormido (UNED), Lanlan Su (University of Sheffield), Ross Drummond (University of Sheffield)). If you have suggestions or possible contributions, please contact Anthony (j.a.rossiter@sheffield.ac.uk).
 	</span></span>
 <br>
 		
@@ -91,10 +91,9 @@ Several people have developed MATLAB based materials to support the teaching of 
 	
 <p style="font-family:Arial"><span style="font-size:12pt"> <br>
   Resources are divided into: <br>
-  1. <strong>Virtual laboratories</strong> which have simple GUI interfaces so students can select buttons and sliders to observe the behaviour of some authentic scenarios and see how different parameter choices affect behaviour. Each virtual laboratory comprises two files which run independently: i) the mlapp file which is the laboratory itself and ii) a partner livescript file which acts like a concise manual giving context, illustrative MATLAB source code and some technical background.  Naming conventions are largely self-evident. For example, a typical naming convention for the paired app files is: mixingtank_and_behaviour.mlapp and mixingtank_and_behaviour_manual.mlx. If accessing the apps via the installed toolbox and thus installed apps toolbar, the manual (mlx file) will be opened simultaneously. This link relies on correct path selection, so users who did not install the toolbox, but rather just copied all the files, will need to ensure the relevant folder is on the path. <br>
-  2. <strong>Livescript files</strong> which focus more on useful MATLAB code students can use to create their own files to support detailed analysis, evaluation and design, as required for university courses and assignments.   If accessing the livescript files via the installed toolbox, typing the file name  will open a livescript with the filename ending "_mycopy" in the current working directory, so the user can easily make and save any changes.<br>
-	2. <strong>Simulink files</strong> which support the simulation and analysis of scenarios where there are non-linear components and/or it may be difficult to code a model using simple script files.
-	</span></p>
+  1. <strong>Virtual laboratories </strong> (section 3) which have simple GUI interfaces so students can select buttons and sliders to observe the behaviour of some authentic scenarios and see how different parameter choices affect behaviour. Each virtual laboratory comprises two files which run independently: i) the mlapp file which is the laboratory itself and ii) a partner livescript file which acts like a concise manual giving context, illustrative MATLAB source code and some technical background.  Naming conventions are largely self-evident. For example, a typical naming convention for the paired app files is: mixingtank_and_behaviour.mlapp and mixingtank_and_behaviour_manual.mlx. If accessing the apps via the installed toolbox and thus installed apps toolbar, the manual (mlx file) will be opened simultaneously. This link relies on correct path selection, so users who did not install the toolbox, but rather just copied all the files, will need to ensure the relevant folder is on the path. <br>
+  2. <strong>Livescript files</strong> &nbsp;(section 2) which focus more on useful MATLAB code students can use to create their own files to support detailed analysis, evaluation and design, as required for university courses and assignments.   If accessing the livescript files via the installed toolbox, typing the file name  will open a livescript with the filename ending "_mycopy" in the current working directory, so the user can easily make and save any changes.<br>
+	2. <strong>Simulink files</strong> &nbsp;(section 4) which support the simulation and analysis of scenarios where there are non-linear components and/or it may be difficult to code a model using simple script files.</span></p>
 <p style="font-family:Arial"><span style="font-size:12pt"><br>
   <br>
   A quick list of the available resources is given below, with links to more complete summary information. For a more detailed overview and recent updates, see the website: <a href="website">https://controleducation.sites.sheffield.ac.uk/matlabresources/section-6-11-community-control-toolbox</a> <br>
@@ -106,7 +105,7 @@ Several people have developed MATLAB based materials to support the teaching of 
 	<br>
   <span style="font-size:14pt">
     Within the MATLAB command window:   <ul><br>  <li>   <strong>doc Control101 Toolbox</strong>,    will open a separate window which provides
-    softlinks/shortcuts to run to all the files.</li>
+    softlinks/shortcuts to run to all the files. For MATLAB 2024 you will need to use: doc ("Control101 Toolbox") or  doc control101_toolbox.</li>
 	  <li><strong>help control101 </strong> also works, if the toolbox is installed but opens in the command window so is less convenient.</li>
 	  </ul>
 	</span></p>
@@ -453,6 +452,13 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	    <td>A simple proportional design is often based on a phase margin criteria. This livescript explains and illustrates the key steps.
   </td>
       </tr>
+<tr>
+  <td>
+    <a href="matlab: Stability_Continuous"><code>Stability_Continuous.m</code></a>
+    </td>
+	    <td> This livescript file reviews the main concepts of stability of continuous control systems using several popular methods and summarises the engineering and analytical background alongside some simple MATLAB code snippets that can be used for the equivalent analysis.
+  </td>
+      </tr>
 	  <tr>
   <td>
     <a href="matlab: lag_design_with_bode"><code>lag_design_with_bode.m</code></a>
@@ -526,6 +532,14 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	    <td> Real systems are often implemented in a discrete fashion, albeit the design was done using a continuous design method. This file allows users to explore the impact of discretisation and the choice of sample rate on the efficacy of the original design.
   </td>
       </tr>
+<tr>
+  <td>
+    <a href="matlab: Stability_Discrete"><code>Stability_Discrete.m</code></a>
+    </td>
+	    <td> This livescript file reviews the main concepts of stability of discrete control systems using several popular methods and summarises the engineering and analytical background alongside some simple MATLAB code snippets that can be used for the equivalent analysis.
+  </td>
+      </tr>
+
 	<tr>
   <td>
     <a href="matlab: discrete_models_and_discrete_PID_controller_design"><code>discrete_models_and_discrete_PID_controller_design.m</code></a>
@@ -654,7 +668,22 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 
   </td>
       </tr>
+<tr>
+  <td>
+    <a href="matlab: state_feedback_and_estimation_cont_case_study "><code>state_feedback_and_estimation_cont_case_study.m</code></a>
+    </td>
+	    <td>The purpose here is to undertake case studies showing how the different analysis and design tools above can be used to formulate a complete control feedback design. The design method used here is pole placement.
 
+      </td>
+      </tr>
+<tr>
+  <td>
+    <a href="matlab: state_feedback_and_state_estimation_discrete_case_study "><code>state_feedback_and_state_estimation_discrete_case_study.m</code></a>
+    </td>
+	    <td>The purpose here is to undertake case studies showing how the different analysis and design tools above can be used to formulate a complete control feedback design for a discrete system. The design method used here is pole placement.
+
+      </td>
+      </tr>
 <tr>
   <td>
     <a href="matlab: state_space_and_simulinkfile1_control101"><code>state_space_and_simulinkfile1_control101.m</code></a>
@@ -1239,7 +1268,11 @@ Position_system_backlash_control101.slx
 	
 	<tr>
   <td>
-    <a href="matlab: nonlinear_tank_control_control101"><code>nonlinear_tank_control_control101.mlapp</code></a>
+    <a href="matlab: nonlinear_tank_behaviour_control101"><code>nonlinear_tank_behaviour_control101.mlapp</code></a>
+	  
+	  <br> <br>
+	  
+	   <a href="matlab: nonlinear_tank_control_control101"><code>nonlinear_tank_control_control101.mlapp</code></a>
     </td>
 	    <td>  This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates two core learning outcomes. First, how the dynamics of tank exhibit non-linear behaviour in the open-loop; this is solely available within the livescript manual file. Secondly, it introduces feedback and a number of other external and non-linear impacts such as measurement noise, input saturation, anti-windup, disturbances and parameter uncertainty. Users can also change core parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly: nonlinear_tank_control_control101.mlapp nonlinear_tank_system_simulink_control101_manual.mlx non_linear_tank_system_control101.slx    non_linear_tank_system_fbk_control101.slx 
   </td>

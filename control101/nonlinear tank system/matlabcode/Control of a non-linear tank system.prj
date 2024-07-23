@@ -1,0 +1,78 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1755156820" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\nonlinear tank system\matlabcode\Control of a non-linear tank system.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\nonlinear tank system\matlabcode" name="Control of a non-linear tank system" target="target.mlapps" target-name="Package App">
+    <param.appname>Control of a non-linear tank system</param.appname>
+    <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon>${PROJECT_ROOT}\Control of a non-linear tank system_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Control of a non-linear tank system_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Control of a non-linear tank system_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Control of a non-linear tank system_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Feedback control of a non-linear tank and the impact of the non-linear components on behaviour.</param.summary>
+    <param.description>This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates two core learning outcomes. First, how the dynamics of tank exhibit non-linear behaviour in the open-loop and secondly, it introduces feedback and a number of other external and non-linear impacts such as measurement noise, input saturation, anti-windup, disturbances and parameter uncertainty. Users can also change core parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly.</param.description>
+    <param.screenshot>C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\nonlinear tank system\tanklevelcontrol_icon.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Control System Toolbox</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>037b9741-92d8-4526-a158-0c7988ae425c</param.guid>
+    <unset>
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\nonlinear_tank_control_control101.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Logo-UNED.png</file>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\non_linear_tank_system_fbk_control101.slx</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\nonlinear tank system" name="matlabcode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\nonlinear tank system\matlabcode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024anew</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

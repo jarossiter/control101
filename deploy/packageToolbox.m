@@ -1,13 +1,20 @@
 function packageToolbox()
 % Specify the toolbox name and version
+
 toolboxFolder = fileparts(fileparts(mfilename("fullpath"))); 
 toolboxRoot = fullfile(toolboxFolder,'control101');
+
+%Build doc page
+ 
+addpath(toolboxRoot)
+%builddocsearchdb("C:/Users/Anthony Rossiter/Documents/matlab project/control101/control101/doc")
+builddocsearchdb("../control101/doc")
 
 uuid = "Control101Uuid";
 opts = matlab.addons.toolbox.ToolboxOptions(toolboxRoot, uuid);
 
 opts.ToolboxName = "Control101";
-opts.ToolboxVersion = "1.1";
+opts.ToolboxVersion = "1.61";
 
 %Which systems do we support
 opts.SupportedPlatforms.Win64 = true;
@@ -33,5 +40,6 @@ opts.OutputFile = fullfile(toolboxFolder,'deploy/Control101.mltbx');
 
 %make the mltbx
 matlab.addons.toolbox.packageToolbox(opts);
+
 
 end

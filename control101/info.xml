@@ -9,7 +9,14 @@
     <!-- Supply the following six elements in the order specified -->
     <!-- (Required) Release of MATLAB. Not currently used but required -->
     <!-- to parse the file -->
-    <matlabrelease>2023a</matlabrelease>
+    <!-- to parse the file -->
+<matlabrelease>2024a
+<!-- (Required if you supply help) Relative path to help (HTML) folder -->
+    <!-- (Required) Icon file to display in the Start button. Not currently used -->
+    <!-- but required to parse the file -->
+    <!-- (Required if you supply help) Icon used in the Help browser TOC -->
+    <!-- Ignored in R2015a and later -->
+</matlabrelease>
     <!-- (Required) Title of toolbox. Appears in the Contents pane -->
     <name>Control101</name>
     <!-- (Required) Label for the toolbox. pick one: -->
@@ -17,10 +24,11 @@
     <type>toolbox</type>
     <!-- (Required) Icon file to display in the Start button. Not currently used -->
     <!-- but required to parse the file -->
-    <icon/>
+    <icon></icon>
     <!-- (Required if you supply help) Relative path to help (HTML) folder -->
     <help_location>doc</help_location>
     <!-- (Required if you supply help) Icon used in the Help browser TOC -->
     <!-- Ignored in R2015a and later -->
-    <help_contents_icon/>
-</productinfo>
+    <help_contents_icon>
+ </help_contents_icon>
+ </productinfo>
