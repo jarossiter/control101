@@ -251,6 +251,8 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     <td>Predator prey models and behaviours             </td> <td>
      This resource provides an interactive app file which allows users to explore and analyse the behaviour of a common non-linear model representating populations of predators and prey. </td>
   </tr>  
+	
+	 
 	</tr>
 	<tr> <td> 
 		FREQUENCY RESPONSE METHODS
@@ -282,7 +284,7 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
       This file builds the compensators automatically based solely on the performance criteria (bandwidth, PM and offset) and presents a comparison of the behaviours with the different compensator approaches (proportional, lag, lead, lead-lag). </td>
   </tr>  
 	</tr>
-	<tr><td>SIMULINK FILES</td></tr>
+	<tr><td>VIRTUAL LABORATORIES USING SIMULINK FILES</td></tr>
 	<tr>
     <td>nonlinear_position_control                </td> <td>
       This file allows a user to explore the non-linear components in a position control system and their impact on behaviour. </td>
@@ -290,6 +292,10 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	<tr>
     <td>nonlinear_tank_control_control101                </td> <td>
        This file allows a user to explore the non-linear components in a tank level system and their impact on both open-loop and closed-loop behaviour. </td>
+  </tr>  
+		<tr>
+    <td>conical_tank_behaviour_control101,  conical_tank_control_control101            </td> <td>
+     These two resources provide interactive app files which allows users to explore and analyse the behaviour/control of conical tanks. These have significant non-linear characteristics which are a challenge for linear control methods. </td>
   </tr>  
 	</tr>
 
@@ -480,6 +486,7 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	    <td>This file explains the core steps behind a mechanistic lead-lag design (PM, low freq. gain and bandwidth criteria) and illustrates with examples. Also compares with a lag design and a lead design.
   </td>
       </tr>
+
  <tr>
   <td>
     <a href="matlab: lead_lag_design_with_criteria"><code>lead_lag_design_with_criteria.m</code></a>
@@ -487,20 +494,16 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	    <td>This file provides code to perform the mechanistic proportional, lag, lead and lead-lag designs based on criteria (PM, low freq. gain and bandwidth criteria) and illustrates with examples. 
   </td>
       </tr>
+
 <tr>
-  <td>
-    <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation"><code>PID_Cont_Controller_Design_with_Pole_Cancellation.m</code></a>
-    </td>
-	    <td>This file explains the core steps behind a mechanistic PID design using a pole cancellation technique and exploiting frequency response methods. 
-  </td>
-      </tr>
-	  <tr>
   <td>
     <a href="matlab: delays_and_bode"><code>delays_and_bode.m</code></a>
     </td>
 	    <td> Real systems are often subject to small delays, perhaps due to actuator placement or measurement issues. This file allows users to explore the impact of delays on expected closed-loop performance and indeed to consider how a system re-design of the compensator may be considered.
   </td>
       </tr>
+
+	  
 	  <tr>
 	    <td> DISCRETE MODEL AND ADVANCED METHODS</td>
   <td>THE FILES BELOW LINK TO DISCRETE SYSTEMS BUT ONLY DO SO AT A RELATIVELY SUPERFICIAL LEVEL AS THIS IS MORE LINKED TO AWARENESS RAISING THAN MEETING THE FORMAL TEACHING REQUIREMENTS NEEDED IN HIGHER LEVEL COURSES</td></tr>
@@ -539,14 +542,14 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	    <td> This livescript file reviews the main concepts of stability of discrete control systems using several popular methods and summarises the engineering and analytical background alongside some simple MATLAB code snippets that can be used for the equivalent analysis.
   </td>
       </tr>
-
-	<tr>
+<tr>
   <td>
-    <a href="matlab: discrete_models_and_discrete_PID_controller_design"><code>discrete_models_and_discrete_PID_controller_design.m</code></a>
+    <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation"><code>PID_Cont_Controller_Design_with_Pole_Cancellation.m</code></a>
     </td>
-	    <td> This file then focuses on how PID  design can be performed in the discrete case using a pole cancellation technique.
+	    <td>This file explains the core steps behind a mechanistic PID design using a pole cancellation technique and exploiting frequency response methods. 
   </td>
       </tr>
+	  
 <tr>
   <td>
     <a href="matlab: Youla_continuous_controller_design"><code>Youla_continuous_controller_design.m</code></a>
@@ -554,10 +557,41 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 	    <td> Advanced approaches to compensator design to take more explicit account of sensitivity to uncertainty.
   </td>
       </tr>
-	   <tr>
+	<tr>
+  <td>
+    <a href="matlab: discrete_models_and_discrete_PID_controller_design"><code>discrete_models_and_discrete_PID_controller_design.m</code></a>
+    </td>
+	    <td> This file then focuses on how PID  design can be performed in the discrete case using a pole cancellation technique.
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: Dead_beat_controller_design_control101"><code>Dead_beat_controller_design_control101.m</code></a>
+    </td>
+	    <td> An introduction to dead-beat control design and the concept of inter-sample ripple. Uses a SIMULINK file: simulink_deadbeat_control101.slx
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: Smith_predictor_controller_design"><code>Smith_predictor_controller_design.m</code></a>  
+    </td>
+	    <td> An introduction to simple controller design methods for dealing with dead-time processes.
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: Youla_discrete_controller_design"><code>Youla_discrete_controller_design.m</code></a>  
+    </td>
+	    <td> An introduction to Youla based design for discrete systems.
+  </td>
+      </tr>
+
+ <tr>
 	    <td> STATE SPACE METHODS</td>
   <td>A series of files covering an introduction to state space models, their analysis and asociated use with feedback.</td></tr>
-
 
 <tr>
   <td>
@@ -629,6 +663,23 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     <a href="matlab: controllability_and_observability_control101"><code>controllability_and_observability_control101.m</code></a>
     </td>
 	    <td> Controllability and observability are important properties of state space models which determine the extent to which effective state feedback compensators and observers can be implemented.  
+
+  </td>
+      </tr>
+<tr>
+  <td>
+    <a href="matlab: stability_eigenvalues_control101"><code>stability_eigenvalues_control101.m</code></a>
+    </td>
+	    <td> This file gives extensive tutorial like background to the significance of eigenvalues and eigenvectors within state space systems and also extends to consider non-linear systems and linearisation.
+
+  </td>
+      </tr>
+
+<tr>
+  <td>
+    <a href="matlab: stability_analysis_control101"><code>stability_analysis_control101.m</code></a>
+    </td>
+	    <td> This file gives extensive tutorial like background to the the stability analsysis of state space systems and also extends the discussion to include nonlinear systems.  
 
   </td>
       </tr>
@@ -1155,6 +1206,23 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
     
   </tr>
 
+<tr>
+    <td>
+      <b> Conical tank level systems behaviour and control</b><br>
+     <a href="matlab: conical_tank_behaviour_control101"><code>conical_tank_behaviour_control101</code>
+        <br><img src = "imagesforwebpage\conicaltankbehaviour.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
+		 <a href="matlab: conical_tank_control_control101"><code>conical_tank_control_control101.mlapp</code>
+        <br><img src = "imagesforwebpage\conicaltankcontrol.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
+      </td>
+    <td>
+      <p style="word-wrap: break-word; max-width: 50ch">
+        These resources provide two interactive app files (MATLAB virtual laboratory) which demonstrate core learning outcomes linked to nonlinear behaviours. Specifically the focus is on a conical tank. This has nonlinearities due to both the outflow depending on pressure difference and also, the variation in cross sectional area with depth. Users are able to observe and understand the limitations of linear models by investigations on this app. It also includes realistic effects such as:  measurement noise, input saturation, and windup. Users can also change some of the tank parameters to perform compare and contrast open and closed-loop simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the underlying simulink files directly.
+
+
+        
+      </td>
+    
+  </tr>
   
 </table>
 	<br>
@@ -1278,6 +1346,20 @@ Position_system_backlash_control101.slx
   </td>
     </tr>
 	
+	<tr>
+  <td>
+    <a href="matlab: conical_tank_behaviour_control101"><code>conical_tank_behaviour_control101</code>
+        </a>
+	   <br> <br>
+		 <a href="matlab: conical_tank_control_control101"><code>conical_tank_control_control101.mlapp</code>
+        </a>
+	 
+	  
+	   
+    </td>
+	    <td>  These resources provide two interactive app files (MATLAB virtual laboratory) which demonstrate core learning outcomes linked to nonlinear behaviours. Specifically the focus is on a conical tank. This has nonlinearities due to both the outflow depending on pressure difference and also, the variation in cross sectional area with depth. Users are able to observe and understand the limitations of linear models by investigations on this app. It also includes realistic effects such as:  measurement noise, input saturation, and windup. Users can also change some of the tank parameters to perform compare and contrast open and closed-loop simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the underlying simulink files directly.
+  </td>
+    </tr>
     </table>
 
 	</span></span>

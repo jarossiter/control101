@@ -33,6 +33,8 @@
 %   <a href="matlab: Predator_prey_model">Predator_prey_model</a>
 %   <a href="matlab: pi_tuning">pi_tuning</a>
 %   <a href="matlab: pidtuningrules">pidtuningrules</a>
+%   <a href="matlab: conical_tank_behaviour_control101">conical_tank_behaviour_control101</a>
+%   <a href="matlab: conical_tank_control_control101">conical_tank_control_control101</a>
 %  
 %   FREQUENCY RESPONSE METHODS
 %   <a href="matlab: frequency_response_time_behaviour">frequency_response_time_behaviour</a> 
@@ -65,7 +67,6 @@
 %   <a href="matlab: closed_loop_compare_multiple_compensators">closed_loop_compare_multiple_compensators</a>         
 %   <a href="matlab: closed_vs_openloop_overlay">closed_vs_openloop_overlay</a>                                
 %   <a href="matlab: PID_tuning_methods">PID_tuning_methods</a>
-%   <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation">PID_Cont_Controller_Design_with_Pole_Cancellation</a>
 %
 % 
 %  FREQUENCY RESPONSE METHODS
@@ -77,18 +78,22 @@
 %   <a href="matlab: lead_design_with_bode">lead_design_with_bode</a>                                     
 %   <a href="matlab: lead_lag_design_with_bode">lead_lag_design_with_bode</a>  
 %   <a href="matlab: lead_lag_design_with_criteria">lead_lag_design_with_criteria</a>
+%   <a href="matlab: delays_and_bode">delays_and_bode</a>                                                                          
+%
+%  ADVANCED CONTROL DESIGN METHODS
+%   <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation">PID_Cont_Controller_Design_with_Pole_Cancellation</a>
+%   <a href="matlab: Youla_continuous_controller_design">Youla_continuous_controller_design</a>
 %
 %  DISCRETE MODELS AND ADVANCED METHODS
 %   <a href="matlab: time_series_models">time_series_models</a>                                        
 %   <a href="matlab: time_series_models_and_recursion">time_series_models_and_recursion</a>  
-%   <a href="matlab: delays_and_bode">delays_and_bode</a>                                                                          
 %   <a href="matlab: discrete_models_and_usage">discrete_models_and_usage</a>                                 
 %   <a href="matlab: discretisation_and_bode">discretisation_and_bode</a>
 %   <a href="matlab: Stability_Discrete">Stability_Discrete</a>
 %   <a href="matlab: discrete_models_and_discrete_PID_controller_design">discrete_models_and_discrete_PID_controller_design</a>
-%   <a href="matlab: Youla_continuous_controller_design">Youla_continuous_controller_design</a>
-%   <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation">PID_Cont_Controller_Design_with_Pole_Cancellation</a>
-%
+%   <a href="matlab: Dead_beat_controller_design_control101">Dead_beat_controller_design_control101</a>
+%   <a href="matlab: Smith_predictor_controller_design">Smith_predictor_controller_design</a>                                                                          
+%   <a href="matlab: Youla_discrete_controller_design">Youla_discrete_controller_design</a>                                                                          
 %
 %  SIMULINK FILES AND THEIR USE FOR MODELLING, SIMULATION AND CONTROL AND
 %  NONLINEARITY
@@ -114,6 +119,8 @@
 %   <a href="matlab: phaseplane_behaviour_statespace_control101">phaseplane_behaviour_statespace_control101</a>  
 %   <a href="matlab: equivalent_state_space_formulations_control101">equivalent_state_space_formulations_control101</a>   
 %   <a href="matlab: controllability_and_observability_control101">controllability_and_observability_control101</a>   
+%   <a href="matlab: stability_analysis_control101">stability_analysis_control101</a>   
+%   <a href="matlab: stability_eigenvalues_control101">stability_eigenvalues_control101</a>   
 %   <a href="matlab: state_feedback_control101">state_feedback_control101</a>
 %   <a href="matlab: optimal_state_feedback_control101">optimal_state_feedback_control101</a>
 %   <a href="matlab: observer_design_control101">observer_design_control101</a>

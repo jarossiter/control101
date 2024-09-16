@@ -1,0 +1,79 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1420158404" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\conical tank\matlabcode\Conical tank control.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\conical tank\matlabcode" name="Conical tank control" target="target.mlapps" target-name="Package App">
+    <param.appname>Conical tank control</param.appname>
+    <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon>${PROJECT_ROOT}\Conical tank control_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Conical tank control_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Conical tank control_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Conical tank control_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Challenges of control for a strongly non-linear ystem</param.summary>
+    <param.description>This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates core learning outcomes linked to nonlinear behaviours. Specifically the focus is on a conical tank. This has nonlinearities due to both the outflow depending on pressure difference and also, the variation in cross sectional area with depth. Users are able to observe and understand the limitations of linear models by investigations on this app. It also includes realistic effects such as:  measurement noise, input saturation, and windup. Users can also change some of the tank parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly.</param.description>
+    <param.screenshot>C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\doc\imagesforwebpage\conicaltankcontrol.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Control System Toolbox</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>be9ddeb9-1583-4292-8481-f9fff5ac529f</param.guid>
+    <unset>
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\conical_tank_control_control101.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\conical_tank_system_control101_2023.slx</file>
+      <file>${PROJECT_ROOT}\Logo-UNED.png</file>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\conical_tank_system_simulink_control101_manual.mlx</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\conical tank" name="matlabcode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\conical tank\matlabcode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024anew</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
