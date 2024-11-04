@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1760401069" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\tank level behaviour\matlabCode\Tank level behaviour.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\tank level behaviour\matlabCode" name="Tank level behaviour" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2418902253" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\tank level behaviour\matlabCode\Tank level behaviour.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\tank level behaviour\matlabCode" name="Tank level behaviour" target="target.mlapps" target-name="Package App">
     <param.appname>Tank level behaviour</param.appname>
     <param.authnamewatermark>John Anthony Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
@@ -14,7 +14,7 @@
     <param.description>Several people have developed MATLAB based materials to support the teaching of “Control Systems 101” type courses; the particular focus here is on interactive and animated resources which are largely self-explanatory, that is easy to use,  and support student understanding and learning. They demonstrate authentic scenarios across a broad range of topics which motivate the importance of control to modern society, alongside some technical learning outcomes to support university curricula.
 
 This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates the tank level behaviour of a simplified tank model or fluid system, as appropriate to a first course in control, and subject to normal disturbances such as changes in in-flow and outlet pipe resistance. More detailed descriptions and help are in the partner livescript file tanklevelbehaviour_manual.mlx.</param.description>
-    <param.screenshot>C:\Users\Anthony Rossiter\AppData\Local\Temp\tpdaee81aa_f90b_4a18_b57d_754f1d00cf23.png</param.screenshot>
+    <param.screenshot />
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -27,14 +27,15 @@ This resource provides an interactive app file (MATLAB virtual laboratory) which
       <item>15</item>
     </param.products.id>
     <param.products.version>
-      <item>9.14</item>
-      <item>10.13</item>
-      <item>9.3</item>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
     <param.guid>d09bab86-9960-4d4c-a9c3-3f019acdfb68</param.guid>
     <unset>
+      <param.screenshot />
       <param.version />
       <param.platforms />
       <param.output />
@@ -52,7 +53,7 @@ This resource provides an interactive app file (MATLAB virtual laboratory) which
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2023a</root>
+      <root>C:\Program Files\MATLAB\R2024anew</root>
       <toolboxes />
     </matlab>
     <platform>

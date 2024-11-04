@@ -4,12 +4,17 @@
 %  For a more detailed overview, see the website:
 %  https://controleducation.sites.sheffield.ac.uk/matlabresources/section-6-11-community-control-toolbox
 %
-%  Alternatively for documentation click <a href="matlab: doc Control101 Toolbox">here</a>.
+%  Alternatively for documentation in a separate window the following alternatives should work:
 %  
-%  or type directly in the command window:     doc Control101 Toolbox
-% There is a bug in 2024a: Try doc ("Control101 Toolbox")  or doc control101_toolbox. 
+%  click <a href="matlab: doc Control101 Toolbox">here</a>.
 %  
-%  NOTE: "help control101" should also work, but only if the toolbox is installed
+%  or type one of these directly in the command window:  
+%        Control101
+%        doc Control101 Toolbox (pre 2024 only)
+%        doc ("Control101 Toolbox")  
+%        doc control101_toolbox. 
+%  
+%  NOTE: "help control101" opens within the command window
 %
 %
 % Virtual Laboratories/MATLAB apps: Assuming the toolbox has been installed,
@@ -80,9 +85,6 @@
 %   <a href="matlab: lead_lag_design_with_criteria">lead_lag_design_with_criteria</a>
 %   <a href="matlab: delays_and_bode">delays_and_bode</a>                                                                          
 %
-%  ADVANCED CONTROL DESIGN METHODS
-%   <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation">PID_Cont_Controller_Design_with_Pole_Cancellation</a>
-%   <a href="matlab: Youla_continuous_controller_design">Youla_continuous_controller_design</a>
 %
 %  DISCRETE MODELS AND ADVANCED METHODS
 %   <a href="matlab: time_series_models">time_series_models</a>                                        
@@ -93,7 +95,10 @@
 %   <a href="matlab: discrete_models_and_discrete_PID_controller_design">discrete_models_and_discrete_PID_controller_design</a>
 %   <a href="matlab: Dead_beat_controller_design_control101">Dead_beat_controller_design_control101</a>
 %   <a href="matlab: Smith_predictor_controller_design">Smith_predictor_controller_design</a>                                                                          
-%   <a href="matlab: Youla_discrete_controller_design">Youla_discrete_controller_design</a>                                                                          
+%   <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation">PID_Cont_Controller_Design_with_Pole_Cancellation</a>
+%   <a href="matlab: Youla_continuous_controller_design">Youla_continuous_controller_design</a>
+%   <a href="matlab: Youla_discrete_controller_design">Youla_discrete_controller_design</a>    
+%   <a href="matlab: discrete_controller_design_methods">discrete_controller_design_methods</a>    
 %
 %  SIMULINK FILES AND THEIR USE FOR MODELLING, SIMULATION AND CONTROL AND
 %  NONLINEARITY
