@@ -34,6 +34,7 @@
 %   <a href="matlab: tanklevel_and_PIcontrol">tanklevel_and_PIcontrol</a>                            
 %   <a href="matlab: tanklevelbehaviour">tanklevelbehaviour</a>
 %   <a href="matlab: tanklevel_story">tanklevel_story</a>
+%   <a href="matlab: diabetes_control101">diabetes_control101</a>
 %   <a href="matlab: behaviours">behaviours</a>
 %   <a href="matlab: Predator_prey_model">Predator_prey_model</a>
 %   <a href="matlab: pi_tuning">pi_tuning</a>
