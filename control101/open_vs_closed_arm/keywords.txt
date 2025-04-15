@@ -1,0 +1,16 @@
+Feedback analysis
+Feedback design
+open-loop behaviour
+bang-bang control
+Closed-loop behaviour
+Robot arm 
+Position control
+PI tuning
+Control education
+MATLAB
+System behaviour
+Step responses
+Disturbance rejection
+Offset
+Stability
+Closed-loop poles

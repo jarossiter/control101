@@ -1,0 +1,71 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2921200508" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\poleplacement\matlabCode\Poleplacement.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\poleplacement\matlabCode" name="Poleplacement" target="target.mlapps" target-name="Package App">
+    <param.appname>Poleplacement</param.appname>
+    <param.authnamewatermark>R Bars and G Max</param.authnamewatermark>
+    <param.email>Bars.Ruth@aut.bme.hu</param.email>
+    <param.company>Budapest University of Technology and Econ</param.company>
+    <param.icon>${PROJECT_ROOT}\Poleplacement_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Poleplacement_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Poleplacement_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Poleplacement_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>The purpose of this file is to define the continuous or the discrete PID controllers using the pole placement.</param.summary>
+    <param.description>The purpose of PoleReplacement.mlapp file is to define the continuous or the discrete PID controllers for a given plant (G(s)) using the pole replacement method. By this method the transfer function of the continuous or the discrete controller can be determined easily and quickly. The PID controller algorithm applies the pole cancellation method.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\poleplaceicon.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Control System Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>3</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.1</item>
+      <item>24.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>e8b6d4ba-2d3a-4df0-9e7e-451eb1d867af</param.guid>
+    <unset>
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\PoleReplacement_control101.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\bme_cimer.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\PoleReplacement_control101_manual.mlx</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\poleplacement" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\poleplacement\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024anew</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

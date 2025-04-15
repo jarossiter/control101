@@ -1,0 +1,75 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="110590519" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\open_vs_closed_arm\matlabCode\open_vs_closed_arm.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\open_vs_closed_arm\matlabCode" name="open_vs_closed_arm" target="target.mlapps" target-name="Package App">
+    <param.appname>open_vs_closed_arm</param.appname>
+    <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon>${PROJECT_ROOT}\open_vs_closed_arm_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\open_vs_closed_arm_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\open_vs_closed_arm_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\open_vs_closed_arm_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Comparison of open and closed-loop strategies on a robot arm</param.summary>
+    <param.description>This resource focuses on open loop control of a mechatronic system, that is a simple single limb robot arm. It is shown that, in principle one can determine an input signal to move the arm to a  desirable position. However, computing errors and other uncertainty will cause the accuracy to be poor, some times leading to failure of delivery. Conversely, while slower, feedback is more relaible.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\robotarm.jpg</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Control System Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>db112b5c-5f8d-459e-80d9-2d6eb69b4f9c</param.guid>
+    <unset>
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\open_vs_closed_control101.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\open_vs_closed_simulink_control101.slx</file>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\open_vs_closed_control101_manual.mlx</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\open_vs_closed_arm" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\open_vs_closed_arm\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024anew</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

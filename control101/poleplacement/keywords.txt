@@ -1,0 +1,19 @@
+System behaviour
+Step responses
+Time constant
+System gain
+Disturbances
+Feedback analysis
+Feedback design
+Closed-loop behaviour
+Manual control
+PID tuning
+Control education
+MATLAB
+System behaviour
+Step responses
+Pole placement
+
+
+
+
