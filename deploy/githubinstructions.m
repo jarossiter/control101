@@ -5,5 +5,5 @@
 !git status 
 !git add .
 !git pull 
-!git commit -m "Added some advanced files and tidied help instructions"
-!git push . 
+!git commit -m "Added some poleplacement and fbk files"
+git push .
