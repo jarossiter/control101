@@ -43,7 +43,8 @@
 %   <a href="matlab: PoleReplacement_control101">PoleReplacement_control101</a>
 %   <a href="matlab: conical_tank_behaviour_control101">conical_tank_behaviour_control101</a>
 %   <a href="matlab: conical_tank_control_control101">conical_tank_control_control101</a>
-%  
+%   <a href="matlab: tanklevel_and_manual_vs_PIcontrol">tanklevel_and_manual_vs_PIcontrol</a>
+%
 %   FREQUENCY RESPONSE METHODS
 %   <a href="matlab: frequency_response_time_behaviour">frequency_response_time_behaviour</a> 
 %   <a href="matlab: proportional_design_phase_margin">proportional_design_phase_margin</a>

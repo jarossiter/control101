@@ -1,0 +1,69 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3649806361" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\tank_manualcontrol\matlabCode\Tank manual vs PI control.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\tank_manualcontrol\matlabCode" name="Tank manual vs PI control" target="target.mlapps" target-name="Package App">
+    <param.appname>Tank manual vs PI control</param.appname>
+    <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon>${PROJECT_ROOT}\Tank manual vs PI control_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Tank manual vs PI control_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Tank manual vs PI control_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Tank manual vs PI control_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Expose students to the challenges of manual control in an environment with changing disturbances and  compare and contrast with PI</param.summary>
+    <param.description>This is a simple interface to understand the entire design process of behaviour analysis, modelling  and PI control of simple tank level models, subject to changes in the core parameters such as tank volume, flow rate and external disturbances such as changes to the inlet flow, blockages in the outlet pipe, measurement noise and measurement delays. The user an explore and analyse both manual control (human in the loop) and automatic control using a PI compensator. More detailed descriptions and help are in the partner livescript file tanklevel_story_manual.mlx which give a concise engineering and analytical background alongside some simple MATLAB code snippets than can be used for equivalent analysis.</param.description>
+    <param.screenshot>C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\doc\imagesforwebpage\manualtank_vs_pi.jpg</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Control System Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>3</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.1</item>
+      <item>24.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>713b2eb6-10d5-46a7-815c-5985a5675e7e</param.guid>
+    <unset>
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\tanklevel_and_manual_vs_PIcontrol.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\tank_manualcontrol" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\tank_manualcontrol\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024anew</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
