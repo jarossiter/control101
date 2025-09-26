@@ -1,0 +1,223 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2757716555" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\control101_master\matlabCode\Control101 master.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\control101_master\matlabCode" name="Control101 master" target="target.mlapps" target-name="Package App">
+    <param.appname>Control101 master</param.appname>
+    <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>An app to provide softlinks to all the toolbox files</param.summary>
+    <param.description>An interface to make using the control101 toolbox easier.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Control System Toolbox</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>8262b1fe-2bd0-4148-a70f-d80d7d61da06</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\control101_master.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\antireset_windup_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\bode_asymptotes.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\control_structures_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\Dead_beat_controller_design_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\discrete_controller_design_methods.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\discrete_models_and_discrete_PID_controller_design.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\effects_of_negative_feedback.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\PID_Cont_Controller_Design_with_Pole_Cancellation.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\Smith_predictor_controller_design.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\Stability_Continuous.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\Stability_Discrete.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\Youla_continuous_controller_design.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\advanced control\matlabCode\Youla_discrete_controller_design.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\aeroplane landing\matlabCode\aeroplanelanding_behaviour.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\aeroplane landing\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\aeroplane roll\matlabCode\aeroplane_roll_control.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\aeroplane roll\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\car speed behaviour\matlabCode\carmodel_and_behaviour.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\car speed behaviour\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\conical tank\matlabcode\conical_tank_behaviour_control101.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\conical tank\matlabcode\conical_tank_control_control101.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\conical tank\matlabcode\conical_tank_system_behaviour_control101_2023.slx</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\conical tank\matlabcode\conical_tank_system_control101_2023.slx</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\conical tank\matlabcode\Logo-UNED.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\conical tank\matlabcode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\cruise control\matlabCode\cruisecontrol.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\cruise control\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\dc servo and position control\matlabCode\dcservo_and_position_control.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\dc servo and position control\matlabCode\servo.jpg</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\dc servo and position control\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\diabetes\matlabCode\diabetes_control101.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\diabetes\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\doc\imagesforwebpage\myfirstsimulinkfilec_control101.jpg</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\first order behaviour characterisation\matlabCode\firstordermodel_response_characterisation.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\first order behaviour characterisation\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\first order model behaviour\matlabCode\firstordermodel_behaviour.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\first order model behaviour\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\Frequency response in time domain\matlabCode\frequency_response_time_behaviour.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\Frequency response in time domain\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\heat exchanger\matlabCode\HeatExchanger.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\heat exchanger\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\house temperature behaviour\matlabCode\housetemperature_and_behaviour.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\house temperature behaviour\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\house temperature story\matlabCode\housetemperature_story.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\house temperature story\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\inverted pendulum\matlabCode\invertedpendulum.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\inverted pendulum\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\lag design with phase margin and offset\matlabCode\lag_design_phase_margin.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\lag design with phase margin and offset\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\lead design with phase margin and bandwidth\matlabCode\lead_design_phase_margin.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\lead design with phase margin and bandwidth\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\lead lag design from criteria\matlabCode\lead_lag_design_criteria.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\lead lag design from criteria\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\lead lag design with phase margin bandwidth offset\matlabCode\lead_lag_design_phase_margin.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\lead lag design with phase margin bandwidth offset\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\closed_loop_compare_multiple_compensators.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\closed_vs_openloop_overlay.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\closedloop_offset_and_poles.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\closedloop_transferfunctions_with_feedback.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\delays_and_bode.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\discrete_models_and_usage.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\discretisation_and_bode.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\firstordermodels_in_matlab.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\firstordermodels_responses_analysis_and_feedback.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\freq_responses_with_matlab.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\lag_design_with_bode.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\laplace_transforms_with_matlab.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\lead_design_with_bode.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\lead_lag_design_with_bode.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\lead_lag_design_with_criteria.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\ODEs_with_matlab.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\partial_fractions_with_matlab.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\PID_tuning_methods.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\plotting_with_matlab.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\proportional_design_with_bode.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\secondordermodels_and_underdamping.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\secondordermodels_in_matlab.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\step_responses_with_matlab.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\time_series_models.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\time_series_models_and_recursion.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\transferfunctions_and_behaviours.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\livescripts for firstcourse in control\matlabCode\transferfunctions_and_poles.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\mixing tank behaviour\matlabCode\mixingtank_and_behaviour.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\mixing tank behaviour\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\nonlinear tank system\matlabcode\Logo-UNED.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\nonlinear tank system\matlabcode\non_linear_tank_system_control101_2023.slx</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\nonlinear tank system\matlabcode\non_linear_tank_system_fbk_control101_2023.slx</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\nonlinear tank system\matlabcode\nonlinear_tank_behaviour_control101.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\nonlinear tank system\matlabcode\nonlinear_tank_control_control101.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\nonlinear tank system\matlabcode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\open_vs_closed_arm\matlabCode\open_vs_closed_control101.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\open_vs_closed_arm\matlabCode\open_vs_closed_simulink_control101.slx</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\open_vs_closed_arm\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\PI tuning methods\matlabCode\Logo-UNED.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\PI tuning methods\matlabCode\logo_brescia.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\PI tuning methods\matlabCode\pidtuningrules.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\PI tuning methods\matlabCode\ruth_logo.jpg</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\PI tuning methods\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\PI tuning\matlabCode\blockdiagram.jpg</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\PI tuning\matlabCode\pi_tuning.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\PI tuning\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\position control\matlabcode\Logo-UNED.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\position control\matlabcode\non_linear_Position_System_control101.slx</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\position control\matlabcode\nonlinear_position_control.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\position control\matlabcode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\predator prey\matlabCode\Predator_prey_model.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\predator prey\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\proportional design with phase margin\matlabCode\proportional_design_phase_margin.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\proportional design with phase margin\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink case studies\matlabCode\car_suspension_simulink_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink case studies\matlabCode\heating_system_simulink_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink case studies\matlabCode\hydraulic_system_simulink_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink case studies\matlabCode\intro_to_simulink_for_system_behaviour.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink case studies\matlabCode\position_system_simulink_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink case studies\matlabCode\submersible_system_simulink_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink introduction\matlabCode\myfirstsimulink_control101.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink introduction\matlabCode\myfirstsimulinkfile_control101.jpg</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink introduction\matlabCode\myfirstsimulinkfile_control101.slx</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink introduction\matlabCode\myfirstsimulinkfileb_control101.jpg</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink introduction\matlabCode\myfirstsimulinkfileb_control101.slx</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink introduction\matlabCode\myfirstsimulinkfilec_control101.slx</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\simulink introduction\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\controllability_and_observability_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\discrete_time_state_space_models_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\equivalent_state_space_formulations_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\observer_design_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\openloop_behaviour_statespace_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\optimal_state_feedback_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\phaseplane_behaviour_statespace_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\stability_analysis_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\stability_eigenvalues_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\state_feedback_and_estimation_cont_case_study.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\state_feedback_and_state_estimation_discrete_case_study.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\state_feedback_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\state_space_and_simulinkfile1_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\state_space_and_simulinkfile2_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\state_space_and_simulinkfile3_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\statespace_models_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\statespace_models_from_tf_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\tf_models_from_statespace_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\state space systems\matlabcode\tracking_with_statespace_control101.m</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\tank level behaviour\matlabCode\tanklevelbehaviour.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\tank level behaviour\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\tank level control with PI\matlabCode\tanklevel_and_PIcontrol.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\tank level control with PI\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\tank level story\matlabCode\tanklevel_story.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\tank level story\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\tank_manualcontrol\matlabCode\tank_and_manual_vs_PIcontrol_delay.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\tank_manualcontrol\matlabCode\UoSlogo.png</file>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\control101_master" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\control101_master\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024anew</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

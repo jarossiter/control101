@@ -25,7 +25,7 @@
 %   <a href="matlab: cruisecontrol">cruisecontrol</a>                                      
 %   <a href="matlab: dcservo_and_position_control">dcservo_and_position_control</a>                       
 %   <a href="matlab: firstordermodel_behaviour">firstordermodel_behaviour</a>                       
-%   <a href="matlab: firstordermodels_response_characterisation">firstordermodels_response_characterisation</a> 
+%   <a href="matlab: firstordermodel_response_characterisation">firstordermodels_response_characterisation</a> 
 %   <a href="matlab: HeatExchanger">HeatExchanger</a>                     
 %   <a href="matlab: housetemperature_and_behaviour">housetemperature_and_behaviour</a>                     
 %   <a href="matlab: housetemperature_story">housetemperature_story</a>                     
@@ -43,7 +43,7 @@
 %   <a href="matlab: PoleReplacement_control101">PoleReplacement_control101</a>
 %   <a href="matlab: conical_tank_behaviour_control101">conical_tank_behaviour_control101</a>
 %   <a href="matlab: conical_tank_control_control101">conical_tank_control_control101</a>
-%   <a href="matlab: tanklevel_and_manual_vs_PIcontrol">tanklevel_and_manual_vs_PIcontrol</a>
+%   <a href="matlab: tanklevel_and_manual_vs_PIcontrol_delay">tanklevel_and_manual_vs_PIcontrol</a>
 %
 %   FREQUENCY RESPONSE METHODS
 %   <a href="matlab: frequency_response_time_behaviour">frequency_response_time_behaviour</a> 

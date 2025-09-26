@@ -79,8 +79,8 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 Several people have developed MATLAB based materials to support the teaching of “Control Systems 101” type courses; the particular focus here is on interactive and animated resources which are largely self-explanatory, that is easy and quick to use, and support student understanding and learning at an introductory level. They demonstrate authentic scenarios across a broad range of topics which motivate the importance of control to modern society, alongside some technical learning outcomes to support university curricula.
 	<br>
 	<br>
-  The community toolbox project is led by Anthony Rossiter (University of Sheffield) with sponsorship from MathWorks and input from numerous international colleagues (e.g. Ruth Bars (Budapest University of Technology and Economics , Antonio Visioli (Universita di Brescia), Sebastian Dormido (UNED), Lanlan Su (University of Sheffield), Ross Drummond (University of Sheffield)). If you have suggestions or possible contributions, please contact Anthony (j.a.rossiter@sheffield.ac.uk).
-	</span></span>
+  The community toolbox project is led by Anthony Rossiter (University of Sheffield) with sponsorship from MathWorks and input from numerous  <a href="#authors">international colleagues</a>. 
+  </span></span>
 <br>
 		
 	<span style="margin-left:10px;"><figure><a href="">
@@ -90,58 +90,51 @@ Several people have developed MATLAB based materials to support the teaching of 
 	
 	
 <p style="font-family:Arial"><span style="font-size:12pt"> <br>
-  Resources are divided into: <br>
-  1. <strong>Virtual laboratories </strong> (section 3) which have simple GUI interfaces so students can select buttons and sliders to observe the behaviour of some authentic scenarios and see how different parameter choices affect behaviour. Each virtual laboratory comprises two files which run independently: i) the mlapp file which is the laboratory itself and ii) a partner livescript file which acts like a concise manual giving context, illustrative MATLAB source code and some technical background.  Naming conventions are largely self-evident. For example, a typical naming convention for the paired app files is: mixingtank_and_behaviour.mlapp and mixingtank_and_behaviour_manual.mlx. If accessing the apps via the installed toolbox and thus installed apps toolbar, the manual (mlx file) will be opened simultaneously. This link relies on correct path selection, so users who did not install the toolbox, but rather just copied all the files, will need to ensure the relevant folder is on the path. <br>
-  2. <strong>Livescript files</strong> &nbsp;(section 2) which focus more on useful MATLAB code students can use to create their own files to support detailed analysis, evaluation and design, as required for university courses and assignments.   If accessing the livescript files via the installed toolbox, typing the file name  will open a livescript with the filename ending "_mycopy" in the current working directory, so the user can easily make and save any changes.<br>
-	2. <strong>Simulink files</strong> &nbsp;(section 4) which support the simulation and analysis of scenarios where there are non-linear components and/or it may be difficult to code a model using simple script files.</span></p>
-<p style="font-family:Arial"><span style="font-size:12pt"><br>
+<h3> Resource summary </h3>	 
+	<table border="1" style="margin-left:20px; cellpadding:15px;">
+		<tr>
+		<td style="width:38%"><strong>Virtual laboratories </strong>  have simple GUI interfaces so users can select buttons and sliders to observe  how different parameter choices affect behaviour. These comprises two files: i) the mlapp file which is the laboratory itself and ii) a partner livescript file which acts like a concise manual giving context, illustrative code and some technical background. </td>
+		<td style="width:37%"><strong>Livescript files</strong> &nbsp; which focus more on useful MATLAB code students can use to create their own files to support detailed analysis, evaluation and design, as required for university courses and assignments.   The toolbox opens a local version of the livescript with the filename ending "_mycopy" in the current working directory, so the user can easily make and save any changes.</td>
+			<td style="width:25%"><strong>Simulink files</strong> &nbsp;  support the simulation and analysis of scenarios where there are non-linear components and/or it may be difficult to code a model using simple script files.</td>
+			
+		</tr>
+		<tr> <td>More detailed overview and recent updates are available in the website: <a href="website">https://controleducation.sites.sheffield.ac.uk/matlabresources/section-6-11-community-control-toolbox</a>
+		</td>
+		<td>
+		Some youtube videos <a href="videos">https://www.youtube.com/playlist?list=PLs7mcKy_nInHEjth9P3m_bxd6D24IVSzz</a> give quick illustrations of the toolbox and how to use the files.
+			</td>
+			<td>The softlinks in sections 2-4  below will run the files if the toolbox has been installed and MATLAB is open.</td>
+		</tr>
+		<tr>
+		<td>For documentation and soft links to files in a separate window type this in the command window: &nbsp &nbsp
+	 <strong> Control101</strong> 
+			</td>
+		<td>
+			For earlier variants of MATLAB the following may be needed: &nbsp <strong> doc Control101 Toolbox or doc ("Control101 Toolbox") or doc control101_toolbox </strong>
+			</td>
+			<td>To open soft links within the command window, type: &nbsp
+	  <strong>help control101 </strong></td>
+		</tr>
+	</table>
   <br>
-  A quick list of the available resources is given below, with links to more complete summary information. For a more detailed overview and recent updates, see the website: <a href="website">https://controleducation.sites.sheffield.ac.uk/matlabresources/section-6-11-community-control-toolbox</a> <br>
-  <br>
-  Some youtube videos <a href="videos">https://www.youtube.com/playlist?list=PLs7mcKy_nInHEjth9P3m_bxd6D24IVSzz</a> give quick illustrations of the toolbox and how to use the files. <br>
-  <br>
-</span></p>
-  	
-	<br>
-  
-		<span style="font-size:14pt">
-  <p>  For documentation and soft links to files in a separate window type one of these directly in the command window: 
-	  <li>Control101 </li>
-	   <br>
-	  For earlier variants of MATLAB the following may be needed
-	  
-	 <li> doc Control101 Toolbox          (pre 2024 only) </li>
-	  <li>doc ("Control101 Toolbox") </li>
-	  <li>doc control101_toolbox </li>
-	  <br>
-	  <li>help Control101          (opens links within the command window)</li>
-	  
-	  </p> 
-	
-<p style="font-family:Arial"><span style="font-size:12pt"><span style="font-size:14pt"><br>
-  <br>The softlinks in sections 2-4  below will run the files if the toolbox has been installed and MATLAB is open.</span>
-  <br>
+	</span></p>
 
-</span></p>
-<span style="font-family:Arial"><span style="font-size:12pt">
-	<h2>Index</h2>
+	<p style="font-family:Arial"><span style="font-size:12pt">
+	<h3>Contents list/Index</h3>
 	
-	This webpage has the following sections.
 	<ol>
-	<li> <a href="#getting">Getting started</a></li>
-	<li><a href="#content">Contents list and soft links for the livescript files</a></li>
+	<li> <a href="#getting">Getting started information</a></li>
+	<li><a href="#content">Soft links for the livescript files</a></li>
 	<li><a href="#labs">Summary of virtual laboratories and softlinks to run files</a></li>
 	<li><a href="#simulink">Summary of files using simulink</a></li>
-	<!--...	  <li><a href="#live">Summary of livescript files and softlinks to run files</a></li>     -->
+	
 	</ol>
+		</span></p>
 	<br>
 		
-	
-<h2 id = getting> 1. Getting started </h2>
-We assume that the user has downloaded the toolbox from the add-ons button within MATLAB. The toolbox is searched for using the tag 'Control 101' or 'Control101' under the add-ons button.
-<br>
-	<br>
-  1. All the virtual labs will appear in the apps tab as illustrated here and are started simply by selecting the relevant icon. A copy of the livescript manual will also be opened in the present working directory. 
+	<p style="font-family:Arial"><span style="font-size:12pt"> <br>
+<h2 id = "getting"> 1. Getting started information </h2>
+Once the user has downloaded the toolbox all the virtual labs will appear in the apps tab as illustrated here and are started simply by selecting the relevant icon. A copy of the livescript manual will also be opened in the present working directory. 
 	
 <br>
 <span style="margin-left:10px;"><figure><a href="">
@@ -150,546 +143,254 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 </a></figure></span>
 	
 	<br>
-	<br>
-	2. To access the livescripts, either use the soft links in this file (section 2.2) or type the name in the command window (as illustrated below); this will open the relevant .mlx file in an editor window as required. 
+	To access the livescripts, either use the soft links in this file (section 2.2) or type the file name in the command window; this will open the relevant .mlx file in an editor window as required. When using the installed toolbox, MATLAB will open a copy of the livescript in the present working directory so that the user can make and save edits without changing the toolbox original.
 	<br><br>
+		
+		</span></p>
 	
-	<strong>NOTE:</strong> When using the installed toolbox, MATLAB will open a copy of the livescript in the present working directory so that the user can make and save edits without changing the toolbox original.
-	
-<span style="margin-left:10px;"><figure><a href="">
-  <img src="imagesforwebpage\forinforhtmlb.jpg" style="width:500px;border:1px solid #ddd; padding:5px; border-radius:2px; margin-bottom:0px;">
-  <figcaption>Illustration of how to open one of the livescript files.</figcaption>
-</a></figure></span>
+	<p style="font-family:Arial"><span style="font-size:12pt">
+<h2 id="content"> 2. Soft links for the livescript files </h2>
 	
 	<br>
-	<br>
-	<br>
-	<br>
-	
-<h2 id=content> 2. Contents List </h2>
-	
-	<br>
-<strong>2.1 List of Virtual Laboratories</strong> <br>
-        More detailed summary information and <a href="#content">soft links</a>  to the files are in section 3 lower down the page.
-        <br>
-<table border=1 style="margin-left:20px; cellpadding:15px;">
-  <tr>
-    <th>File name</th>
-    <th>Learning goals</th>
-    
-  </tr>
-	<tr> <td> 
-		TIME DOMAIN METHODS
-		</td>
-	</tr>
-  <tr>
-    <td>  aeroplanelanding_behaviour </td> <td>
-      Explore mass-spring damper system behaviour. </td>
-  </tr>
-  <tr>
-    <td>  aeroplanelanding_roll_control</td> <td>
-      Lead compensator design for an unstable system. </td>
-  </tr>
-  <tr>
-    <td>behaviours</td> <td>
-      Effect of pole positions on open-loop behaviour.</td>
-  </tr>
-  <tr>
-    <td> carmodel_and_behaviour     </td> <td>
-      Explore the behaviour of mass-damper systems and the impact of disturbances.</td>
-  </tr>
-  <tr>
-    <td>cruisecontrol                   </td> <td>
-      Undertake PI design on a mass-damper system with disturbances.</td>
-  </tr>                 
-  <tr>
-    <td>dcservo_and_position_control        </td> <td>
-      Undertake PI design of position and velocity control.  </td>
-    <tr>
-      <td>firstordermodel_behaviour                 </td> <td>
-        Understand and explore the core characteristics of 1st order model behaviours.</td>
-  </tr>       
-  <tr>
-    <td>firstordermodels_response_characterisation </td> <td>
-      Identify model parameters from a step response.</td>
-  </tr>
-
-	<tr>
-    <td>HeatExchanger                </td> <td>
-      Explore and understand the natural behaviours of simple heat exchanger systems. </td>
-  </tr>  
-  <tr>
-    <td>housetemperature_and_behaviour                </td> <td>
-      Explore and understand the natural behaviours of simple thermal systems. </td>
-  </tr>  
-	<tr>
-    <td>housetemperature_story                </td> <td>
-      This file takes a user through the entire process of modelling, analysing, controller design and final evaluation, for a thermal system, in the presence of multiple forms of uncertainty. </td>
-  </tr>  
-  <tr>
-    <td>invertedpendulum       </td> <td>
-      Understand and observe the impact of sensor delay and lag on a challenging control problem.</td>
-  </tr>
-  <tr>
-    <td>mixingtank_and_behaviour     </td> <td>
-      Explore and understand the natural behaviours of a simple mixing tank.</td>
-  </tr>
-	 <tr>
-    <td>open_vs_closed_control101     </td> <td>
-      Explore and understand the weaknesses of open-loop control in the context of a simple robotic arm.</td>
-  </tr>   
-  <tr>
-    <td>tanklevel_and_PIcontrol           </td> <td>
-      Undertake PI design of simple tank level systems.</td>
-  </tr> 
-	<tr>
-    <td>tanklevel_and_manual_vs_PIcontrol           </td> <td>
-      Compare manual control with PI with frequently changing disturbances.</td>
-  </tr> 
-  <tr>
-    <td>tanklevelbehaviour</td> <td>
-      Explore and understand the natural behaviours of a tank level system.  </td>
-  </tr>
-	<tr>
-    <td>tanklevel_story                </td> <td>
-      This file takes a user through the entire process of modelling, analysing, controller design and final evaluation, for a fluid system, in the presence of multiple forms of uncertainty. </td>
-  </tr>  
-	<tr>
-    <td>PI tuning              </td> <td>
-     An interactive resource to practice using PI design on a number of systems. Users can use the pre-entered systems or enter selections of their own.</td>
-  </tr>  
-	<tr>
-    <td>PID tuning rules              </td> <td>
-     This resource provides an interactive app file (MATLAB virtual laboratory) which allows users to explore and analyse the tuning of a PID compensators using a range of well known tuning methods. </td>
-  </tr> 
-	<tr>
-    <td>Pole placement             </td> <td>
-     The purpose of this file is to define the continuous or the discrete PID controllers for a given plant (G(s)) using the pole replacement method. By this method the transfer function of the continuous or the discrete controller can be determined easily and quickly.  </td>
-  </tr> 
-	<tr>
-    <td>Diabetes and blood sugar             </td> <td>
-     This resource provides an interactive app file which allows users to explore the impact of diabetes and automatic control on blood sugar levels. </td>
-  </tr>  
-	<tr>
-    <td>Predator prey models and behaviours             </td> <td>
-     This resource provides an interactive app file which allows users to explore and analyse the behaviour of a common non-linear model representating populations of predators and prey. </td>
-  </tr>  
-	
-	 
-	</tr>
-	<tr> <td> 
-		FREQUENCY RESPONSE METHODS
-		</td>
-	</tr>
-		<tr>
-    <td>frequency_response_time_behaviour                </td> <td>
-      Explore and understand the concepts of frequency response in the time domain. </td>
-  </tr>  
-	<tr>
-    <td>proportional_design_phase_margin                </td> <td>
-      This file allows a user to practise simple proportional design using frequency response methods and in particular to focus on achieving a target phase margin. </td>
-  </tr>  
-	</tr>
-	<tr>
-    <td>lag_design_phase_margin                </td> <td>
-      This file allows a user to practise simple lag compensator design using frequency response methods and in particular to focus on achieving a target phase margin and low frequency gain (either a ramp or constant offset criteria). </td>
-  </tr> 
-	<tr>
-    <td>lead_design_phase_margin                </td> <td>
-      This file allows a user to practise simple lead compensator design using frequency response methods and in particular to focus on achieving a target phase margin and bandwidth criteria. </td>
-  </tr>  
-	<tr>
-    <td>lead_lag_design_phase_margin                </td> <td>
-      This file allows a user to practise simple lead-lag compensator design using frequency response methods and in particular to focus on achieving, in order specified: bandwidth, phase margin and low frequency gain. </td>
-  </tr>  
-	<tr>
-    <td>lead_lag_design_criteria                </td> <td>
-      This file builds the compensators automatically based solely on the performance criteria (bandwidth, PM and offset) and presents a comparison of the behaviours with the different compensator approaches (proportional, lag, lead, lead-lag). </td>
-  </tr>  
-	</tr>
-	<tr><td>VIRTUAL LABORATORIES USING SIMULINK FILES</td></tr>
-	<tr>
-    <td>nonlinear_position_control                </td> <td>
-      This file allows a user to explore the non-linear components in a position control system and their impact on behaviour. </td>
-  </tr>  
-	<tr>
-    <td>nonlinear_tank_control_control101                </td> <td>
-       This file allows a user to explore the non-linear components in a tank level system and their impact on both open-loop and closed-loop behaviour. </td>
-  </tr>  
-		<tr>
-    <td>conical_tank_behaviour_control101,  conical_tank_control_control101            </td> <td>
-     These two resources provide interactive app files which allows users to explore and analyse the behaviour/control of conical tanks. These have significant non-linear characteristics which are a challenge for linear control methods. </td>
-  </tr>  
-	</tr>
-
-</table>                                 
-
-<br> <br>
-
- <strong>2.2 Livescript files for learning control basics alongside simple MATLAB code
- for analysis and evaluation.</strong> <br>
-    <br>
         The livescript files are written like manuals, so much more information is available once you open them. 
         If you opened this documentation file from within MATLAB and select the name on the left, it should 
-        run the releavant livescript file within MATLAB.
+        run the releavant livescript file within MATLAB. The list of files is organised below into sections: i) Introduction to control; ii) frequency response; iii) discrete control and advanced methods and iv) state space.
 	
-	<br>
-	<br>
-	<table border=1 style="margin-left:20px; cellpadding:15px;">
-  <tr>
-    <th>File name</th>
-    <th>Learning goals</th>
-    
-  </tr>
-		<tr> <td> 
+		<br>
+	<table border="1" style="margin-left:20px; cellpadding:15px;">
+ 		<tr> <td> 
 		TIME DOMAIN METHODS
-		</td>
+		</td> <td></td> <td></td>
 	</tr>
   <tr>
     <td>
-      <a href="matlab: plotting_with_matlab"><code>plotting_with_matlab.m</code></a>
+      <a href="matlab:plotting_with_matlab"><code>plotting_with_matlab.m</code></a> <br> Gives a rapid overview of the vector notation used to support line plots and the plot command. 
       </td>
-    <td>Gives a rapid overview of the vector notation used to support line plots and the plot command. </td>
-    </tr>
-	  
-	  
-	  
-	  <td><a href="matlab: ODEs_with_matlab"><code>ODEs_with_matlab.m</code></a>
-	    </td>
-	    <td>  Shows how MATLAB can be used to give both analytic and numerical solutions of ODEs. Includes examples of how to plot the solutions. 
-        </td></tr>
-	  <tr>
-	    
+    <td> <a href="matlab: ODEs_with_matlab"><code>ODEs_with_matlab.m</code></a><br>
+   Shows how MATLAB can be used to give both analytic and numerical solutions of ODEs. Includes examples of how to plot the solutions. 
+        </td>
   <td>
     <a href="matlab: firstordermodels_in_matlab"><code>firstordermodels_in_matlab.m</code></a>
-    </td>
-	    <td> Shows how to create models in MATLAB to represent systems.
+   <br> Shows how to create models in MATLAB to represent systems.
         </td></tr>
 	  <tr>
   <td>
     <a href="matlab: firstordermodels_responses_analysis_and_feedback"><code>firstordermodels_responses_analysis_and_feedback.m</code></a>
-    </td>
-	    <td> A holistic storyline script which begins from modelling 1st order models in time constant form, identifying parameters from data and then moves on to analysis and design of proportional and PI feedback compensators.
+    <br> A holistic storyline script which begins from modelling 1st order models in time constant form, identifying parameters from data and then moves on to analysis and design of proportional and PI feedback compensators.
 	      </td>
-      </tr>
-	  <tr>
-  <td>
+        <td>
     <a href="matlab: secondordermodels_in_matlab"><code>secondordermodels_in_matlab.m</code></a>
-    </td>
-	    <td> Shows how to create models in MATLAB to represent systems
+    <br> Shows how to create models in MATLAB to represent systems
 	      </td>
-      </tr>
-	  <tr>
-  <td>
+        <td>
     <a href="matlab: secondordermodels_and_underdamping"><code>secondordermodels_and_underdamping.m</code></a>
-    </td>
-	    <td>Illustrates under-damped 2nd order behaviours and the impact of the damping ratio and natural frequency. Uses Laplace based models.
+    <br>Illustrates under-damped 2nd order behaviours and the impact of the damping ratio and natural frequency. Uses Laplace based models.
 	      </td>
       </tr>
 	  <tr>
   <td>
     <a href="matlab: laplace_transforms_with_matlab"><code>laplace_transforms_with_matlab.m</code></a>
-    </td>
-	    <td>   Shows how to find the Laplace transform of a time domain signal and the inverse Laplace of a transform. Focuses on analytic solutions. Files below this largely focus on numerical solutions.
+    <br>   Shows how to find the Laplace transform of a time domain signal and the inverse Laplace of a transform. Focuses on analytic solutions. Files below this largely focus on numerical solutions.
 	      </td>
-      </tr>
-	  <tr>
-	    <td><a href="matlab: partial_fractions_with_matlab"><code>partial_fractions_with_matlab.m</code></a>
+      	    <td><a href="matlab: partial_fractions_with_matlab"><code>partial_fractions_with_matlab.m</code></a>
+	      <br> Partial fractions are a core part of inverse Laplace and understanding behaviours. This file shows how MATLAB can support such computations where required.
 	      </td>
-	    <td> Partial fractions are a core part of inverse Laplace and understanding behaviours. This file shows how MATLAB can support such computations where required.
-	      </td>
-      </tr>
-	  <tr>
-  <td>
+       <td>
     <a href="matlab: transferfunctions_and_poles"><code>transferfunctions_and_poles.m</code></a>
-    </td>
-	    <td> Shows how to create a transfer function in MATLAB and also to find its poles and zeros which in turn characterise the expected behaviours. 
+    <br> Shows how to create a transfer function in MATLAB and also to find its poles and zeros which in turn characterise the expected behaviours. 
 	      </td>
       </tr>
 	  <tr>
   <td>
     <a href="matlab: transferfunctions_and_behaviours"><code>transferfunctions_and_behaviours.m</code></a>
-    </td>
-	    <td> Shows how to create a transfer function in MATLAB and also to characterise and plot the expected behaviours. 
+    <br> Shows how to create a transfer function in MATLAB and also to characterise and plot the expected behaviours. 
   </td>
-      </tr>
-	  <tr>
-  <td>
+       <td>
     <a href="matlab: step_responses_with_matlab"><code>step_responses_with_matlab.m</code></a>
-    </td>
-	    <td> Step responses are a cornerstone of system behaviours and supported by the MATLAB step.m command. This file illustrates several different ways step.m can be used. 
+    <br> Step responses are a cornerstone of system behaviours and supported by the MATLAB step.m command. This file illustrates several different ways step.m can be used. 
   </td>
-		<tr>  <td>
+      <td>
     <a href="matlab: effects_of_negative_feedback"><code>effects_of_negative_feedback.m</code></a>
-    </td>
-	    <td> Motivates the need for feedback by demonstrating benefits in a range of diverse scenarios. 
+    <br> Motivates the need for feedback by demonstrating benefits in a range of diverse scenarios. 
   </td>
       </tr>
 	  <tr>
   <td>
     <a href="matlab: closedloop_transferfunctions_with_feedback"><code>closedloop_transferfunctions_with_feedback.m</code></a>
-    </td>
-	    <td> Introduces the feedback.m file for computing closed-loop transfer functions.  
+    <br> Introduces the feedback.m file for computing closed-loop transfer functions.  
   </td>
-      </tr>
-	  <tr>
-  <td>
+    <td>
     <a href="matlab: closed_vs_openloop_overlay"><code>closed_vs_openloop_overlay.m</code></a>
-    </td>
-	    <td>  Demonstrates code for overlaying the closed-loop responses with different choices of compensator so you can compare and contrast different designs.  Allows 3 different compensators but uses transparent (inefficient) coding for simplicity so users can follow the core steps. 
+    <br>  Demonstrates code for overlaying the closed-loop responses with different choices of compensator so you can compare and contrast different designs.  Allows 3 different compensators but uses transparent (inefficient) coding for simplicity so users can follow the core steps. 
   </td>
-      </tr>
-	  <tr>
-  <td>
+       <td>
     <a href="matlab: closed_loop_compare_multiple_compensators"><code>closed_loop_compare_multiple_compensators.m</code></a>
-    </td>
-	    <td> This file provides more efficient coding for comparing numerous compensators on the same system. Allows any number of compensators with minimal changes in the code required (just enter the required system definitions).
+    <br> This file provides more efficient coding for comparing numerous compensators on the same system. Allows any number of compensators with minimal changes in the code required (just enter the required system definitions).
   </td>
       </tr>
 	  <tr>
   <td>
     <a href="matlab: closedloop_offset_and_poles"><code>closedloop_offset_and_poles.m</code></a>
-    </td>
-	    <td>  Focuses specifically on how to compute the closed-loop poles and offset (percentage). 
+    <br>  Focuses specifically on how to compute the closed-loop poles and offset (percentage). 
   </td>
-      </tr>
- <tr>
-  <td>
+       <td>
     <a href="matlab: PID_tuning_methods"><code>PID_tuning_methods.m</code></a>
-    </td>
-	    <td>  Introduces a number of popular rules for tuning PID compensators. 
+    <br>  Introduces a number of popular rules for tuning PID compensators. 
   </td>
+		  <td></td>
       </tr>
 
 <tr> <td> 
 		FREQUENCY RESPONSE METHODS
-		</td>
+		</td> <td></td> <td></td>
 	</tr>
 	  <tr>
   <td>
     <a href="matlab: freq_responses_with_matlab"><code>freq_responses_with_matlab.m</code></a>
-    </td>
-	    <td> Introduces users to the concept of frequency response and how the gain and phase might be computed from both time domain responses and with complex algebra (i.e. bode.m). [Needs the file ds2nfu.m to support some internal illustrations.]
+    <br> Introduces users to the concept of frequency response and how the gain and phase might be computed from both time domain responses and with complex algebra (i.e. bode.m). [Needs the file ds2nfu.m to support some internal illustrations.]
   </td>
-      </tr>
-	  <tr>
+     
   <td>
     <a href="matlab: bode_asymptotes"><code>bode_asymptotes.m</code></a>
-    </td>
-	    <td> While modern computing means there is less need to sketch Bode diagrams by hand, some basic insight and understanding into the basic shapes is useful in analysis and design. This file produces asymptote plots to aid such insight.
+    <br> While modern computing means there is less need to sketch Bode diagrams by hand, some basic insight and understanding into the basic shapes is useful in analysis and design. This file produces asymptote plots to aid such insight.
   </td>
-      </tr>
-	  <tr>
+  
   <td>
     <a href="matlab: proportional_design_with_bode"><code>proportional_design_with_bode.m</code></a>
-    </td>
-	    <td>A simple proportional design is often based on a phase margin criteria. This livescript explains and illustrates the key steps.
+    <br>A simple proportional design is often based on a phase margin criteria. This livescript explains and illustrates the key steps.
   </td>
       </tr>
 <tr>
   <td>
     <a href="matlab: Stability_Continuous"><code>Stability_Continuous.m</code></a>
-    </td>
-	    <td> This livescript file reviews the main concepts of stability of continuous control systems using several popular methods and summarises the engineering and analytical background alongside some simple MATLAB code snippets that can be used for the equivalent analysis.
+    <br> This livescript file reviews the main concepts of stability of continuous control systems using several popular methods and summarises the engineering and analytical background alongside some simple MATLAB code snippets that can be used for the equivalent analysis.
   </td>
-      </tr>
-	  <tr>
+     
   <td>
     <a href="matlab: lag_design_with_bode"><code>lag_design_with_bode.m</code></a>
-    </td>
-	    <td> This file explains the core steps behind a mechanistic lag design (PM and low freq. gain criteria) and illustrates with examples.
+    <br> This file explains the core steps behind a mechanistic lag design (PM and low freq. gain criteria) and illustrates with examples.
   </td>
-      </tr>
-	  <tr>
+     
   <td>
     <a href="matlab: lead_design_with_bode"><code>lead_design_with_bode.m</code></a>
-    </td>
-	    <td>This file explains the core steps behind a mechanistic lead design (PM and bandwidth criteria) and illustrates with examples.
+    <br>This file explains the core steps behind a mechanistic lead design (PM and bandwidth criteria) and illustrates with examples.
   </td>
       </tr>
 	  <tr>
   <td>
     <a href="matlab: lead_lag_design_with_bode"><code>lead_lag_design_with_bode.m</code></a>
-    </td>
-	    <td>This file explains the core steps behind a mechanistic lead-lag design (PM, low freq. gain and bandwidth criteria) and illustrates with examples. Also compares with a lag design and a lead design.
+    <br>This file explains the core steps behind a mechanistic lead-lag design (PM, low freq. gain and bandwidth criteria) and illustrates with examples. Also compares with a lag design and a lead design.
   </td>
-      </tr>
-
- <tr>
+     
   <td>
     <a href="matlab: lead_lag_design_with_criteria"><code>lead_lag_design_with_criteria.m</code></a>
-    </td>
-	    <td>This file provides code to perform the mechanistic proportional, lag, lead and lead-lag designs based on criteria (PM, low freq. gain and bandwidth criteria) and illustrates with examples. 
+    <br>This file provides code to perform the mechanistic proportional, lag, lead and lead-lag designs based on criteria (PM, low freq. gain and bandwidth criteria) and illustrates with examples. 
+  </td>
+     
+  <td>
+    <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation"><code>PID_Cont_Controller_Design_with_Pole_Cancellation.m</code></a>
+    <br>This file explains the core steps behind a mechanistic PID design using a pole cancellation technique and exploiting frequency response methods. 
   </td>
       </tr>
-
-<tr>
+	  <tr>
   <td>
     <a href="matlab: delays_and_bode"><code>delays_and_bode.m</code></a>
-    </td>
-	    <td> Real systems are often subject to small delays, perhaps due to actuator placement or measurement issues. This file allows users to explore the impact of delays on expected closed-loop performance and indeed to consider how a system re-design of the compensator may be considered.
+    <br> Real systems are often subject to small delays, perhaps due to actuator placement or measurement issues. This file allows users to explore the impact of delays on expected closed-loop performance and indeed to consider how a system re-design of the compensator may be considered.
   </td>
+		  <td></td><td></td>
       </tr>
-
-	  
 	  <tr>
 	    <td> DISCRETE MODEL AND ADVANCED METHODS</td>
-  <td>THE FILES BELOW LINK TO DISCRETE SYSTEMS BUT ONLY DO SO AT A RELATIVELY SUPERFICIAL LEVEL AS THIS IS MORE LINKED TO AWARENESS RAISING THAN MEETING THE FORMAL TEACHING REQUIREMENTS NEEDED IN HIGHER LEVEL COURSES</td></tr>
+  <td>THE FILES BELOW LINK TO DISCRETE SYSTEMS BUT ONLY DO SO AT A RELATIVELY SUPERFICIAL LEVEL </td> <td></td></tr>
 	  <tr>
   <td>
     <a href="matlab: time_series_models"><code>time_series_models.m</code></a>
-    </td>
-	    <td>This file gives a simple introduction to the concept of a time series/discrete systems and how MATLAB can be used to support modelling and analysis with such tools.
+    <br>This file gives a simple introduction to the concept of a time series/discrete systems and how MATLAB can be used to support modelling and analysis with such tools.
   </td>
-      </tr>
-	  <tr>
+     
   <td>
     <a href="matlab: time_series_models_and_recursion"><code>time_series_models_and_recursion.m</code></a>
-    </td>
-	    <td>Often simulation of a time series model is best handled with a recursion (or loop in code). A simple example of suitable coding is given here.
+    <br>Often simulation of a time series model is best handled with a recursion (or loop in code). A simple example of suitable coding is given here.
   </td>
-      </tr>
-	  <tr>
+     
   <td>
     <a href="matlab: discrete_models_and_usage"><code>discrete_models_and_usage.m</code></a>
-    </td>
-	    <td> More generally control engineers deploy z-transform models to handle discrete systems. This file gives a rapid introduction to the MATLAB tools which facilitate this and thus explains how users might undertake the corresponding analysis.
+    <br> More generally control engineers deploy z-transform models to handle discrete systems. This file gives a rapid introduction to the MATLAB tools which facilitate this and thus explains how users might undertake the corresponding analysis.
   </td>
       </tr>
 	  <tr>
   <td>
     <a href="matlab: discretisation_and_bode"><code>discretisation_and_bode.m</code></a>
-    </td>
-	    <td> Real systems are often implemented in a discrete fashion, albeit the design was done using a continuous design method. This file allows users to explore the impact of discretisation and the choice of sample rate on the efficacy of the original design.
+    <br> Real systems are often implemented in a discrete fashion, albeit the design was done using a continuous design method. This file allows users to explore the impact of discretisation and the choice of sample rate on the efficacy of the original design.
   </td>
-      </tr>
-<tr>
+      
   <td>
     <a href="matlab: Stability_Discrete"><code>Stability_Discrete.m</code></a>
-    </td>
-	    <td> This livescript file reviews the main concepts of stability of discrete control systems using several popular methods and summarises the engineering and analytical background alongside some simple MATLAB code snippets that can be used for the equivalent analysis.
+    <br> This livescript file reviews the main concepts of stability of discrete control systems using several popular methods and summarises the engineering and analytical background alongside some simple MATLAB code snippets that can be used for the equivalent analysis.
   </td>
-      </tr>
-		
-		<tr>
+      
   <td>
     <a href="matlab: antireset_windup_control101"><code>antireset_windup_control101.m</code></a>
-    </td>
-	    <td>  Real control systems contain actuator saturation. This resource introduces students to the impact of saturation on behaviour and some simple solutions to ameliorate the effects. It uses several simulink files: IMC_saturated_control101, antiresetwindup_control101, saturated_control_control101, saturatedcontrol_with_integral_control101, foxboro_controller_control101. 
+    <br>  Real control systems contain actuator saturation. This resource introduces students to the impact of saturation on behaviour and some simple solutions to ameliorate the effects. It uses several simulink files: IMC_saturated_control101, antiresetwindup_control101, saturated_control_control101, saturatedcontrol_with_integral_control101, foxboro_controller_control101. 
   </td>
       </tr>
 		<tr>
   <td>
     <a href="matlab: control_structures_control101"><code>control_structures_control101.m</code></a>
-    </td>
-	    <td> In real scenarios there is often more information available than just the output measurement, for example internal loops states and disturbances may also be known. This resource explores the simple uses of this information for imprioving behaviour. It uses several simulink files: internal_model_control101, cascade_control101.
-  </td>
-      </tr>
-		
-			
-		
-<tr>
-  <td>
-    <a href="matlab: PID_Cont_Controller_Design_with_Pole_Cancellation"><code>PID_Cont_Controller_Design_with_Pole_Cancellation.m</code></a>
-    </td>
-	    <td>This file explains the core steps behind a mechanistic PID design using a pole cancellation technique and exploiting frequency response methods. 
-  </td>
-      </tr>
-	  
-<tr>
-  <td>
-    <a href="matlab: Youla_continuous_controller_design"><code>Youla_continuous_controller_design.m</code></a>
-    </td>
-	    <td> Advanced approaches to compensator design to take more explicit account of sensitivity to uncertainty.
-  </td>
-      </tr>
-	<tr>
+    <br> In real scenarios there is often more information available than just the output measurement, for example internal loops states and disturbances may also be known. This resource explores the simple uses of this information for imprioving behaviour. It uses several simulink files: internal_model_control101, cascade_control101.
+			</td>
+	
   <td>
     <a href="matlab: discrete_models_and_discrete_PID_controller_design"><code>discrete_models_and_discrete_PID_controller_design.m</code></a>
-    </td>
-	    <td> This file then focuses on how PID  design can be performed in the discrete case using a pole cancellation technique.
+    <br> This file then focuses on how PID  design can be performed in the discrete case using a pole cancellation technique.
+  </td>
+      <td>
+    <a href="matlab: Youla_continuous_controller_design"><code>Youla_continuous_controller_design.m</code></a>
+    <br> Advanced approaches to compensator design to take more explicit account of sensitivity to uncertainty.
   </td>
       </tr>
 
-<tr>
-  <td>
-    <a href="matlab: Dead_beat_controller_design_control101"><code>Dead_beat_controller_design_control101.m</code></a>
-    </td>
-	    <td> An introduction to dead-beat control design and the concept of inter-sample ripple. Uses a SIMULINK file: simulink_deadbeat_control101.slx
-  </td>
-      </tr>
-
-<tr>
-  <td>
-    <a href="matlab: Smith_predictor_controller_design"><code>Smith_predictor_controller_design.m</code></a>  
-    </td>
-	    <td> An introduction to simple controller design methods for dealing with dead-time processes.
-  </td>
-      </tr>
-
-<tr>
-  <td>
-    <a href="matlab: Youla_discrete_controller_design"><code>Youla_discrete_controller_design.m</code></a>  
-    </td>
-	    <td> An introduction to Youla based design for discrete systems.
-  </td>
-      </tr>
 <tr>
   <td>
     <a href="matlab: discrete_controller_design_methods"><code>discrete_controller_design_methods.m</code></a>
-    </td>
-	    <td> A comparison of the various advanced approaches to compensator design above.
+    <br> A comparison of the various advanced approaches to compensator design above.
   </td>
+	<td></td> <td></td>
       </tr>
- <tr>
+	   <tr>
 	    <td> STATE SPACE METHODS</td>
-  <td>A series of files covering an introduction to state space models, their analysis and asociated use with feedback.</td></tr>
-
+  <td></td><td></td></tr>
 <tr>
   <td>
     <a href="matlab: statespace_models_control101"><code>statespace_models_control101.m</code></a>
-    </td>
-	    <td> Advanced approaches to compensator design to take more explicit account of sensitivity to uncertainty.
+    <br> Advanced approaches to compensator design to take more explicit account of sensitivity to uncertainty.
   </td>
-      </tr>
-
-<tr>
+     
   <td>
     <a href="matlab: statespace_models_from_tf_control101"><code>statespace_models_from_tf_control101.m</code></a>
-    </td>
-	    <td> This file focuses on how equivalent state space models can be determined from transfer function models, both continuous and discrete.
+    <br> This file focuses on how equivalent state space models can be determined from transfer function models, both continuous and discrete.
   </td>
-      </tr>
-
-<tr>
+      
   <td>
     <a href="matlab: tf_models_from_statespace_control101"><code>tf_models_from_statespace_control101.m</code></a>
-    </td>
-	    <td> This file focuses on how equivalent transfer function models can be determined from state space models, both continuous and discrete.
+    <br> This file focuses on how equivalent transfer function models can be determined from state space models, both continuous and discrete.
   </td>
       </tr>
 
 <tr>
   <td>
     <a href="matlab: discrete_time_state_space_models_control101"><code>discrete_time_state_space_models_control101.m</code></a>
-    </td>
-	    <td> This file focuses on how to determine a discrete time state space model, given one already has the continuous time model. Some brief theoretical background is given before focussing on the code.
+    <br> This file focuses on how to determine a discrete time state space model, given one already has the continuous time model. Some brief theoretical background is given before focussing on the code.
   </td>
-      </tr>
-
-<tr>
+      
   <td>
     <a href="matlab: statespace_models_from_tf_control101 "><code>statespace_models_from_tf_control101 .m</code></a>
-    </td>
-	    <td> This file focuses on how equivalent state space models can be determined from a transfer function model, both continuous and discrete.
+    <br> This file focuses on how equivalent state space models can be determined from a transfer function model, both continuous and discrete.
   </td>
-      </tr>
-
-<tr>
+      
   <td>
     <a href="matlab: openloop_behaviour_statespace_control101"><code>openloop_behaviour_statespace_control101.m</code></a>
-    </td>
-	    <td> This file focuses on how to infer and explore the expected open-loop behaviour of a state space models, both continuous and discrete.
+    <br> This file focuses on how to infer and explore the expected open-loop behaviour of a state space models, both continuous and discrete.
 
   </td>
       </tr>
@@ -697,41 +398,17 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 <tr>
   <td>
     <a href="matlab: phaseplane_behaviour_statespace_control101"><code>phaseplane_behaviour_statespace_control101.m</code></a>
-    </td>
-	    <td> This file focuses on how to infer the expected open-loop behaviour of a state space models, within the phase plane, that is the behaviour of the states rather than the inputs and the outputs. It is interesting to note how this behaviour can be linked to the eigenvalue/vector decomposition of the state matrix.
+    <br> This file focuses on how to infer the expected open-loop behaviour of a state space models, within the phase plane, that is the behaviour of the states rather than the inputs and the outputs. It is interesting to note how this behaviour can be linked to the eigenvalue/vector decomposition of the state matrix.
   </td>
-      </tr>
-
-<tr>
+     
   <td>
     <a href="matlab: equivalent_state_space_formulations_control101"><code>equivalent_state_space_formulations_control101.m</code></a>
-    </td>
-	    <td> This file focuses on equivalent forms, that is, state space models which appear different but have the same input-output behaviour. The file gives a brief overview of the underlying relationships and then gives MATLAB code for showing the relationships between two equivalent forms. 
+    <br> This file focuses on equivalent forms, that is, state space models which appear different but have the same input-output behaviour. The file gives a brief overview of the underlying relationships and then gives MATLAB code for showing the relationships between two equivalent forms. 
   </td>
-      </tr>
-
-<tr>
+      
   <td>
     <a href="matlab: controllability_and_observability_control101"><code>controllability_and_observability_control101.m</code></a>
-    </td>
-	    <td> Controllability and observability are important properties of state space models which determine the extent to which effective state feedback compensators and observers can be implemented.  
-
-  </td>
-      </tr>
-<tr>
-  <td>
-    <a href="matlab: stability_eigenvalues_control101"><code>stability_eigenvalues_control101.m</code></a>
-    </td>
-	    <td> This file gives extensive tutorial like background to the significance of eigenvalues and eigenvectors within state space systems and also extends to consider non-linear systems and linearisation.
-
-  </td>
-      </tr>
-
-<tr>
-  <td>
-    <a href="matlab: stability_analysis_control101"><code>stability_analysis_control101.m</code></a>
-    </td>
-	    <td> This file gives extensive tutorial like background to the the stability analsysis of state space systems and also extends the discussion to include nonlinear systems.  
+    <br> Controllability and observability are important properties of state space models which determine the extent to which effective state feedback compensators and observers can be implemented.  
 
   </td>
       </tr>
@@ -739,26 +416,19 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 <tr>
   <td>
     <a href="matlab: state_feedback_control101"><code>state_feedback_control101.m</code></a>
-    </td>
-	    <td> When a system is expressed as a state space model, it is normal to design the closed-loop compensator as a state feedback. This file gives an introduction to the topic and  relevant MATLAB code to support the associated design and analysis.
+    <br> When a system is expressed as a state space model, it is normal to design the closed-loop compensator as a state feedback. This file gives an introduction to the topic and  relevant MATLAB code to support the associated design and analysis.
 
   </td>
-      </tr>
-
-<tr>
+  
   <td>
     <a href="matlab: optimal_state_feedback_control101 "><code>optimal_state_feedback_control101.m</code></a>
-    </td>
-	    <td> When a system is expressed as a state space model, it is normal to design the closed-loop compensator as a state feedback. This file gives an introduction to the popular method of 'optimal control'. 
+    <br> When a system is expressed as a state space model, it is normal to design the closed-loop compensator as a state feedback. This file gives an introduction to the popular method of 'optimal control'. 
 
   </td>
-      </tr>
-
-<tr>
+     
   <td>
     <a href="matlab: observer_design_control101"><code>observer_design_control101.m</code></a>
-    </td>
-	    <td> In practice the states are not known and need to be inferred or estimated from available measurements; an observer is used for this process. This fie introduces the concept of the observer quickly and then focuses on how to use MATLAB to support his approach.
+    <br> In practice the states are not known and need to be inferred or estimated from available measurements; an observer is used for this process. This fie introduces the concept of the observer quickly and then focuses on how to use MATLAB to support his approach.
 
   </td>
       </tr>
@@ -766,49 +436,38 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 <tr>
   <td>
     <a href="matlab: tracking_with_statespace_control101 "><code>tracking_with_statespace_control101.m</code></a>
-    </td>
-	    <td> This resource introduces simple methods for dealing with non-zero constant targets and then looks more systematically at how integral action can be incorporated into a state space framework, with an observer and model uncertainty.
+    <br> This resource introduces simple methods for dealing with non-zero constant targets and then looks more systematically at how integral action can be incorporated into a state space framework, with an observer and model uncertainty.
 
   </td>
-      </tr>
-<tr>
+      
   <td>
     <a href="matlab: state_feedback_and_estimation_cont_case_study "><code>state_feedback_and_estimation_cont_case_study.m</code></a>
-    </td>
-	    <td>The purpose here is to undertake case studies showing how the different analysis and design tools above can be used to formulate a complete control feedback design. The design method used here is pole placement.
+    <br>The purpose here is to undertake case studies showing how the different analysis and design tools above can be used to formulate a complete control feedback design. The design method used here is pole placement.
 
       </td>
-      </tr>
-<tr>
+  
   <td>
     <a href="matlab: state_feedback_and_state_estimation_discrete_case_study "><code>state_feedback_and_state_estimation_discrete_case_study.m</code></a>
-    </td>
-	    <td>The purpose here is to undertake case studies showing how the different analysis and design tools above can be used to formulate a complete control feedback design for a discrete system. The design method used here is pole placement.
+    <br>The purpose here is to undertake case studies showing how the different analysis and design tools above can be used to formulate a complete control feedback design for a discrete system. The design method used here is pole placement.
 
       </td>
       </tr>
 <tr>
   <td>
     <a href="matlab: state_space_and_simulinkfile1_control101"><code>state_space_and_simulinkfile1_control101.m</code></a>
-    </td>
-	    <td>  An introduction to using simulink with state space models and state feedback. Simple scenarios only. Uses Simulink files: state_space_simulinkfile_openloop_control101.slx, state_space_simulink_feedback_control101.slx, state_space_simulink_feedforward_control101.slx.
+    <br>  An introduction to using simulink with state space models and state feedback. Simple scenarios only. Uses Simulink files: state_space_simulinkfile_openloop_control101.slx, state_space_simulink_feedback_control101.slx, state_space_simulink_feedforward_control101.slx.
 
   </td>
-      </tr>
-
-<tr>
+      
   <td>
     <a href="matlab: state_space_and_simulinkfile2_control101"><code>state_space_and_simulinkfile2_control101.m</code></a>
-    </td>
-	    <td>  Introduces the concepts of feedforward to improve tracking and observers to estimate states. Uses simulink file state_space_simulinkfile_observer_control101.slx
+    <br>  Introduces the concepts of feedforward to improve tracking and observers to estimate states. Uses simulink file state_space_simulinkfile_observer_control101.slx
 
   </td>
-      </tr>
-<tr>
+      
   <td>
     <a href="matlab: state_space_and_simulinkfile3_control101"><code>state_space_and_simulinkfile3_control101.m</code></a>
-    </td>
-	    <td>  Introduces integral action into the feedback loop along with an observer. Demonstrates efficacy in presence of uncertainty. Uses Simulink file: state_space_simulink_integral_control101.slx
+    <br>  Introduces integral action into the feedback loop along with an observer. Demonstrates efficacy in presence of uncertainty. Uses Simulink file: state_space_simulink_integral_control101.slx
 
   </td>
       </tr>
@@ -816,241 +475,265 @@ We assume that the user has downloaded the toolbox from the add-ons button withi
 
 	  </table>
 
-   
+		</span></p>
 	
 <br>
-<br>
-<h2 id=labs> 3. Summaries of Virtual Labs and soft links</h2>
+
+	<p style="font-family:Arial"><span style="font-size:12pt"> 
+<h2 id="labs"> 3. Summaries of Virtual Labs and soft links</h2>
 	Detailed background and notes are in the livescript manuals which open when you run the apps.  If 
     you opened this documentation file from within MATLAB and select the name or icon on the left, it should 
         run the relevant livescript manual file and virtual laboratory within MATLAB (be patient, it may take 20 sec to open both files).
 	<br>
-	<br>
-<table border=1 style="margin-left:20px; cellpadding:15px;">
+		<h3>3.1 List of Virtual Laboratories</h3> 
+        More detailed summary information and soft links  to the files are below.
+        <br>
+<table border="1" style="margin-left:20px; cellpadding:15px;">
   <tr>
-    <th>Lab</th>
-    <th>Learning goals</th>
-    
+     <tr>
+    <td>  aeroplanelanding_behaviour </td> 
+    <td>  aeroplanelanding_roll_control</td> 
+		 <td>behaviours</td> 
+          <td> carmodel_and_behaviour     </td> 
+    <td>cruisecontrol                   </td> 
+  </tr>                 
+  <tr>
+    <td>dcservo_and_position_control        </td> 
+      <td>firstordermodel_behaviour                 </td> 
+    <td>firstordermodels_response_characterisation </td>
+    <td>HeatExchanger                </td> 
+    <td>housetemperature_and_behaviour                </td> 
+  </tr>  
+	<tr>
+    <td>housetemperature_story                </td> 
+    <td>invertedpendulum       </td> 
+    <td>mixingtank_and_behaviour     </td> 
+    <td>open_vs_closed_control101     </td> 
+    <td>tanklevel_and_PIcontrol           </td> 
+  </tr>     
+	<tr>
+    <td>tanklevel_and_manual_vs_PIcontrol           </td> 
+    <td>tanklevelbehaviour</td> 
+    <td>tanklevel_story                </td> 
+    <td>PI tuning              </td> 
+      <td>PID tuning rules              </td> 
   </tr>
-  
+	<tr>
+    <td>Pole placement             </td> 
+    <td>Diabetes and blood sugar             </td> 
+    <td>Predator prey models and behaviours             </td> 
+    <td>frequency_response_time_behaviour                </td> 
+    <td>proportional_design_phase_margin                </td>
+  </tr>  
+		<tr>
+    <td>lag_design_phase_margin                </td> 
+    <td>lead_design_phase_margin                </td> 
+    <td>lead_lag_design_phase_margin                </td> 
+    <td>lead_lag_design_criteria                </td>
+    <td>nonlinear_position_control                </td> 
+  </tr>  
+	<tr>
+    <td>nonlinear_tank_control_control101                </td> 
+		<td>        </td> <td>        </td> <td>        </td> <td>        </td>
+ 
+	</tr>
+
+</table>                                 
+
+<br>
+<h3>3.2 Soft links and description of virtual laboratories</h3> 
+	<br>
+<table border="1" style="margin-left:20px; cellpadding:15px;">
+    
   <tr>
     <td>
       <b>First order behaviour characterisation</b><br>
       <a href="matlab: firstordermodel_response_characterisation"><code>firstordermodel_response_characterisation.mlapp</code></a>
-      <br><img src = "imagesforwebpage\firstorder.jpg" width=450 style="margin-top:5px; margin-bottom:0px">
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+      <br><img src = "imagesforwebpage\firstorder.jpg" width="300" style="margin-top:5px; margin-bottom:0px">
+      <br>
         A simple interface emphasis the core role of the time constant and gain parameters in the step response behaviour and convergence. 
         Allows the user to vary the model parameters and initial condition and visualise the core invariance aspects in the response and how these relate to time constant and gain. User simply moves the sliders and the figure updates.
       </td>
-    </tr>
-  
-  <tr>
+   
     <td>
       <b>First order modelling from data</b><br>
       <a href="matlab: firstordermodel_behaviour"><code>firstordermodel_behaviour.mlapp</code>
-        <br><img src = "imagesforwebpage\firstordermodel.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\firstordermodel.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         A simple interface to practice estimation of time constant and gain from a step response for a 1st order model. The app supports students in being able to make quick and accurate estimates of the time constant and gain and to check the accuracy of their estimates against the true answers. 
         The figure keeps track of multiple attempts so students can iterate intelligently and thus improve their understanding.
         
         
         
       </td>
-    </tr>
-  
-  <tr>
-    <td>
+        <td>
       <b>Aeroplane Landing</b><br>
       <a href="matlab: aeroplanelanding_behaviour"><code>aeroplanelanding_behaviour.mlapp</code>
-        <br><img src = "imagesforwebpage\aeroplane.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\aeroplane.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         This is a simple interface to understand the modelling and behaviour of simple mass-spring-damper models, but with a mildy humourous animation to help with student engagement.
         A mass-spring-damper is a simplified model of typical suspension systems and the landing of an aircraft is a nice example of suspension in action. We want to determine whether passengers are comfortable. This app allows users to investigate the impact of different masses, dampers and springs on the landing behaviour; implicitly this is linked to a understanding of under-damped 2nd order responses.
-        </p>
+       
       </td>
-    </tr>
+	   </tr>
   <tr>
-    <td>
+      <td>
       <b>Simple car model behaviour</b><br>
       <a href="matlab: carmodel_and_behaviour"><code>carmodel_and_behaviour.mlapp</code>
-        <br><img src = "imagesforwebpage\carspeed.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td><p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\carspeed.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
       This app allows users to investigate the dependence of a car speed behaviour on simple parameters such as car mass, friction, engine power, road slope and wind. It also has a figure to emphasise the computation of an equivalent first order model in time constant form.
       The lower figures store previous simulations so the user can observe trends and understand design principles. Animation effects in the top figure also bring some life and visualisation to the app.
-      
-      </p>			
+      	
       
       </td>
     
-  </tr>
-  <tr>
+ 
     <td>
       <b>Cruise Control with PI compensation</b><br>
       <a href="matlab: cruisecontrol"><code>cruisecontrol.mlapp</code>
-        <br><img src = "imagesforwebpage\cruisepic.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\cruisepic.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         We consider a car can be represented as a simple mass-damper model, the damping representing friction which is assumed proportional to velocity and throttle position gives effective force on the road. We wish to control the speed of the car and also, subject to wind and slope variations so a PI compensator is adopted. 
         This app allows the user to explore the impact on closed-loop behaviour of variations in the car and PI parameters and disturbances.
-        </p>  
+      
       </td>
-    
-  </tr>
-  <tr>
+  
     <td>
       <b>Mixing tank behaviour</b><br>
       <a href="matlab: mixingtank_and_behaviour"><code>mixingtank_and_behaviour.mlapp</code>
-        <br><img src = "imagesforwebpage\mixingtank.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\mixingtank.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         We consider a tank with inlet and outlet pipes and a constant flow rate. The inlet concentration is not the same as the outlet concentration and thus, assuming good mixing, the tank will gradually change concentration (colour). 
         A typical model is given as: V (dC/dt) + F C = F Cin  where V is the tank volume, F is the flow rate, C is the concentration in the tank and  Cin is the concentration of the inlet flow.
         In practice there may also be a reaction taking place within the tank that affects concentration dynamics and also disturbances to the inlet concentration.
-        </p>  
-      
+             
       </td>
-    
   </tr>
-  
-	<tr>
+  <tr>
     <td>
       <b>Heat exchanger behaviour</b><br>
       <a href="matlab: HeatExchanger"><code>HeatExchanger.mlapp</code>
-        <br><img src = "imagesforwebpage\heatexchanger.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\heatexchanger.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         We consider a heat exchanger with inlet and outlet pipes and a constant flow rate. The inlet temperature is not the same as the outlet temperature due to supplied heating and thus, assuming good mixing, the inlet flow will gradually change temperature, represented by colour, in the tank. 
         In practice there may also be a disturbances to the inlet temperature and flow rate, as well as changes in tank volume and heating; users can investigate the associated behaviours with this app. 
-        </p>  
       
       </td>
     
-  </tr>
-	
-  <tr>
+ 
     <td>
       <b>House temperature behaviour</b><br>
       <a href="matlab: housetemperature_and_behaviour"><code>housetemperature_and_behaviour.mlapp</code>
-        <br><img src = "imagesforwebpage\housetemperature.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\housetemperature.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         Allows the user to investigate the behaviour of a thermal system, here represented by a simple house heating model. The user can change the size of the house (thermal capacity), wall thickness/insulation (heat loss), heat supply, external temperature and initial condition. 
         This app allows the user to explore/overlay the impact of different choices on the behaviour. Red represents hot and blue represents cold.
-        </p>  
+     
       
       </td>
     
-  </tr>
-	<tr>
+  
     <td>
       <b>House temperature story</b><br>
       <a href="matlab: housetemperature_story"><code>housetemperature_story.mlapp</code>
-        <br><img src = "imagesforwebpage\housestory.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\housestory.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         Allows the user to investigate the open- and closed-loop behaviour of a thermal system, here represented by a simple house heating model. The user can change the size of the house (thermal capacity), wall thickness/insulation (heat loss), heat supply, external temperature, wind chill and initial condition.  This app allows the user to explore/overlay the impact of different choices on the behaviour and also the efficacy of different feedback design methods (manula, PI, on-off), in the presence of multiple sources of uncertainty. Red represents hot and blue represents cold.
-        </p>  
+       
       
       </td>
-    
   </tr>
   <tr>
     <td>
       <b>Tank level behaviour</b><br>
       <a href="matlab: tanklevelbehaviour"><code>tanklevelbehaviour.mlapp</code>
-        <br><img src = "imagesforwebpage\tanklevelbehaviour.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\tanklevelbehaviour.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         How quickly and where does the level in a tank settle given a fixed in flow, and variable area/outlet resistance? The figure gives a visualisation of the tank attributes so users can: i) manually (through yellow sliders) change the area/outlet resistance and in-flow; ii) modify the environment/disturbances (green sliders) and iii) simulate to see the actual behaviour, time constant and gain.
   <br>
         The lower right figure store previous simulations so the user can observe trends and understand design principles. Animation effects in the top figure bring some life and visualisation to the app. The bottom left figure focuses on an analysis of the time constant and gain.
-        </p>
+      
       </td>
     
-  </tr>
-  
-  
-  <tr>
+ 
     <td>
       <b>Behaviours of linear models</b><br>
       <a href="matlab: behaviours"><code>behaviours.mlapp</code>
-        <br><img src = "imagesforwebpage\behaviours.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
-        Allows the user to investigate the impact of pole positions on linear system behaviour. Allows real, complex and unstable poles. Three different tabs:
-        
-  <ul>
-    <li>The first has fixed but illustrative systems.</li>
-    
-  <li>The second allows the user to enter transfer function coefficients directly.</li>
-    
-  <li>The third generates random examples with specified characteristics.</li></ul>
-      
+        <br><img src = "imagesforwebpage\behaviours.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
+        Allows the user to investigate the impact of pole positions on linear system behaviour. Allows real, complex and unstable poles. Three different tabs: i) The first has fixed but illustrative systems. ii) The second allows the user to enter transfer function coefficients directly. iii)The third generates random examples with specified characteristics.      
       The user can also use the mouse to 'move/change' pole and  zero positions using the bottom right hand picture.
       
       
-      </p>
       </td>
-    
-  </tr>
-<tr>
+
     <td>
       <b>Diabetes and blood sugar</b><br>
       <a href="matlab: diabetes_control101"><code>diabetes_control101.mlapp</code>
-        <br><img src = "imagesforwebpage\diabetes.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\diabetes.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         This is a simple interface to illustrate the relevance of control to medicine and disease management.  increasing numbers of people suffer from diabetes and need medical interventions to manage the condition. The most common treatment is an injection and short time before meals, but this is very crude and does not always lead to good management of blood sugar levels so some form of automatic control is often beneficial. 
       
       
-      </p>
+  
       
 </td>
-    
-  </tr>  
-
-
-<tr>
-    <td>
+     </tr>
+  <tr>
+     <td>
       <b>Behaviours of non-linear models: Predator-prey systems</b><br>
       <a href="matlab: Predator_prey_model"><code>Predator_prey_model.mlapp</code>
-        <br><img src = "imagesforwebpage\predatorpreyimage.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\predatorpreyimage.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         Predator prey models are an example of a non-linear ystem. Non-linear systems have far more complex and sometimes complicated behaviour compared to linear systems and at times appear to behave in a somewhat chaotic fashion.  This scenario also implicitly contains feedback between the different model states. The scenarios and choices in the app allow for relatively simple changes in the parameters, but these are enough for users to observe and understand the associated complexity of the behaviours. 
       
-      
-      </p>
-      
+         
 </td>
     
-  </tr>
-  
 
-<tr>
+    <td>
+      <b>Tank level control with PI</b><br>
+      <a href="matlab: tanklevel_and_PIcontrol"><code>tanklevel_and_PIcontrol.mlapp</code>
+        <br><img src = "imagesforwebpage\tanklevelbehaviourpi.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
+        Investigate the depth level control of a tank with a PI design,  Use sliders to select PI values and the dimensions of the tank.  Uncertainty is included in two forms: (i)
+        A small disturbance in-flow (either added throughout ir introduced mid-simulation) and (ii) 
+        A partial blockage of the outlet pipe (either continuous, or considered as an impact on a steady-state start point).
+        <br>
+        
+        The lower figures store previous simulations so the user can observe trends and understand design principles. Animation effects in the top figure also bring some life and visualisation to the app.
+      
+      </td>
+    
+ 
+    <td>
+      <b>Tank level manual control vs PI</b><br>
+      <a href="matlab: tanklevel_and_manual_vs_PIcontrol_delay"><code>tanklevel_and_manual_vs_PIcontrol.mlapp</code>
+        <br><img src = "imagesforwebpage\manualtank_vs_pi.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
+        This is a simple interface to understand the entire design process of behaviour analysis, modelling  and PI control of simple tank level models, subject to changes in the core parameters such as tank volume, flow rate and external disturbances such as changes to the inlet flow, blockages in the outlet pipe, measurement noise and measurement delays. Specifically this app allows the user to compare and contrast manual control (human in the loop) and automatic control using a PI compensator.
+               The lower figures store previous simulations so the user can observe trends and understand design principles. Animation effects in the top figure also bring some life and visualisation to the app.
+     
+      </td>
+    
+   </tr>
+  <tr>
+    <td>
+      <b>Tank level Story file </b><br>
+      <a href="matlab: tanklevel_story"><code>tanklevel_story.mlapp</code>
+        <br><img src = "imagesforwebpage\tanklevel_story.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
+        This file takes a user through the entire process of modelling, analysing, controller design and final evaluation, for a tank level system, in the presence of multiple forms of uncertainty. Different tabs move the user along the storyline. The first tab explores open-loop behaviour and the impact of flow disturbances and blockages to hte outlet pipe. The second tab focuses on modelling in time constant form. The third tab covers manual control subject to uncertainty. The fourth tab introduces PI design and the fith tab is an opportunity to evaluate the final PI design, subject to more varied uncertainty, so including sensor delays and measurement noise. 
+              For tabs 1, 3 and 4, the top right figure store previous simulations so the user can observe trends and understand design principles; use refresh if  this is unhelpful. The bottom right figure forms a different role in each tab so is automatically refreshed for each simulation. Animation effects in the top figure also bring some life and visualisation to the app.
+     
+      </td>
+
     <td>
       <b> Open versus cvlosed-loop control</b><br>
       <a href="matlab: open_vs_closed_control101"><code>open_vs_closed_control101.mlapp</code>
-        <br><img src = "imagesforwebpage\robotarm.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\robotarm.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         This resource focuses on open loop control of a mechatronic system,
 that is a simple single limb robot arm. It is shown that, in
 principle one can determine an input signal to move the arm to a
@@ -1058,315 +741,185 @@ desirable position. However, computing errors and other uncertainty
 will cause the accuracy to be poor, some times leading to failure
 of delivery.  
 
-        </p>
+    
       </td>
     
-  </tr>
-
-  <tr>
-    <td>
-      <b>Tank level control with PI</b><br>
-      <a href="matlab: tanklevel_and_PIcontrol"><code>tanklevel_and_PIcontrol.mlapp</code>
-        <br><img src = "imagesforwebpage\tanklevelbehaviourpi.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
-        Investigate the depth level control of a tank with a PI design,  Use sliders to select PI values and the dimensions of the tank.  Uncertainty is included in two forms: (i)
-        A small disturbance in-flow (either added throughout ir introduced mid-simulation) and (ii) 
-        A partial blockage of the outlet pipe (either continuous, or considered as an impact on a steady-state start point).
-        <br>
-        
-        The lower figures store previous simulations so the user can observe trends and understand design principles. Animation effects in the top figure also bring some life and visualisation to the app.
-        </p>
-      </td>
-    
-  </tr>
-  
-<tr>
-    <td>
-      <b>Tank level manual control vs PI</b><br>
-      <a href="matlab: tanklevel_and_manual_vs_PIcontrol"><code>tanklevel_and_manual_vs_PIcontrol.mlapp</code>
-        <br><img src = "imagesforwebpage\manualtank_vs_pi.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
-        This is a simple interface to understand the entire design process of behaviour analysis, modelling  and PI control of simple tank level models, subject to changes in the core parameters such as tank volume, flow rate and external disturbances such as changes to the inlet flow, blockages in the outlet pipe, measurement noise and measurement delays. Specifically this app allows the user to compare and contrast manual control (human in the loop) and automatic control using a PI compensator.
-        <br>
-        
-        The lower figures store previous simulations so the user can observe trends and understand design principles. Animation effects in the top figure also bring some life and visualisation to the app.
-        </p>
-      </td>
-    
-  </tr>
-
-
-  <tr>
-    <td>
-      <b>Tank level Story file </b><br>
-      <a href="matlab: tanklevel_story"><code>tanklevel_story.mlapp</code>
-        <br><img src = "imagesforwebpage\tanklevel_story.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
-        This file takes a user through the entire process of modelling, analysing, controller design and final evaluation, for a tank level system, in the presence of multiple forms of uncertainty. Different tabs move the user along the storyline. The first tab explores open-loop behaviour and the impact of flow disturbances and blockages to hte outlet pipe. The second tab focuses on modelling in time constant form. The third tab covers manual control subject to uncertainty. The fourth tab introduces PI design and the fith tab is an opportunity to evaluate the final PI design, subject to more varied uncertainty, so including sensor delays and measurement noise. 
-        <br>
-        
-        For tabs 1, 3 and 4, the top right figure store previous simulations so the user can observe trends and understand design principles; use refresh if  this is unhelpful. The bottom right figure forms a different role in each tab so is automatically refreshed for each simulation. Animation effects in the top figure also bring some life and visualisation to the app.
-        </p>
-      </td>
-    
-  </tr>
-  
-  <tr>
-    <td>
+     <td>
       <b> PI tuning practice</b><br>
       <a href="matlab: pi_tuning"><code>pi_tuning.mlapp</code>
-        <br><img src = "imagesforwebpage\pi_app_picture.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\pi_app_picture.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         Allows the user to practice doing some PI designs on a range of simple systems with fixed dynamics. The closed-loop has a simple standard block diagram as shown, with C(s) the compensator and G(s) the system. 
         The custom tab allows the user to enter a system of their own choice.
-        </p>
-      </td>
-    
-  </tr>
-
-<tr>
-    <td>
-      <b> PID tuning methods</b><br>
-      <a href="matlab: pidtuningrules"><code>pidtuningrules.mlapp</code>
-        <br><img src = "imagesforwebpage\pidtuningrules.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
-        Allows the user to practice using some standard PID tuning methods on a range of simple systems with fixed dynamics. Inlcudes Ziegler Nichols, Cohen Coon, Amigo, One third, Skogestad and Lambda tuning.
-        </p>
+     
       </td>
     
   </tr>
   <tr>
+    <td>
+      <b> PID tuning methods</b><br>
+       <a href="matlab: pidtuningrules"><code>pidtuningrules.mlapp</code>
+        <br><img src = "imagesforwebpage\pidtuningrules.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+       <br>
+        Allows the user to practice using some standard PID tuning methods on a range of simple systems with fixed dynamics. Inlcudes Ziegler Nichols, Cohen Coon, Amigo, One third, Skogestad and Lambda tuning.
+       
+      </td>
+    
+ 
     <td>
       <b> Pole placement methods</b><br>
    <a href="matlab: PoleReplacement_control101"><code>PoleReplacement_control101.mlapp</code>
-        <br><img src = "imagesforwebpage\poleplaceicon.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\poleplaceicon.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         The purpose of PoleReplacement.mlapp file is to define the continuous or the discrete PID controllers for a given plant (G(s)) using the pole replacement method. By this method the transfer function of the continuous or the discrete controller can be determined easily and quickly.
-        </p>
+       
       </td>
-    
-  </tr>
-  <tr>
+ 
     <td>
       <b> DC servo speed and position control</b><br>
       <a href="matlab: dcservo_and_position_control"><code>dcservo_and_position_control.mlapp</code>
-        <br><img src = "imagesforwebpage\dcservo.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\dcservo.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         We consider a DC servo driving a simple passenger on a seat along a track. This app allows the user to investigate both open-and closed-loop behaviour.  
         How does open-loop behaviour change with different loads, frictions, gear ratios and so forth?  
         Can we design an effective PI compensator for either or both speed and position control?
         Users can also add an additional transient friction as a realistic disturbance type.
       </td>
-    
-  </tr>
-  
+     </tr>
   <tr>
-    <td>
+     <td>
       <b> Inverted pendulum control</b><br>
       <a href="matlab: invertedpendulum"><code>invertedpendulum.mlapp</code>
-        <br><img src = "imagesforwebpage\invertedpendulum.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\invertedpendulum.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         Allows the user to investigate the impact of real environmental issues on the control of an inverted pendulum. For example: (i)
         Lag in decision making/actuation associated to a DC servo driving cart motion; (ii) Lag in decision making with human control and (iii)
         The impact of delay associated to human decision making. 
         This app allows the user to explore/overlay the impact on closed-loop behaviour of variations in the the choices above.
       </td>
     
-  </tr>
-  
-	<tr>
+ 
     <td>
       <b> Frequency response in the time domain</b><br>
       <a href="matlab: frequency_response_time_behaviour"><code>frequency_response_time_behaviour.mlapp</code>
-        <br><img src = "imagesforwebpage\frequencyresponsetime.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\frequencyresponsetime.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
        This is a simple interface to understand the concept of frequency response in a time domain scenario.  Users can excite a variety of linear systems with a sinuosidal input and view the system responses. The figures are presented in such a way that users can infer the implied gain and phase shifts of the output relative to the input. Numerical calculations are also provided. More detailed technical and analytical background is provided  in the partner livescript file. This file also includes some simple MATLAB code snippets than can be used for equivalent analysis.
 
         
       </td>
     
-  </tr>
-	
-<tr>
+  
     <td>
       <b> Proportional design using frequency domain methods and a phase margin criteria</b><br>
       <a href="matlab: proportional_design_phase_margin"><code>proportional_design_phase_margin.mlapp</code>
-        <br><img src = "imagesforwebpage/proportional design.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage/proportional design.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
        This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how to perform a simple gain feedback design using Bode diagrams and a phase margin criteria. The app inlcudes a number of pre-coded examples and allows the user to investigate both how to meet the PM requirement, and the impact of this on closed-loop behaviour. The manual and app also give guidance on a mechanistic design to achieve a specified phase margin. The app also allows the user to investigage he impact of a small system delay on margins and behaviour.
 
         
       </td>
-    
-  </tr>
-
-<tr>
+ </tr>
+  <tr>
     <td>
       <b> Lag compensator design using frequency domain methods with phase margin and low frequency gain criteria</b><br>
       <a href="matlab: lag_design_phase_margin"><code>lag_design_phase_margin.mlapp</code>
-        <br><img src = "imagesforwebpage/phase lag design.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage/phase lag design.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
        This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how to perform a simple lag compensator feedback design using Bode diagrams with a phase margin and low frequency gain criteria. The app includes a number of pre-coded examples and allows the user to investigate both how to meet the requirements and the impact of this on closed-loop behaviour. The manual and app also give guidance on a mechanistic design to achieve the specified criteria. The low frequency gain criteria takes two alternative forms depending upon whether the system includes and integrator or not. For completeness the behaviour with the lag compensator is compared with a simple gain design, so the differences can be evaluated.
 
         
       </td>
-    
-  </tr>
 
-<tr>
     <td>
       <b> Lead compensator design using frequency domain methods with phase margin and bandwidth criteria</b><br>
       <a href="matlab: lead_design_phase_margin"><code>lead_design_phase_margin.mlapp</code>
-        <br><img src = "imagesforwebpage/lead_app.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage/lead_app.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
        This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how to perform a simple lag compensator feedback design using Bode diagrams with a phase margin and bandwidth criteria. The app includes a number of pre-coded examples and allows the user to investigate both how to meet the requirements and the impact of this on closed-loop behaviour. The manual and app also give guidance on a mechanistic design to achieve the specified criteria. 
 
         
       </td>
     
-  </tr>
-<tr>
+ 
     <td>
       <b> Lead-Lag compensator design using frequency domain methods with phase margin, bandwidth and low frequency gain criteria</b><br>
       <a href="matlab: lead_lag_design_phase_margin"><code>lead_lag_design_phase_margin.mlapp</code>
-        <br><img src = "imagesforwebpage/leadlagpic.jpg" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage/leadlagpic.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
        This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how to perform a simple lead-lag compensator feedback design using Bode diagrams with a phase margin, bandwidth and low frequency gain criteria. The app includes a number of pre-coded examples and allows the user to investigate both how to meet the requirements and the impact of this on closed-loop behaviour. The manual and app also give guidance on a mechanistic design to achieve the specified criteria. The low frequency gain criteria takes two alternative forms depending upon whether the system includes and integrator or not. For completeness the behaviour with the lead-lag compensator is compared with a simple gain design and a lead compensator only so the differences can be evaluated.
 
         
       </td>
-    
   </tr>
-<tr>
+  <tr>
     <td>
       <b> Comparison of criteria based designs for proportional, lag, lead and lead-lag compensator design </b><br>
       <a href="matlab: lead_lag_design_criteria"><code>lead_lag_design_criteria.mlapp</code>
-        <br><img src = "imagesforwebpage/criteriaapp.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage/criteriaapp.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
        The apps above establish that proportional, lag, lead and lead-lag design can be tied explicitly to the design criteria of phase margin, bandwidth and offset. Consequently, fix the criteria and the design is also fixed. This app allows users to compare and contrast the behaviour and performance of different compensators arising from such a criteria based design approach and indeed, to observe that criteria are not always achievable.
 
         
       </td>
     
-  </tr>
-  <tr>
+
     <td>
       <b> Aeroplane roll control</b><br>
       <a href="matlab: aeroplane_roll_control"><code>aeroplane_roll_control.mlapp</code>
-        <br><img src = "imagesforwebpage\aeroplane_roll.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\aeroplane_roll.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         Allows the user to investigate the efficacy of simple lead compensation for controlling the roll angle of a simple aircraft.
-  <br> <br>
-        
-        The app shows the Bode diagrams with core attributes of the compensator and compensated cross-over frequencies/margins to help the user make sensible choices. 
-        
-  <br> <br>
-        
+                The app shows the Bode diagrams with core attributes of the compensator and compensated cross-over frequencies/margins to help the user make sensible choices.         
         The bottom figure will store previous designs to allow a compare and contrast investigation.
         
       </td>
-    
-  </tr>
-  
-<tr>
+
     <td>
       <b> Non-linear position control</b><br>
       <a href="matlab: nonlinear_position_control"><code>nonlinear_position_control.mlapp</code>
-        <br><img src = "imagesforwebpage\positioncontrolnonlienar.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\positioncontrolnonlienar.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates core learning outcomes linked to nonlinear bahviour. First, investigate the dynamics of position control system based on a DC servo and then consilder the impact of different nonlinear components in the system such as:  measurement noise, input saturation, backlash and parameter uncertainty. Users can also change core parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly.
         
       </td>
     
-  </tr>
-
-<tr>
+   </tr>
+  <tr>
     <td>
       <b> Non linear tank level system and control</b><br>
       <a href="matlab: nonlinear_tank_control_control101"><code>nonlinear_tank_control_control101.mlapp</code>
-        <br><img src = "imagesforwebpage\tanklevelnonlienar.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
+        <br><img src = "imagesforwebpage\tanklevelnonlienar.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
         This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates two core learning outcomes. First, how the dynamics of tank exhibit non-linear behaviour in the open-loop; this is solely available within the livescript manual file. Secondly, it introduces feedback and a number of other external and non-linear impacts such as measurement noise, input saturation, anti-windup, disturbances and parameter uncertainty. Users can also change core parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly.
         
       </td>
-    
+    <td></td> <td></td>
   </tr>
 
-<tr>
-    <td>
-      <b> Conical tank level systems behaviour and control</b><br>
-     <a href="matlab: conical_tank_behaviour_control101"><code>conical_tank_behaviour_control101</code>
-        <br><img src = "imagesforwebpage\conicaltankbehaviour.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-		 <a href="matlab: conical_tank_control_control101"><code>conical_tank_control_control101.mlapp</code>
-        <br><img src = "imagesforwebpage\conicaltankcontrol.png" width=450 style="margin-top:5px; margin-bottom:0px"></a>
-      </td>
-    <td>
-      <p style="word-wrap: break-word; max-width: 50ch">
-        These resources provide two interactive app files (MATLAB virtual laboratory) which demonstrate core learning outcomes linked to nonlinear behaviours. Specifically the focus is on a conical tank. This has nonlinearities due to both the outflow depending on pressure difference and also, the variation in cross sectional area with depth. Users are able to observe and understand the limitations of linear models by investigations on this app. It also includes realistic effects such as:  measurement noise, input saturation, and windup. Users can also change some of the tank parameters to perform compare and contrast open and closed-loop simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the underlying simulink files directly.
-
-
-        
-      </td>
-    
-  </tr>
   
 </table>
+
 	<br>
 <br>
+</span></p>
 
-
-<h2 id = simulink> 4. Simulink files </h2>
+<p style="font-family:Arial"><span style="font-size:12pt"> 
+<h2 id = "simulink"> 4. Simulink files </h2>
 This section is intended to introduce users to simulink and its use for supporting modelling, simulation and control. As befits a control101 course, the emphasis is on simple or low complexity models and straightforward simulink components and usage. The files available and some soft links are summarised here.
-<br><br>
-
 The associated simulink files will not always open automatically, but their names are given within the associated livescript file and you can open them with the command: &gt;&gt; open filename.slx <br>
 <br>
 <br>
 	<span style="margin-left:10px;"><figure><a href="">
   <img src="imagesforwebpage/myfirstsimulinkfilec_control101.jpg" style="width:500px;border:1px solid #ddd; padding:5px; border-radius:2px; margin-bottom:0px;">
   <figcaption>Illustration of a simple Simulink Diagram</figcaption>
-		</a></figure></span>
-	</span></span>
+		</a></figure>
+	</span>
 <br>
 
-<span style="font-family:Arial">
-<span style="font-size:12pt">
 
-<table border=1 style="margin-left:20px; cellpadding:15px;">
+
+<table border="1" style="margin-left:20px; cellpadding:15px;">
   <tr>
     <th>File name</th>
     <th>Learning goals</th>
@@ -1466,27 +1019,16 @@ Position_system_backlash_control101.slx
   </td>
     </tr>
 	
-	<tr>
-  <td>
-    <a href="matlab: conical_tank_behaviour_control101"><code>conical_tank_behaviour_control101</code>
-        </a>
-	   <br> <br>
-		 <a href="matlab: conical_tank_control_control101"><code>conical_tank_control_control101.mlapp</code>
-        </a>
-	 
-	  
-	   
-    </td>
-	    <td>  These resources provide two interactive app files (MATLAB virtual laboratory) which demonstrate core learning outcomes linked to nonlinear behaviours. Specifically the focus is on a conical tank. This has nonlinearities due to both the outflow depending on pressure difference and also, the variation in cross sectional area with depth. Users are able to observe and understand the limitations of linear models by investigations on this app. It also includes realistic effects such as:  measurement noise, input saturation, and windup. Users can also change some of the tank parameters to perform compare and contrast open and closed-loop simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the underlying simulink files directly.
-  </td>
-    </tr>
     </table>
 
-	</span></span>
+	</span></p>
 
+<br>
+<br>
 
-
-
+<h2 id = authors> Authorship </h2>
+<p>Ruth Bars (Budapest University of Technology and Economics , Antonio Visioli (Universita di Brescia), Sebastian Dormido (UNED), Lanlan Su (University of Manchester), Ross Drummond (University of Sheffield)). If you have suggestions for possible contributions, please contact Anthony (j.a.rossiter@sheffield.ac.uk).
+</p>
 
 
 
@@ -1502,7 +1044,9 @@ Position_system_backlash_control101.slx
 
 </span>
 </span>
-</p><p>Copyright 2024 The MathWorks&#8482;, Inc.</p><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2024a</a><br></p></div><!--
+</p><p>Copyright 2024 The MathWorks&#8482;, Inc.</p>
+<p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2024a</a>
+	<br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Virtual Controls Laboratory
 %
