@@ -5,7 +5,7 @@
 !git status 
 !git add .
 !git pull 
-!git commit -m "Added manual tank control app"
+!git commit -m "Added launcher app"
 !git push .
 !git push
 

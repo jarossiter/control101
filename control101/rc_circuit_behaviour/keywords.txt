@@ -1,0 +1,19 @@
+RC circuit behaviour
+RC circuit models
+First order models
+System behaviour
+Step responses
+Time constant
+System gain
+Disturbances
+Control education
+MATLAB
+System behaviour
+Step responses
+Disturbance rejection
+Uncertainty rejection
+
+
+
+
+
