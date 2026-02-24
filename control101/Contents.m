@@ -44,6 +44,7 @@
 %   <a href="matlab: conical_tank_behaviour_control101">conical_tank_behaviour_control101</a>
 %   <a href="matlab: conical_tank_control_control101">conical_tank_control_control101</a>
 %   <a href="matlab: tanklevel_and_manual_vs_PIcontrol_delay">tanklevel_and_manual_vs_PIcontrol</a>
+%   <a href="matlab: rc_circuit_behaviour_control101">rc_circuit_behaviour_control101</a>
 %
 %   FREQUENCY RESPONSE METHODS
 %   <a href="matlab: frequency_response_time_behaviour">frequency_response_time_behaviour</a> 
@@ -54,7 +55,18 @@
 %   <a href="matlab: lead_lag_design_criteria">lead_lag_design_criteria</a>
 %   <a href="matlab: aeroplane_roll_control">aeroplane_roll_control</a>
 %
-%
+%   SAMPLED DATA SYSTEMS
+%   <a href="matlab: Analog_to_Digital_Converter_Application_control101">Analog_to_Digital_Converter_Application_control101</a>
+%   <a href="matlab: Digital_to_Analog_Converter_Application_control101">Digital_to_Analog_Converter_Application_control101</a>
+%   <a href="matlab: Closed_Loop_Under_Sampling_control101">Closed_Loop_Under_Sampling_control101</a>
+%   <a href="matlab: Continuous_and_Discrete_time_Mapping_control101">Continuous_and_Discrete_time_Mapping_control101</a>
+%   <a href="matlab: Signal_Types_in_Comp_Control_application_control101">Signal_Types_in_Comp_Control_application_control101</a>
+%   Livescripts
+%   <a href="matlab: Signal_Types_in_Computer_Controlled_Systems_control101">Signal_Types_in_Computer_Controlled_Systems_control101</a>
+%   <a href="matlab: Reconstruction_and_Signal_Holders_control101">Reconstruction_and_Signal_Holders_control101</a>
+%   <a href="matlab: Sampled_Data_Systems_control101">Sampled_Data_Systems_control101</a>
+%   <a href="matlab: Sampling_Operation_control101">Sampling_Operation_control101</a>
+
 % Livescript files for learning control basics alongside simple MATLAB code
 % for analysis and evaluation. These files open a duplicate livescript file
 % in the pwd directly so the user can make edits and save these. You can
@@ -120,7 +132,8 @@
 %   <a href="matlab: nonlinear_position_control">nonlinear_position_control</a>
 %   <a href="matlab: nonlinear_tank_behaviour_control101">nonlinear_tank_behaviour_control101</a>
 %   <a href="matlab: nonlinear_tank_control_control101">nonlinear_tank_control_control101</a>
-%
+%   <a href="matlab: linearisation_Benchmark_control101">linearisation_Benchmark_control101</a>
+% 
 % STATE SPACE SYSTEMS AND INTRODUCTORY ANALYSIS
 %
 %   <a href="matlab: statespace_models_control101">statespace_models_control101</a>

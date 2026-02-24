@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2757716555" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\control101_master\matlabCode\Control101 master.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\control101_master\matlabCode" name="Control101 master" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1711704416" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\control101_master\matlabCode\Control101 master.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\control101_master\matlabCode" name="Control101 master" target="target.mlapps" target-name="Package App">
     <param.appname>Control101 master</param.appname>
     <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
@@ -23,10 +23,10 @@
       <item>15</item>
     </param.products.id>
     <param.products.version>
-      <item>24.1</item>
-      <item>24.1</item>
-      <item>24.1</item>
-      <item>24.1</item>
+      <item>24.2</item>
+      <item>24.2</item>
+      <item>24.2</item>
+      <item>24.2</item>
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
@@ -60,6 +60,8 @@
       <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\aeroplane landing\matlabCode\UoSlogo.png</file>
       <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\aeroplane roll\matlabCode\aeroplane_roll_control.mlapp</file>
       <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\aeroplane roll\matlabCode\UoSlogo.png</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\behaviours\matlabCode\behaviours.mlapp</file>
+      <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\behaviours\matlabCode\UoSlogo.png</file>
       <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\car speed behaviour\matlabCode\carmodel_and_behaviour.mlapp</file>
       <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\car speed behaviour\matlabCode\UoSlogo.png</file>
       <file>C:\Users\Anthony Rossiter\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\Control101\conical tank\matlabcode\conical_tank_behaviour_control101.mlapp</file>
@@ -201,7 +203,7 @@
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2024anew</root>
+      <root>C:\Program Files\MATLAB\R2024b</root>
       <toolboxes />
     </matlab>
     <platform>

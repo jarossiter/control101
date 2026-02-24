@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="110590519" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\open_vs_closed_arm\matlabCode\open_vs_closed_arm.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\open_vs_closed_arm\matlabCode" name="open_vs_closed_arm" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2449835828" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\open_vs_closed_arm\matlabCode\open_vs_closed_arm.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\open_vs_closed_arm\matlabCode" name="open_vs_closed_arm" target="target.mlapps" target-name="Package App">
     <param.appname>open_vs_closed_arm</param.appname>
     <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>

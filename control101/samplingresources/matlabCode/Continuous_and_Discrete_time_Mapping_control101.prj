@@ -1,0 +1,81 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1537997196" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\samplingresources\matlabCode\Continuous_and_Discrete_time_Mapping_control101.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\samplingresources\matlabCode" name="Continuous_and_Discrete_time_Mapping_control101" target="target.mlapps" target-name="Package App">
+    <param.appname>Continuous_and_Discrete_time_Mapping_control101</param.appname>
+    <param.authnamewatermark>M Mehmet, Y. Yalcin, J.A.Rossiter</param.authnamewatermark>
+    <param.email>yalciny@itu.edu.tr</param.email>
+    <param.company>Istanbul Technical University (İTÜ)</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>A sampled system is operating with less data than a continuous system and a more simplistic set of signals.</param.summary>
+    <param.description>A sampled system is operating with less data than a continuous system and a more simplistic set of signals. This affects poles and behaviour and the effects depend upon sample rate.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\images\continuousanddiscrete.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Control System Toolbox</item>
+      <item>Signal Processing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>8</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.2</item>
+      <item>24.2</item>
+      <item>24.2</item>
+      <item>24.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>705a581c-4718-41a2-bf42-bfcf322d424a</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Continuous_and_Discrete_time_Mapping_control101.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\FanAndPlate_Data_control101.m</file>
+      <file>${PROJECT_ROOT}\FanAndPlate_model_control101.m</file>
+      <file>${PROJECT_ROOT}\images\FanandPlate_small_size.jpg</file>
+      <file>${PROJECT_ROOT}\images\QNET-VTOL-Board.jpg</file>
+      <file>${PROJECT_ROOT}\OneDofAeroVTOL_Data_control101.m</file>
+      <file>${PROJECT_ROOT}\OneDofAeroVTOL_model_control101.m</file>
+      <file>${PROJECT_ROOT}\Sampled_Data_Systems_control101.m</file>
+      <file>${PROJECT_ROOT}\Sampling_Operation_control101.m</file>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\samplingresources" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\samplingresources\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

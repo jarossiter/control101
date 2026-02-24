@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2921200508" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\poleplacement\matlabCode\Poleplacement.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\poleplacement\matlabCode" name="Poleplacement" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="702768854" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\poleplacement\matlabCode\Poleplacement.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\poleplacement\matlabCode" name="Poleplacement" target="target.mlapps" target-name="Package App">
     <param.appname>Poleplacement</param.appname>
     <param.authnamewatermark>R Bars and G Max</param.authnamewatermark>
     <param.email>Bars.Ruth@aut.bme.hu</param.email>
@@ -28,14 +28,14 @@
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
-    <param.guid>e8b6d4ba-2d3a-4df0-9e7e-451eb1d867af</param.guid>
+    <param.guid>96e3ff31-ce0f-4220-b91f-8c9fc533469a</param.guid>
     <unset>
       <param.version />
       <param.platforms />
       <param.output />
     </unset>
     <fileset.main>
-      <file>${PROJECT_ROOT}\PoleReplacement_control101.mlapp</file>
+      <file>${PROJECT_ROOT}\PoleReplacement_control1011.mlapp</file>
     </fileset.main>
     <fileset.depfun>
       <file>${PROJECT_ROOT}\bme_cimer.png</file>

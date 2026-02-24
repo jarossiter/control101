@@ -1,0 +1,76 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="162699497" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\samplingresources\matlabCode\Digital_to_Analog_Converter_Application_control101.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\samplingresources\matlabCode" name="Digital_to_Analog_Converter_Application_control101" target="target.mlapps" target-name="Package App">
+    <param.appname>Digital_to_Analog_Converter_Application_control101</param.appname>
+    <param.authnamewatermark>M Mehmet, Y. Yalcin, J.A.Rossiter</param.authnamewatermark>
+    <param.email>yalciny@itu.edu.tr</param.email>
+    <param.company>Istanbul Technical University (İTÜ)</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>A computer can only deal with signals at sampling instants, but these need to implemented or output as continuous signals.</param.summary>
+    <param.description>A computer can only deal with signals at sampling instants, but these need to implemented or output as continuous signals for use on real systems. This app introduces students to the concepts and repercussions of different choices.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\images\DACapp.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Control System Toolbox</item>
+      <item>Signal Processing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>8</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.2</item>
+      <item>24.2</item>
+      <item>24.2</item>
+      <item>24.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>d6c96981-c8ea-4fe4-8c5b-53f70a567bae</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Digital_to_Analog_Converter_Application_control101.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\DACModel_control101.slx</file>
+      <file>${PROJECT_ROOT}\logo_ITU.png</file>
+      <file>${PROJECT_ROOT}\Reconstruction_and_Signal_Holders_control101.m</file>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\samplingresources" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\samplingresources\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

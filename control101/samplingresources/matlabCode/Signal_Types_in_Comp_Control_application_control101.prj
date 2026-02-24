@@ -1,0 +1,85 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2920524895" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\samplingresources\matlabCode\Signal_Types_in_Comp_Control_application_control101.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\samplingresources\matlabCode" name="Signal_Types_in_Comp_Control_application_control101" target="target.mlapps" target-name="Package App">
+    <param.appname>Signal_Types_in_Comp_Control_application_control101</param.appname>
+    <param.authnamewatermark>M Mehmet, Y. Yalcin, J.A. Rossiter</param.authnamewatermark>
+    <param.email>yalciny@itu.edu.tr</param.email>
+    <param.company>Istanbul Technical University (İTÜ)</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Quick and visual introduction to the concept of digitisation.</param.summary>
+    <param.description>The intention is to give a quick and visual introduction to the concept of digitisation, that is, what happens when we have a computer handling signals produced by a continuous system. Clearly, the computer can only handle signals at discrete time instants and this changes both the nature of the signal and the information contained.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\images\signaltypes.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Control System Toolbox</item>
+      <item>Signal Processing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>8</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.2</item>
+      <item>24.2</item>
+      <item>24.2</item>
+      <item>24.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>13a7f616-daf1-4de0-a68a-e0f12cd18055</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Signal_Types_in_Comp_Control_application_control101.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\FanAndPlate_control101.slx</file>
+      <file>${PROJECT_ROOT}\FanAndPlate_Data_control101.m</file>
+      <file>${PROJECT_ROOT}\FanAndPlate_model_control101.m</file>
+      <file>${PROJECT_ROOT}\images\FanandPlate_small_size.jpg</file>
+      <file>${PROJECT_ROOT}\images\in.png</file>
+      <file>${PROJECT_ROOT}\images\out.png</file>
+      <file>${PROJECT_ROOT}\images\QNET-VTOL-Board.jpg</file>
+      <file>${PROJECT_ROOT}\logo_ITU.png</file>
+      <file>${PROJECT_ROOT}\OneDofAeroVTOL_control101.slx</file>
+      <file>${PROJECT_ROOT}\OneDofAeroVTOL_Data_control101.m</file>
+      <file>${PROJECT_ROOT}\OneDofAeroVTOL_model_control101.m</file>
+      <file>${PROJECT_ROOT}\Signal_Types_in_Computer_Controlled_Systems_control101.m</file>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\samplingresources" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\samplingresources\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

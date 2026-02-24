@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2430607338" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\proportional design with phase margin\matlabCode\Proportional design with phase margin.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\proportional design with phase margin\matlabCode" name="Proportional design with phase margin" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="706257184" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\proportional design with phase margin\matlabCode\Proportional design with phase margin.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\proportional design with phase margin\matlabCode" name="Proportional design with phase margin" target="target.mlapps" target-name="Package App">
     <param.appname>Proportional design with phase margin</param.appname>
     <param.authnamewatermark>J. A. Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
@@ -25,9 +25,9 @@
       <item>15</item>
     </param.products.id>
     <param.products.version>
-      <item>9.14</item>
-      <item>10.13</item>
-      <item>9.3</item>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
@@ -50,7 +50,7 @@
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2023a</root>
+      <root>C:\Program Files\MATLAB\R2024anew</root>
       <toolboxes />
     </matlab>
     <platform>

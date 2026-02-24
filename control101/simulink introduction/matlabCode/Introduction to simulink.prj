@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="905267003" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\simulink introduction\matlabCode\Introduction to simulink.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\simulink introduction\matlabCode" name="Introduction to simulink" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="134643052" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\simulink introduction\matlabCode\Introduction to simulink.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\simulink introduction\matlabCode" name="Introduction to simulink" target="target.mlapps" target-name="Package App">
     <param.appname>Introduction to simulink</param.appname>
     <param.authnamewatermark>J A rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
@@ -51,7 +51,7 @@ It is  not the purpose of this section to give an introductory or detailed tutor
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2023b</root>
+      <root>C:\Program Files\MATLAB\R2024anew</root>
       <toolboxes />
     </matlab>
     <platform>

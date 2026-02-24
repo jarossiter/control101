@@ -471,6 +471,40 @@ Once the user has downloaded the toolbox all the virtual labs will appear in the
 
   </td>
       </tr>
+		<tr>
+	    <td> SAMPLED DATA SYSTEMS</td>
+  <td></td><td></td></tr>
+<tr>
+  <td>
+    <a href="matlab: Signal_Types_in_Computer_Controlled_Systems_control101"><code>Signal_Types_in_Computer_Controlled_Systems_control101.m</code></a>
+    <br>  The intention is to give a quick and visual introduction to the Concept of digitisation, that is, what happens when we have a computer handling signals within a continuous system. Clearly, the computer can only handle signals at discrete time instants and this changes both the nature of the signal and the information contained.
+
+  </td>
+      
+  <td>
+    <a href="matlab: Reconstruction_and_Signal_Holders_control101"><code>Reconstruction_and_Signal_Holders_control101.m</code></a>
+    <br>  In computer control systems, different signal types exist such that the continous-time system works in conjunction with a digital controller that operates in discrete-time. This file summarises some of the core concepts concisely and outlines the files available to investigate this. A particular focus is on the reconstruction of continouous time signals from a discrete signal.
+
+  </td>
+      
+  <td>
+    <a href="matlab: Sampled_Data_Systems_control101"><code>Sampled_Data_Systems_control101.m</code></a>
+    <br>  This livescript is a manual in support of the app Continuous_and_Discrete_time_Mapping_control101.mlapp and Closed_Loop_Under_Sampling_control101.mlapp.   These are virtual laboratories to help students engage with the concepts of sampling and how that impacts on system behaviour in the open and closed-loop.
+
+  </td>
+      </tr>
+<tr>
+  <td>
+    <a href="matlab: Sampling_Operation_control101"><code>Sampling_Operation_control101.m</code></a>
+    <br>  In an computer controlled system, since the control algorithm which utilizes measured output signal  is implemented in a processor that operates discrete-time domain, the continous-time output signals needed to be sampled, quantized and coNverted to the numbers with specific precisions. 
+
+  </td>
+      
+  <td>
+      </td> 
+  <td>
+     </td>
+      </tr>
 
 
 	  </table>
@@ -534,9 +568,15 @@ Once the user has downloaded the toolbox all the virtual labs will appear in the
   </tr>  
 	<tr>
     <td>nonlinear_tank_control_control101                </td> 
-		<td>        </td> <td>        </td> <td>        </td> <td>        </td>
- 
+		<td>    rc_circuit_behaviour_control101    </td> <td>   linearisation_Benchmark_control101     </td> 
+		<td> Analog_to_Digital_Converter_Application_control101   
+  		<td> Closed_Loop_Under_Sampling_control101       </td>
 	</tr>
+	<TR>
+	<td>Continuous_and_Discrete_time_Mapping_control101</td>
+		<td> Digital_to_Analog_Converter_Application_control101  </td>
+		<td>Signal_Types_in_Comp_Control_application_control101   </td>
+	</TR>
 
 </table>                                 
 
@@ -894,7 +934,53 @@ of delivery.
         This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates two core learning outcomes. First, how the dynamics of tank exhibit non-linear behaviour in the open-loop; this is solely available within the livescript manual file. Secondly, it introduces feedback and a number of other external and non-linear impacts such as measurement noise, input saturation, anti-windup, disturbances and parameter uncertainty. Users can also change core parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly.
         
       </td>
-    <td></td> <td></td>
+    <td> <b> RC circuit behaviour and leakage</b><br>
+      <a href="matlab: rc_circuit_behaviour_control101"><code>rc_circuit_behaviour_control101.mlapp</code>
+        <br><img src = "imagesforwebpage\rc_app.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>We consider a simple series RC circuit with and without capacitor leakage. Users can investigate the nominal behaviour (time constant and gain) and also how the behaviour changes when there is a leakage resistance in the capacitor. 
+</td> 
+	  
+	   <td> <b> Model linearisation</b><br>
+      <a href="matlab: linearisation_Benchmark_control101"><code>linearisation_Benchmark_control101.mlapp</code>
+        <br><img src = "imagesforwebpage\rc_app.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>This is a virtual laboratory to help students engage with the concepts of linearisation of systems and the associated behaviours and the impact on computer controlled systems.  Two benchmark nonlinear systems will be considered. Comparisons of behaviour between the linearised and non-linear systems are given.   </td>
+  </tr>
+
+  <tr>
+    <td>
+      <b> Signals in sampled data systems</b><br>
+      <a href="matlab: Signal_Types_in_Comp_Control_application_control101"><code>Signal_Types_in_Comp_Control_application_control101.mlapp</code>
+        <br><img src = "imagesforwebpage\signals_sampling.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
+        The intention is to give a quick and visual introduction to the concept of digitisation, that is, what happens when we have a computer handling signals within a continuous system. Clearly, the computer can only handle signals at discrete time instants and this changes both the nature of the signal and the information contained. 
+        
+      </td>
+    <td> <b> Analogue to digital conversion (ADC)</b><br>
+      <a href="matlab: Analog_to_Digital_Converter_Application_control101"><code>Analog_to_Digital_Converter_Application_control101.mlapp</code>
+        <br><img src = "imagesforwebpage\adc.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br> A computer can only deal with signal at sampling instants so this app introduces students to the concepts and repercussions.
+</td> 
+	  
+	  <td> <b> Digital to analogue conversion</b><br>
+      <a href="matlab: Digital_to_Analog_Converter_Application_control101"><code>Digital_to_Analog_Converter_Application_control101.mlapp</code>
+        <br><img src = "imagesforwebpage\dac.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>A computer can only deal with signal at sampling instants, but these need to implemented or output as continuous signals for use on real systems. This app introduces students to the concepts and repercussions of different choices.   </td>
+  </tr>
+
+	<tr>
+    <td>
+      <b> Closed-loop analysis with sampling</b><br>
+      <a href="matlab: Closed_Loop_Under_Sampling_control101"><code>Closed_Loop_Under_Sampling_control101.mlapp</code>
+        <br><img src = "imagesforwebpage\signals_sampling.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br> A sampled system is operating with less data than a continuous system and a more simplistic set of signals. This affects closed-loop poles and behaviour and the effects depend upon sample rate.        
+      </td>
+    <td> <b> Analysis of sampled data systems</b><br>
+      <a href="matlab: Continuous_and_Discrete_time_Mapping_control101"><code>Continuous_and_Discrete_time_Mapping_control101.mlapp</code>
+        <br><img src = "imagesforwebpage\signals_sampling.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>A sampled system is operating with less data than a continuous system and a more simplistic set of signals. This affects poles and behaviour and the effects depend upon sample rate.
+</td> 
+	  
+	  <td>    </td>
   </tr>
 
   
@@ -1018,7 +1104,15 @@ Position_system_backlash_control101.slx
 	    <td>  This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates two core learning outcomes. First, how the dynamics of tank exhibit non-linear behaviour in the open-loop; this is solely available within the livescript manual file. Secondly, it introduces feedback and a number of other external and non-linear impacts such as measurement noise, input saturation, anti-windup, disturbances and parameter uncertainty. Users can also change core parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly: nonlinear_tank_control_control101.mlapp nonlinear_tank_system_simulink_control101_manual.mlx non_linear_tank_system_control101.slx    non_linear_tank_system_fbk_control101.slx 
   </td>
     </tr>
-	
+	<tr>
+  <td>
+    	  
+	   <a href="matlab: linearisation_Benchmark_control101"><code>linearisation_Benchmark_control101.mlapp</code></a>
+    </td>
+	    <td>  The app provides an introduction to linearisation and compares linear and non-linear behaviour with two simple mechatronic systems. The underlying simulink files are: FanAndPlate_control101.slx and OneDofAeroVTOL_control101.slx.
+ 
+  </td>
+    </tr>
     </table>
 
 	</span></p>

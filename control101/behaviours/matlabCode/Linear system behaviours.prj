@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="135307912" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\behaviours\matlabCode\Linear system behaviours.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\behaviours\matlabCode" name="Linear system behaviours" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2880138170" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\behaviours\matlabCode\Linear system behaviours.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\behaviours\matlabCode" name="Linear system behaviours" target="target.mlapps" target-name="Package App">
     <param.appname>Linear system behaviours</param.appname>
     <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>Allows user to change system poles and zeros and observe step response behaviours</param.summary>
     <param.description>This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates how system behaviour is linked to the pole positions; for convenience step responses are used for illustration. A number of pre-coded options allow the user to explore efficently a range of models and model orders, or indeed to enter the system coefficients directly. Poles and zeros can be moved with the mouse to help users understand the impact better.</param.description>
-    <param.screenshot>C:\Users\Anthony Rossiter\AppData\Local\Temp\tp979288f9_cfff_4e42_8664_831d7e98b11c.png</param.screenshot>
+    <param.screenshot />
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -25,14 +25,15 @@
       <item>15</item>
     </param.products.id>
     <param.products.version>
-      <item>9.14</item>
-      <item>10.13</item>
-      <item>9.3</item>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
     <param.guid>c82541a5-1d96-437a-b23a-2c81fbf44dba</param.guid>
     <unset>
+      <param.screenshot />
       <param.version />
       <param.platforms />
       <param.output />
@@ -50,7 +51,7 @@
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2023a</root>
+      <root>C:\Program Files\MATLAB\R2024anew</root>
       <toolboxes />
     </matlab>
     <platform>
