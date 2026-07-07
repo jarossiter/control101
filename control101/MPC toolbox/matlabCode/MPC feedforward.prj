@@ -1,0 +1,77 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="444580069" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\MPC toolbox\matlabCode\MPC feedforward.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\MPC toolbox\matlabCode" name="MPC feedforward" target="target.mlapps" target-name="Package App">
+    <param.appname>MPC feedforward</param.appname>
+    <param.authnamewatermark>j A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>The impact of feedforward on MPC</param.summary>
+    <param.description>The app mpcconstraints_lab_control101.mlapp  is a simple interface to understand and investigate how the inclusion of constraints within an MPC law affects the performance. 
+The legend and history information tab keep track of the core choices so that systematic comparisons can be undertaken.  The current plots tab shows behaviour alongside the constraints to help visualisation of the impact of the constraints. The manual is in mpc_constraints_control101_manual.mlx.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Control System Toolbox</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>3</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.2</item>
+      <item>24.2</item>
+      <item>24.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>79009d22-fcfb-42ff-927d-7c731bbc7324</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\mpcfeedforward_control101.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\caha_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_law_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_predmat_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_predmat_toeplitz_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_simulate_noconstraints_withff_control101.m</file>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\MPC toolbox" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\MPC toolbox\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

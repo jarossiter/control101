@@ -1,0 +1,80 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3684172183" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\MPC toolbox\matlabCode\MPC and the T-filter.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\MPC toolbox\matlabCode" name="MPC and the T-filter" target="target.mlapps" target-name="Package App">
+    <param.appname>MPC and the T-filter</param.appname>
+    <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Reducing sensitivity to measurement noise in MPC</param.summary>
+    <param.description>The app is a simple interface to understand and investigate how the inclusion of a T-filter within an MPC law affects the performance. The T-filter orginates from the simple conceptual observation that we should filter out high frequency noise before we make inferences, such as predictions. If we fail to do this, our predictions can be more sensitive to noise than we expect leading to poor closed-loop behaviours, especially of the input. The legend keeps track of the core choices so that systematic comparisons can be undertaken. The manual is in mpctfilter_control101_manual.mlx.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Control System Toolbox</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>3</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.2</item>
+      <item>24.2</item>
+      <item>24.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>44d91dbd-1214-4fd0-bea2-0b1fb43b744f</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\mpctfilter_control101.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\caha_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_law_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_predmat_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_predmat_toeplitz_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_predtfilt_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_simulate_noconstraints_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_simulate_tfilt_noconstraints_control101.m</file>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\mpctfilter_control101_manual.mlx</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\MPC toolbox" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\MPC toolbox\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

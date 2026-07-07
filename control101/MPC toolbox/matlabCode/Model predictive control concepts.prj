@@ -1,0 +1,77 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="693756990" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\MPC toolbox\matlabCode\Model predictive control concepts.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\MPC toolbox\matlabCode" name="Model predictive control concepts" target="target.mlapps" target-name="Package App">
+    <param.appname>Model predictive control concepts</param.appname>
+    <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
+    <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
+    <param.company>University of Sheffield</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>The role of prediction in managing performance</param.summary>
+    <param.description>This is a simple interface to understand both how prediction underpins control decision making modelling and also how, with poor choices of horizons, these decisions may be poorly thought through. Users can select their desired values for the future inputs and view the impact on the predictions. There is also an option to view the associated GPC/DMC predictions. The implement button will then use the first of these and move to the next sample.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Control System Toolbox</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>3</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.2</item>
+      <item>24.2</item>
+      <item>24.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>35c5f40b-9c9f-43e5-980e-5c9cfbc20d92</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\predictionconcepts_control101.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\caha_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_law_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_predmat_toeplitz_control101.m</file>
+      <file>${PROJECT_ROOT}\mpc_simulate_noconstraints_control101.m</file>
+      <file>${PROJECT_ROOT}\UoSlogo.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\predictionconcepts_control101_manual.mlx</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\MPC toolbox" name="matlabCode" optional="false">C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\MPC toolbox\matlabCode</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

@@ -1,0 +1,18 @@
+First order models
+Second order models
+High order models
+Under-damping
+Stability
+Behaviour characterisation
+Step responses
+Poles
+Zeros
+Transfer functions
+Control education
+MATLAB
+complex plane
+System behaviour
+System steady-state
+
+
+

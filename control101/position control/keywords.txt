@@ -1,0 +1,19 @@
+Position control
+DC servos
+Nonlinear models
+Integral saturation
+Input saturation
+Anti-windup
+Backlash
+Measurement noise
+Disturbance rejection
+Parameter uncertainty
+Linear models
+System behaviour
+Behaviour characterisation
+Feedback design
+Transfer functions
+Control education
+MATLAB
+
+

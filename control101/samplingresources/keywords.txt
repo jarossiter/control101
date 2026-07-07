@@ -1,0 +1,21 @@
+ADC
+DAC
+sampling
+ideal filter
+State space behaviour
+Linearisation
+System behaviour
+Step responses
+Feedback analysis
+Feedback design
+Closed-loop behaviour
+Control education
+MATLAB
+Disturbance rejection
+Uncertainty rejection
+Fan and plate system
+Aero VTOL system
+
+
+
+
