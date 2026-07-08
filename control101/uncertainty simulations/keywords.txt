@@ -1,0 +1,19 @@
+Control education
+MATLAB
+System behaviour
+Feedback
+Control analysis
+Control design
+Disturbance rejection
+PI tuning
+Step responses
+Time constant
+System gain
+Transfer functions
+Poles and zeros
+Stability
+Simulink
+Non-linear models
+Simulation
+
+

@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1210582142" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\aeroplane roll\matlabCode\Aeroplane roll control.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\aeroplane roll\matlabCode" name="Aeroplane roll control" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2485701543" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\aeroplane roll\matlabCode\Aeroplane roll control.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\aeroplane roll\matlabCode" name="Aeroplane roll control" target="target.mlapps" target-name="Package App">
     <param.appname>Aeroplane roll control</param.appname>
     <param.authnamewatermark>J A Rossiter</param.authnamewatermark>
     <param.email>j.a.rossiter@sheffield.ac.uk</param.email>
@@ -25,9 +25,9 @@
       <item>15</item>
     </param.products.id>
     <param.products.version>
-      <item>24.1</item>
-      <item>24.1</item>
-      <item>24.1</item>
+      <item>24.2</item>
+      <item>24.2</item>
+      <item>24.2</item>
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
@@ -51,7 +51,7 @@
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2024anew</root>
+      <root>C:\Program Files\MATLAB\R2024b</root>
       <toolboxes />
     </matlab>
     <platform>

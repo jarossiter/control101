@@ -126,7 +126,8 @@ Several people have developed MATLAB based materials to support the teaching of 
 	<li> <a href="#getting">Getting started information</a></li>
 	<li><a href="#content">Soft links for the livescript files</a></li>
 	<li><a href="#labs">Summary of virtual laboratories and softlinks to run files</a></li>
-	<li><a href="#simulink">Summary of files using simulink</a></li>
+	<li><a href="#simulink">Summary of files using Simulink</a></li>
+			<li><a href="#mpc">Summary of files on Model Predictive Control</a></li>
 	
 	</ol>
 		</span></p>
@@ -237,7 +238,10 @@ Once the user has downloaded the toolbox all the virtual labs will appear in the
     <a href="matlab: PID_tuning_methods"><code>PID_tuning_methods.m</code></a>
     <br>  Introduces a number of popular rules for tuning PID compensators. 
   </td>
-		  <td></td>
+		  
+		  <td><a href="matlab: uncertaintysimulations_control101"><code>uncertaintysimulations_control101_tool.m</code></a>
+    <br>  Introduces a number of simple SIMULINK simulation models for exploring the impact of uncertainty and nonlinearity on behaviour. </td>
+		
       </tr>
 
 <tr> <td> 
@@ -355,7 +359,9 @@ Once the user has downloaded the toolbox all the virtual labs will appear in the
     <a href="matlab: discrete_controller_design_methods"><code>discrete_controller_design_methods.m</code></a>
     <br> A comparison of the various advanced approaches to compensator design above.
   </td>
-	<td></td> <td></td>
+	<td><a href="matlab: mpcsourcecode_control101_tool"><code>mpcsourcecode_control101_tool.m</code></a> Guidance on files in support of MPC.</td> <td></td>
+	
+	<td></td>
       </tr>
 	   <tr>
 	    <td> STATE SPACE METHODS</td>
@@ -524,7 +530,6 @@ Once the user has downloaded the toolbox all the virtual labs will appear in the
         <br>
 <table border="1" style="margin-left:20px; cellpadding:15px;">
   <tr>
-     <tr>
     <td>  aeroplanelanding_behaviour </td> 
     <td>  aeroplanelanding_roll_control</td> 
 		 <td>behaviours</td> 
@@ -568,15 +573,24 @@ Once the user has downloaded the toolbox all the virtual labs will appear in the
   </tr>  
 	<tr>
     <td>nonlinear_tank_control_control101                </td> 
-		<td>    rc_circuit_behaviour_control101    </td> <td>   linearisation_Benchmark_control101     </td> 
-		<td> Analog_to_Digital_Converter_Application_control101   
+		<td>    rc_circuit_behaviour_control101    </td> 
+		<td>   linearisation_Benchmark_control101     </td> 
+		<td> Analog_to_Digital_Converter_Application_control101 </td>   
   		<td> Closed_Loop_Under_Sampling_control101       </td>
 	</tr>
-	<TR>
+	<tr>
 	<td>Continuous_and_Discrete_time_Mapping_control101</td>
 		<td> Digital_to_Analog_Converter_Application_control101  </td>
 		<td>Signal_Types_in_Comp_Control_application_control101   </td>
-	</TR>
+		<td>Two tank behaviour and control</td>
+	</tr>
+	<tr>
+		<td>There are also multiple laboratories on MPC described in section 5.</td>
+	<td></td>
+		<td></td>
+		<td></td>
+	
+	</tr>
 
 </table>                                 
 
@@ -980,7 +994,13 @@ of delivery.
       <br>A sampled system is operating with less data than a continuous system and a more simplistic set of signals. This affects poles and behaviour and the effects depend upon sample rate.
 </td> 
 	  
-	  <td>    </td>
+	  <td> <b> Two tank behaviour and control</b><br>
+      <a href="matlab: Twotanks"><code>Twotanks.mlapp</code>
+        <br><img src = "imagesforwebpage\twotankspic.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>Control of the level in the lower tank of a two tank model is more challenging than a single tank. Here a pole placement PI approach is used.   </td>
+  </tr>
+	  <tr>
+	  <td>  There are also multiple virtual laboratories dedicated to MPC which are shown separately in section 5.  </td>
   </tr>
 
   
@@ -1045,6 +1065,14 @@ simulink_openloop_modeld_control101.slx, simulink_openloop_modeld_control101_scr
 	    </td></tr>
 	<tr>
   <td>
+    <a href="matlab: uncertaintysimulations_control101"><code>uncertaintysimulations_control101_tool.m</code></a>
+    </td>
+	    <td>
+    <br>  Introduces a number of simple SIMULINK simulation models for exploring the impact of uncertainty and nonlinearity on behaviour. </td>
+    </tr>
+	
+	<tr>
+  <td>
     <a href="matlab:hydraulic_system_simulink_control101 "><code>hydraulic_system_simulink_control101.m</code></a>
     </td>
 	    <td> Simulink offers the opportunity to consider different arrangements of tanks and to manage the interconnections without having to manipulate into a single large state-space model for simulation in MATLAB, as well as the chance to add non-linear components ass required. This resource  compares parallel and series arrangements of tanks (Hydraulic_System_control101.slx,        Hydraulic_Systemb_control101.slx). The required parameter values definition, simulation and plotting are handled within the  livescript.
@@ -1100,8 +1128,10 @@ Position_system_backlash_control101.slx
 	  <br> <br>
 	  
 	   <a href="matlab: nonlinear_tank_control_control101"><code>nonlinear_tank_control_control101.mlapp</code></a>
+	  <br><br>
+	  	   <a href="matlab: twotanks_control101"><code>twotanks_control101.mlx</code></a>
     </td>
-	    <td>  This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates two core learning outcomes. First, how the dynamics of tank exhibit non-linear behaviour in the open-loop; this is solely available within the livescript manual file. Secondly, it introduces feedback and a number of other external and non-linear impacts such as measurement noise, input saturation, anti-windup, disturbances and parameter uncertainty. Users can also change core parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly: nonlinear_tank_control_control101.mlapp nonlinear_tank_system_simulink_control101_manual.mlx non_linear_tank_system_control101.slx    non_linear_tank_system_fbk_control101.slx 
+	    <td>  This resource provides an interactive app file (MATLAB virtual laboratory) which demonstrates two core learning outcomes. First, how the dynamics of tank exhibit non-linear behaviour in the open-loop; this is solely available within the livescript manual file. Secondly, it introduces feedback and a number of other external and non-linear impacts such as measurement noise, input saturation, anti-windup, disturbances and parameter uncertainty. Users can also change core parameters to perform compare and contrast simulations with different assumptions. The manual and app also give guidance on the underlying scenario and how to use the simulink files directly: nonlinear_tank_control_control101.mlapp nonlinear_tank_system_simulink_control101_manual.mlx non_linear_tank_system_control101.slx    non_linear_tank_system_fbk_control101.slx. There is also a livescript file twotanks_control101.mlx investigating the extension of these factors to a more complex system.
   </td>
     </tr>
 	<tr>
@@ -1120,7 +1150,108 @@ Position_system_backlash_control101.slx
 <br>
 <br>
 
-<h2 id = authors> Authorship </h2>
+		
+		
+
+<p style="font-family:Arial"><span style="font-size:12pt"> 
+<h2 id = "mpc"> 5. Model Predictive Control files </h2>
+Predictive control is a very popular technique in industry and thus having resources on this within the control101 toolbox makes sense.  The focus of these resources will be to reinforce a good understanding of the underlying concepts by enabling extensive visualisation. <br>
+<br>
+<br>
+	<span style="margin-left:10px;"><figure><a href="">
+  <img src="imagesforwebpage/predictionpicture.png" style="width:500px;border:1px solid #ddd; padding:5px; border-radius:2px; margin-bottom:0px;">
+  <figcaption>Illustration of a simple prediction process</figcaption>
+		</a></figure>
+	</span>
+<br>
+
+
+
+<table border="1" style="margin-left:20px; cellpadding:15px;">
+  <tr>
+    <th>File name</th>
+    <th>Learning goals</th>
+    
+  </tr>
+		<tr> 
+		<td><a href="matlab: mpcsourcecode_control101 "><code>mpcsourcecode_control101_tool.m</code></a></td>
+			<td>The file mpcsourcecode_control101.mlx gives a detailed summary of the underlying m-files used by the apps to implement finite horizon MPC on transfer function models. A number of code snippets are provided so that users can access and use these m-files directly which thus enables them to personalise choices such as the model, scenario, horizons, weights, constraints and uncertainty.</td>
+		
+	</tr>
+		
+	
+	 <tr>
+    <td>
+      <a href="matlab: predictionconcepts_control101 "><code>predictionconcepts_control101.mlapp</code></a>
+		  <img src="imagesforwebpage/imageofconceptapp.png" style="width:300px;border:1px solid #ddd; padding:5px; border-radius:2px; margin-bottom:0px;" alt="Prediction concepts app">
+      </td>
+    <td> This is a simple interface to understand both how prediction underpins control decision making modelling and also how, with poor choices of horizons, these decisions may be poorly thought through. Users can select their desired values for the future inputs and view the impact on the predictions. There is also an option to view the associated GPC/DMC predictions. The implement button will then use the first of these and move to the next sample.</td>
+    </tr>
+	  
+	  <tr>
+  <td>
+    <a href="matlab: mpctuning_control101"><code>mpctuning_control101.mlapp</code></a>
+	  <img src="imagesforwebpage/imageofmpctuningapp.png" style="width:300px;border:1px solid #ddd; padding:5px; border-radius:2px; margin-bottom:0px;">
+    </td>
+	    <td> 
+       This app  is a simple interface to understand and investigate how the core tuning parameters within an MPC law affect the decision making and performance. The tuning paramters dictate the performance index used to determine the 'optimal' current control and thus their choice is important. However, it can be seen that different choices lead to hugely variable behaviour and thus understanding what constitute good and bad choices is essential. The manual is in mpctuning_control101_manual.mlx.
+	    </td></tr>
+	
+  <tr>
+    <td>
+      <a href="matlab: mpcfailing_control101 "><code>mpcfailing_control101.mlapp</code></a>
+		 <img src="imagesforwebpage/imageofmpcfailingapp.png" style="width:300px;border:1px solid #ddd; padding:5px; border-radius:2px; margin-bottom:0px;">
+      </td>
+    <td> This app allows the investigation finite horizon MPC on some specific case studies with challenging dynamics. The intention is to allow users to visualise how closed-loop behaviour can be highly sensitive to horizon choices and weights and thus decisions and understanding on what constitute good choices are very important. It is also an indication of scenarios where finite horizon MPC may be a poor choice. The manual is in mpcfailing_control101_manual.mlx.</td>
+    </tr>
+	
+	<tr>
+    <td>
+      <a href="matlab: mpctfilter_control101 "><code>mpctfilter_control101.mlapp</code></a>
+		<img src="imagesforwebpage/imageofmpctfilterapp.png" style="width:300px;border:1px solid #ddd; padding:5px; border-radius:2px; margin-bottom:0px;">
+      </td>
+    <td> The app is a simple interface to understand and investigate how the inclusion of a T-filter within an MPC law affects the performance. The T-filter orginates from the simple conceptual observation that we should filter out high frequency noise before we make inferences, such as predictions. If we fail to do this, our predictions can be more sensitive to noise than we expect leading to poor closed-loop behaviours, especially of the input. The legend keeps track of the core choices so that systematic comparisons can be undertaken. The manual is in mpctfilter_control101_manual.mlx.</td>
+    </tr>
+	
+	<tr>
+    <td>
+      <a href="matlab: mpcconstraints_lab_control101 "><code>mpcconstraints_lab_control101.mlapp</code></a>
+		<img src="imagesforwebpage/imageofmpcconstraintsapp.png" style="width:300px;border:1px solid #ddd; padding:5px; border-radius:2px; margin-bottom:0px;">
+      </td>
+    <td> The app is a simple interface to understand and investigate how the inclusion of constraints within an MPC law affects the performance. The legend and history information tab keep track of the core choices so that systematic comparisons can be undertaken.  The current plots tab shows behaviour alongside the constraints to help visualisation of the impact of the constraints. The manual is in mpc_constraints_control101_manual.mlx.</td>
+    </tr>
+	<tr>
+    <td>
+      <a href="matlab: mpcfeedforward_control101 "><code>mpcfeedforward_control101.mlapp</code></a>
+		<img src="imagesforwebpage/feedforward.png" style="width:300px;border:1px solid #ddd; padding:5px; border-radius:2px; margin-bottom:0px;">
+      </td>
+    <td> Allows the investigation of finite horizon MPC on some specific case studies with the use of feedforward, that is, advance knowledge of target changes. It can be seen that in general some advane knowledge is useful as anticipation allows for better tracking. However, too much advance knowledge is counter productive and leads to poorer performance, in essence over-anticipation. The manual is in mpcfeedforward_control101_manual.mlx. </td>
+    </tr>
+	<tr> <td>List of other files used by the toolbox.</td>
+	<td>
+		caha_control101.m,                                 
+mpc_constraints2_control101.m,                    
+mpc_constraints_control101.m,                      
+mpc_law_control101.m,                               
+mpc_predmat_control101.m,                           
+mpc_predmat_toeplitz_control101.m,                  
+mpc_predtfilt_control101.m,                       
+mpc_simulate_inputconstraints_control101.m,        
+mpc_simulate_limited_control101.m,                  
+mpc_simulate_noconstraints_control101.m,            
+mpc_simulate_noconstraints_withff_control101.m,     
+mpc_simulate_outputconstraints_control101.m,        
+mpc_simulate_tfilt_noconstraints_control101.m,      
+mpc_simulate_tfiltoutputconstraints_control101.m</td></tr>
+	  
+ 
+			</table>
+			<br>
+			<br>
+
+		
+		
+<h2 id = "authors"> Authorship </h2>
 <p>Ruth Bars (Budapest University of Technology and Economics , Antonio Visioli (Universita di Brescia), Sebastian Dormido (UNED), Lanlan Su (University of Manchester), Ross Drummond (University of Sheffield)). If you have suggestions for possible contributions, please contact Anthony (j.a.rossiter@sheffield.ac.uk).
 </p>
 

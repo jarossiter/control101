@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="702768854" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\poleplacement\matlabCode\Poleplacement.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\poleplacement\matlabCode" name="Poleplacement" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="4150581737" file="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\poleplacement\matlabCode\Poleplacement.prj" location="C:\Users\Anthony Rossiter\Documents\matlab project\control101\control101\poleplacement\matlabCode" name="Poleplacement" target="target.mlapps" target-name="Package App">
     <param.appname>Poleplacement</param.appname>
     <param.authnamewatermark>R Bars and G Max</param.authnamewatermark>
     <param.email>Bars.Ruth@aut.bme.hu</param.email>
@@ -23,8 +23,8 @@
       <item>3</item>
     </param.products.id>
     <param.products.version>
-      <item>24.1</item>
-      <item>24.1</item>
+      <item>24.2</item>
+      <item>24.2</item>
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
@@ -49,7 +49,7 @@
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2024anew</root>
+      <root>C:\Program Files\MATLAB\R2024b</root>
       <toolboxes />
     </matlab>
     <platform>

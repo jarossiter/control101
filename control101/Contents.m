@@ -45,6 +45,7 @@
 %   <a href="matlab: conical_tank_control_control101">conical_tank_control_control101</a>
 %   <a href="matlab: tanklevel_and_manual_vs_PIcontrol_delay">tanklevel_and_manual_vs_PIcontrol</a>
 %   <a href="matlab: rc_circuit_behaviour_control101">rc_circuit_behaviour_control101</a>
+%   <a href="matlab: TwoTanks">TwoTanks</a>
 %
 %   FREQUENCY RESPONSE METHODS
 %   <a href="matlab: frequency_response_time_behaviour">frequency_response_time_behaviour</a> 
@@ -66,7 +67,7 @@
 %   <a href="matlab: Reconstruction_and_Signal_Holders_control101">Reconstruction_and_Signal_Holders_control101</a>
 %   <a href="matlab: Sampled_Data_Systems_control101">Sampled_Data_Systems_control101</a>
 %   <a href="matlab: Sampling_Operation_control101">Sampling_Operation_control101</a>
-
+%
 % Livescript files for learning control basics alongside simple MATLAB code
 % for analysis and evaluation. These files open a duplicate livescript file
 % in the pwd directly so the user can make edits and save these. You can
@@ -89,6 +90,7 @@
 %   <a href="matlab: closed_loop_compare_multiple_compensators">closed_loop_compare_multiple_compensators</a>         
 %   <a href="matlab: closed_vs_openloop_overlay">closed_vs_openloop_overlay</a>                                
 %   <a href="matlab: PID_tuning_methods">PID_tuning_methods</a>
+%   <a href="matlab: uncertaintysimulations_control101">uncertaintysimulations_control101_tool</a>
 %
 % 
 %  FREQUENCY RESPONSE METHODS
@@ -123,6 +125,7 @@
 %  NONLINEARITY
 %
 %   <a href="matlab: myfirstsimulink_control101 ">myfirstsimulink_control101</a>
+%   <a href="matlab: uncertaintysimulations_control101">uncertaintysimulations_control101_tool</a>
 %   <a href="matlab: intro_to_simulink_for_system_behaviour">intro_to_simulink_for_system_behaviour</a>
 %   <a href="matlab: hydraulic_system_simulink_control101 ">hydraulic_system_simulink_control101</a>
 %   <a href="matlab: car_suspension_simulink_control101">car_suspension_simulink_control101</a>
@@ -132,6 +135,7 @@
 %   <a href="matlab: nonlinear_position_control">nonlinear_position_control</a>
 %   <a href="matlab: nonlinear_tank_behaviour_control101">nonlinear_tank_behaviour_control101</a>
 %   <a href="matlab: nonlinear_tank_control_control101">nonlinear_tank_control_control101</a>
+%   <a href="matlab: twotanks_control101">twotanks_control101</a>
 %   <a href="matlab: linearisation_Benchmark_control101">linearisation_Benchmark_control101</a>
 % 
 % STATE SPACE SYSTEMS AND INTRODUCTORY ANALYSIS
@@ -156,3 +160,17 @@
 %   <a href="matlab: state_space_and_simulinkfile1_control101">state_space_and_simulinkfile1_control101</a>
 %   <a href="matlab: state_space_and_simulinkfile2_control101">state_space_and_simulinkfile2_control101</a>
 %   <a href="matlab: state_space_and_simulinkfile3_control101">state_space_and_simulinkfile3_control101</a>
+%
+%  MODEL PREDICTIVE CONTROL
+%
+%  Virtual laboratories
+%   <a href="matlab: predictionconcepts_control101">predictionconcepts_control101</a>
+%   <a href="matlab: mpctuning_control101">mpctuning_control101</a>
+%   <a href="matlab: mpcfailing_control101">mpcfailing_control101</a>
+%   <a href="matlab: mpctfilter_control101">mpctfilter_control101</a>
+%   <a href="matlab: mpcconstraints_lab_control101">mpcconstraints_lab_control101</a>
+%   <a href="matlab: mpcfeedforward_control101">mpcfeedforward_control101</a>
+%  Code and livescripts
+%   <a href="matlab: mpcsourcecode_control101_tool">mpcsourcecode_control101_tool</a>
+%    A number of source files are not linked here, but details are within the
+%    liverscript above.

@@ -1,0 +1,22 @@
+Model predictive control
+Prediction horizon
+Control horizon
+Noise rejection
+Performance
+T-filter
+Constraint handling
+State space behaviour
+Linearisation
+System behaviour
+Step responses
+Feedback analysis
+Feedback design
+Closed-loop behaviour
+Control education
+MATLAB
+Disturbance rejection
+Uncertainty rejection
+
+
+
+
