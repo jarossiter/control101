@@ -1,0 +1,11 @@
+Car velocity systems
+Car steering model
+Race track behaviour
+PI compensation
+Feedforward
+Integral saturation
+Control education
+MATLAB
+System behaviour
+
+
