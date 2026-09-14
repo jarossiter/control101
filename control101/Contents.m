@@ -40,6 +40,7 @@
 %   <a href="matlab: open_vs_closed_control101">open_vs_closed_control101</a>
 %   <a href="matlab: pi_tuning">pi_tuning</a>
 %   <a href="matlab: pidtuningrules">pidtuningrules</a>
+%   <a href="matlab: racingcar_control101">racingcar_control101</a>
 %   <a href="matlab: PoleReplacement_control101">PoleReplacement_control101</a>
 %   <a href="matlab: conical_tank_behaviour_control101">conical_tank_behaviour_control101</a>
 %   <a href="matlab: conical_tank_control_control101">conical_tank_control_control101</a>

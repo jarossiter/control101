@@ -554,8 +554,14 @@ Once the user has downloaded the toolbox all the virtual labs will appear in the
     <td>tanklevel_and_manual_vs_PIcontrol           </td> 
     <td>tanklevelbehaviour</td> 
     <td>tanklevel_story                </td> 
+  </tr>
+	<tr>
     <td>PI tuning              </td> 
       <td>PID tuning rules              </td> 
+    <td>racingcar_control101           </td> 
+    <td>   </td> 
+		<td>   </td>
+  
   </tr>
 	<tr>
     <td>Pole placement             </td> 
@@ -773,18 +779,8 @@ Once the user has downloaded the toolbox all the virtual labs will appear in the
     
    </tr>
   <tr>
-    <td>
-      <b>Tank level Story file </b><br>
-      <a href="matlab: tanklevel_story"><code>tanklevel_story.mlapp</code>
-        <br><img src = "imagesforwebpage\tanklevel_story.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
-      <br>
-        This file takes a user through the entire process of modelling, analysing, controller design and final evaluation, for a tank level system, in the presence of multiple forms of uncertainty. Different tabs move the user along the storyline. The first tab explores open-loop behaviour and the impact of flow disturbances and blockages to hte outlet pipe. The second tab focuses on modelling in time constant form. The third tab covers manual control subject to uncertainty. The fourth tab introduces PI design and the fith tab is an opportunity to evaluate the final PI design, subject to more varied uncertainty, so including sensor delays and measurement noise. 
-              For tabs 1, 3 and 4, the top right figure store previous simulations so the user can observe trends and understand design principles; use refresh if  this is unhelpful. The bottom right figure forms a different role in each tab so is automatically refreshed for each simulation. Animation effects in the top figure also bring some life and visualisation to the app.
-     
-      </td>
-
-    <td>
-      <b> Open versus cvlosed-loop control</b><br>
+<td>
+  <b> Open versus closed-loop control</b><br>
       <a href="matlab: open_vs_closed_control101"><code>open_vs_closed_control101.mlapp</code>
         <br><img src = "imagesforwebpage\robotarm.jpg" width="300" style="margin-top:5px; margin-bottom:0px"></a>
       <br>
@@ -796,7 +792,7 @@ will cause the accuracy to be poor, some times leading to failure
 of delivery.  
 
     
-      </td>
+    </td>
     
      <td>
       <b> PI tuning practice</b><br>
@@ -819,7 +815,17 @@ of delivery.
        
       </td>
     
- 
+ <td>
+      <b> Racing car behavour with PI control</b><br>
+   <a href="matlab: racingcar_control101"><code>racingcar_control101.mlapp</code>
+        <br><img src = "imagesforwebpage\racingcar.png" width="300" style="margin-top:5px; margin-bottom:0px"></a>
+      <br>
+        This resource provides an interactive app file (MATLAB virtual laboratory) which investigates the behaviour of a racing car on a track. Specifically the user can investigate the efficacy of a PI compensator for steering control, a PI compensator for speed control and the efficacy of feedforward of track information. Users can also change the desired maximum speed and constraints on steering wheel movements. The aim is to find the tuning which gives the optimum behaviour (lap time with minimum wear and tear and fuel).
+
+       
+      </td>
+    </tr>
+  <tr>
     <td>
       <b> Pole placement methods</b><br>
    <a href="matlab: PoleReplacement_control101"><code>PoleReplacement_control101.mlapp</code>
@@ -839,7 +845,7 @@ of delivery.
         Can we design an effective PI compensator for either or both speed and position control?
         Users can also add an additional transient friction as a realistic disturbance type.
       </td>
-     </tr>
+    </tr>
   <tr>
      <td>
       <b> Inverted pendulum control</b><br>
